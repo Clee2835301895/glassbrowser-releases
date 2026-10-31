@@ -491,7 +491,8 @@
           }
         }
       ]
-    }
+    },
+    "downloadMode": "app"
   },
   "uiConfig": {
     "version": 29890389,
@@ -752,7 +753,8 @@
             }
           }
         ]
-      }
+      },
+      "downloadMode": "app"
     },
     "settingsPage": {
       "gradient": "#8EDBFF,#5FB0FF,#4A9FFF",
