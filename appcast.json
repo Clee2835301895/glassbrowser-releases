@@ -275,7 +275,8 @@
           }
         }
       ]
-    }
+    },
+    "downloadMode": "app"
   },
   "uiConfig": {
     "version": 29890348,
@@ -428,7 +429,8 @@
             }
           }
         ]
-      }
+      },
+      "downloadMode": "app"
     },
     "settingsPage": {
       "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
@@ -578,29 +580,29 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.42.11（macOS）\n",
+    "macos": "v1.42.11\n· 修复：检查更新偶发「更新源不可达或配置有误」——更新源探测增强（返回 JSON 才可用、超时 3s→8s、新增镜像候选）\n",
     "ios": "v1.42.11（iOS / iPadOS）\n",
-    "android": "v1.42.11（Android）\n"
+    "android": "v1.42.11\n· 修复：点击「立即升级」不再调系统下载器，改为 App 内下载（多源下载 + SHA-256 校验 + 增量合成，下载完直接拉起安装）\n· 服务端云控 downloadMode 默认应用内\n"
   },
   "publishedAt": "2026-10-31T04:28:32Z",
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-macOS.zip",
       "sha256": "a91fdd6452a599618c7fbf62baaccb585bf635c9d162bf55a5b3dde7c350649a",
-      "version": "1.42.10",
+      "version": "1.42.11",
       "build": 2000000004
     },
     "android": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk",
       "sha256": "fa5931302c1dc18443c3ca90082f0331b09929dc882eefc21667af41c32570ff",
       "minSDK": 31,
-      "version": "1.42.10",
+      "version": "1.42.11",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.42.9",
-        "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.10/delta-1.42.9-v1.42.10.patch",
-        "patchSha256": "b33eae77df1b5ed4b44ed338f681a82a4778a0d76a508561772a34d8a4ab4590"
+        "fromVersion": "1.42.10",
+        "fromBuild": 2000000004,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/delta-1.42.10-v1.42.11.patch",
+        "patchSha256": "227517fb619648dd671a88132005aee963de47e8fc722dee73224a56af8bd180"
       }
     },
     "ios": {
