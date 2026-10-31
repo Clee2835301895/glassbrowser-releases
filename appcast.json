@@ -1,7 +1,7 @@
 {
-  "version": "1.42.11",
+  "version": "1.42.12",
   "build": 2000000004,
-  "notes": "1.42.9：增量更新 + 侧栏云控",
+  "notes": "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8；下载源：GitHub原生优先（实测8.7MB/s），代理降级备用；更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化；appcast/下载源全服务端管理；烘焙新公网隧道 fraction+paintings（nonprofit 已失效）；v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用；v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新；feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改；docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）；fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get；补全应用内/系统下载器双模式切换逻辑",
   "sections": {
     "android": [
       {
@@ -9,11 +9,47 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "检查更新功能重构：失败自动重试",
-          "手动检查更新按钮",
-          "进度单调不回退"
+          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+          "日志取最近20条提交",
+          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+          "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+          "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+          "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+          "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+          "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+          "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+          "appcast/下载源全服务端管理",
+          "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+          "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+          "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+          "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+          "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+          "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+          "补全应用内/系统下载器双模式切换逻辑"
         ],
         "images": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -21,7 +57,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.42.11 · 构建 29890348",
+            "v1.42.12 · 构建 29890389",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,11 +86,47 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "检查更新功能重构：失败自动重试",
-          "手动检查更新按钮",
-          "进度单调不回退"
+          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+          "日志取最近20条提交",
+          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+          "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+          "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+          "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+          "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+          "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+          "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+          "appcast/下载源全服务端管理",
+          "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+          "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+          "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+          "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+          "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+          "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+          "补全应用内/系统下载器双模式切换逻辑"
         ],
         "images": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -62,7 +134,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.42.11 · 构建 29890348",
+            "v1.42.12 · 构建 29890389",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,11 +163,47 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "检查更新功能重构：失败自动重试",
-          "手动检查更新按钮",
-          "进度单调不回退"
+          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+          "日志取最近20条提交",
+          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+          "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+          "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+          "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+          "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+          "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+          "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+          "appcast/下载源全服务端管理",
+          "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+          "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+          "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+          "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+          "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+          "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+          "补全应用内/系统下载器双模式切换逻辑"
         ],
         "images": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -103,7 +211,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.42.11 · 构建 29890348",
+            "v1.42.12 · 构建 29890389",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +236,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#2E7BFF,#8EDBFF,#5FB0FF",
+    "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890348 · 与当前版本同号",
+    "hotfixBadge": "构建 29890389 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,11 +266,47 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "检查更新功能重构：失败自动重试",
-            "手动检查更新按钮",
-            "进度单调不回退"
+            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+            "日志取最近20条提交",
+            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+            "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+            "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+            "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+            "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+            "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+            "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+            "appcast/下载源全服务端管理",
+            "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+            "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+            "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+            "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+            "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+            "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+            "补全应用内/系统下载器双模式切换逻辑"
           ],
           "images": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -170,7 +314,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.42.11 · 构建 29890348",
+              "v1.42.12 · 构建 29890389",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,11 +343,47 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "检查更新功能重构：失败自动重试",
-            "手动检查更新按钮",
-            "进度单调不回退"
+            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+            "日志取最近20条提交",
+            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+            "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+            "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+            "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+            "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+            "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+            "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+            "appcast/下载源全服务端管理",
+            "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+            "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+            "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+            "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+            "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+            "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+            "补全应用内/系统下载器双模式切换逻辑"
           ],
           "images": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -211,7 +391,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.42.11 · 构建 29890348",
+              "v1.42.12 · 构建 29890389",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,11 +420,47 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "检查更新功能重构：失败自动重试",
-            "手动检查更新按钮",
-            "进度单调不回退"
+            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+            "日志取最近20条提交",
+            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+            "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+            "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+            "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+            "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+            "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+            "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+            "appcast/下载源全服务端管理",
+            "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+            "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+            "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+            "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+            "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+            "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+            "补全应用内/系统下载器双模式切换逻辑"
           ],
           "images": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -252,7 +468,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.42.11 · 构建 29890348",
+              "v1.42.12 · 构建 29890389",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -275,20 +491,19 @@
           }
         }
       ]
-    },
-    "downloadMode": "app"
+    }
   },
   "uiConfig": {
-    "version": 29890348,
+    "version": 29890389,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#2E7BFF,#8EDBFF,#5FB0FF",
+      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890348 · 与当前版本同号",
+      "hotfixBadge": "构建 29890389 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,11 +527,47 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "检查更新功能重构：失败自动重试",
-              "手动检查更新按钮",
-              "进度单调不回退"
+              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+              "日志取最近20条提交",
+              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+              "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+              "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+              "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+              "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+              "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+              "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+              "appcast/下载源全服务端管理",
+              "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+              "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+              "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+              "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+              "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+              "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+              "补全应用内/系统下载器双模式切换逻辑"
             ],
             "images": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -324,7 +575,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.42.11 · 构建 29890348",
+                "v1.42.12 · 构建 29890389",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,11 +604,47 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "检查更新功能重构：失败自动重试",
-              "手动检查更新按钮",
-              "进度单调不回退"
+              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+              "日志取最近20条提交",
+              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+              "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+              "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+              "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+              "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+              "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+              "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+              "appcast/下载源全服务端管理",
+              "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+              "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+              "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+              "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+              "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+              "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+              "补全应用内/系统下载器双模式切换逻辑"
             ],
             "images": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -365,7 +652,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.42.11 · 构建 29890348",
+                "v1.42.12 · 构建 29890389",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,11 +681,47 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "检查更新功能重构：失败自动重试",
-              "手动检查更新按钮",
-              "进度单调不回退"
+              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
+              "日志取最近20条提交",
+              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
+              "fix(delta): DeltaPatcher 真实大文件合成越界修复",
+              "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
+              "push_cloud.sh 自动生成上一版→新版 patch 并下发",
+              "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
+              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+              "下载源：GitHub原生优先（实测8.7MB/s），代理降级备用",
+              "更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化",
+              "appcast/下载源全服务端管理",
+              "烘焙新公网隧道 fraction+paintings（nonprofit 已失效）",
+              "v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用",
+              "v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新",
+              "feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改",
+              "docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）",
+              "fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get",
+              "补全应用内/系统下载器双模式切换逻辑"
             ],
             "images": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -406,7 +729,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.42.11 · 构建 29890348",
+                "v1.42.12 · 构建 29890389",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -429,11 +752,10 @@
             }
           }
         ]
-      },
-      "downloadMode": "app"
+      }
     },
     "settingsPage": {
-      "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
+      "gradient": "#8EDBFF,#5FB0FF,#4A9FFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -580,41 +902,43 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.42.11\n· 修复：检查更新偶发「更新源不可达或配置有误」——更新源探测增强（返回 JSON 才可用、超时 3s→8s、新增镜像候选）\n",
-    "ios": "v1.42.11（iOS / iPadOS）\n",
-    "android": "v1.42.11\n· 修复：点击「立即升级」不再调系统下载器，改为 App 内下载（多源下载 + SHA-256 校验 + 增量合成，下载完直接拉起安装）\n· 服务端云控 downloadMode 默认应用内\n"
+    "macos": "v1.42.12（macOS）\nfix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8；下载源：GitHub原生优先（实测8.7MB/s），代理降级备用；更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化；appcast/下载源全服务端管理；烘焙新公网隧道 fraction+paintings（nonprofit 已失效）；v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用；v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新；feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改；docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）；fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get；补全应用内/系统下载器双模式切换逻辑",
+    "ios": "v1.42.12（iOS / iPadOS）\nfix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8；下载源：GitHub原生优先（实测8.7MB/s），代理降级备用；更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化；appcast/下载源全服务端管理；烘焙新公网隧道 fraction+paintings（nonprofit 已失效）；v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用；v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新；feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改；docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）；fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get；补全应用内/系统下载器双模式切换逻辑",
+    "android": "v1.42.12（Android）\nfix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8；下载源：GitHub原生优先（实测8.7MB/s），代理降级备用；更新入口固定化：客户端只指向GitHub raw(appcast仓库)，永不随隧道变化；appcast/下载源全服务端管理；烘焙新公网隧道 fraction+paintings（nonprofit 已失效）；v1.42.8: 下载源全云控(服务端downloadSources下发)+旧版本日志不再显示+macOS云端推送启用；v1.42.7: UA电脑版切换+下载链路云控(downloadMode=app)+智能体箭头可见+地址栏描边+100功能清单+隧道URL更新；feat: v1.43.0 功能批——搜索/下载/智能体/桌面版/UI 五大整改；docs: 补齐 CHANGELOG v1.42.1–v1.42.6 小节（此前迭代未走 version.sh 的遗漏记录）；fix: 更新页 downloadMode 云控取值编译错误——Manifest.updatePage 为 Map 无 optString，改用 get；补全应用内/系统下载器双模式切换逻辑"
   },
-  "publishedAt": "2026-10-31T04:28:32Z",
+  "publishedAt": "2026-10-31T05:09:18Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-macOS.zip",
-      "sha256": "a91fdd6452a599618c7fbf62baaccb585bf635c9d162bf55a5b3dde7c350649a",
-      "version": "1.42.11",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-macOS.zip",
+      "sha256": "6cabe57085169893eaf37e0ede55acb112cbb257e3d05a74ff9d544bf3918770",
+      "version": "1.42.12",
       "build": 2000000004
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk",
-      "sha256": "fa5931302c1dc18443c3ca90082f0331b09929dc882eefc21667af41c32570ff",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-Android.apk",
+      "sha256": "61c7579a16bf56f3d58a2b225598a5f487b412a7a2437e5a315ee599d4a05d24",
       "minSDK": 31,
-      "version": "1.42.11",
+      "version": "1.42.12",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.42.10",
+        "fromVersion": "1.42.11",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/delta-1.42.10-v1.42.11.patch",
-        "patchSha256": "227517fb619648dd671a88132005aee963de47e8fc722dee73224a56af8bd180"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/delta-v1.42.11-v1.42.12.patch",
+        "patchSha256": "08dff0f83ec51b72b12fcf7238c69515c8c2b0c244a3f69e17c8b94bb8323832"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
-      "minOS": "26.0"
+      "minOS": "26.0",
+      "version": "1.42.12",
+      "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.11/v1.42.11-Android.apk"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.12/v1.42.12-Android.apk"
   ]
 }
