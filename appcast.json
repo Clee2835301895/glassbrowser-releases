@@ -575,5 +575,33 @@
     "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk",
     "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk",
     "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk"
-  ]
+  ],
+  "navigation": {
+    "sidebar": {
+      "browser": {
+        "title": "浏览器",
+        "enabled": "true"
+      },
+      "agent": {
+        "title": "智能体",
+        "enabled": "true"
+      },
+      "settings": {
+        "title": "设置",
+        "enabled": "true"
+      },
+      "history": {
+        "title": "浏览历史",
+        "enabled": "true"
+      },
+      "reading": {
+        "title": "阅读列表",
+        "enabled": "true"
+      },
+      "collections": {
+        "title": "集锦",
+        "enabled": "true"
+      }
+    }
+  }
 }
