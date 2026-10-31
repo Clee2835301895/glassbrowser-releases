@@ -1,7 +1,7 @@
 {
-  "version": "1.43.5",
+  "version": "1.43.6",
   "build": 2000000004,
-  "notes": "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复",
+  "notes": "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
   "sections": {
     "android": [
       {
@@ -9,6 +9,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -25,8 +26,7 @@
           "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
           "日志取最近20条提交",
           "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-          "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
         ],
         "images": [
           "",
@@ -51,7 +51,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.5 · 构建 29890684",
+            "v1.43.6 · 构建 29890707",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -80,6 +80,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -96,8 +97,7 @@
           "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
           "日志取最近20条提交",
           "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-          "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
         ],
         "images": [
           "",
@@ -122,7 +122,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.5 · 构建 29890684",
+            "v1.43.6 · 构建 29890707",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -151,6 +151,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -167,8 +168,7 @@
           "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
           "日志取最近20条提交",
           "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-          "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
         ],
         "images": [
           "",
@@ -193,7 +193,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.5 · 构建 29890684",
+            "v1.43.6 · 构建 29890707",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -218,13 +218,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
+    "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890684 · 与当前版本同号",
+    "hotfixBadge": "构建 29890707 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -248,6 +248,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -264,8 +265,7 @@
             "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
             "日志取最近20条提交",
             "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-            "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
           ],
           "images": [
             "",
@@ -290,7 +290,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.5 · 构建 29890684",
+              "v1.43.6 · 构建 29890707",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -319,6 +319,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -335,8 +336,7 @@
             "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
             "日志取最近20条提交",
             "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-            "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
           ],
           "images": [
             "",
@@ -361,7 +361,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.5 · 构建 29890684",
+              "v1.43.6 · 构建 29890707",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -390,6 +390,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -406,8 +407,7 @@
             "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
             "日志取最近20条提交",
             "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-            "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
           ],
           "images": [
             "",
@@ -432,7 +432,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.5 · 构建 29890684",
+              "v1.43.6 · 构建 29890707",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -459,16 +459,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29890684,
+    "version": 29890707,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
+      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890684 · 与当前版本同号",
+      "hotfixBadge": "构建 29890707 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -492,6 +492,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -508,8 +509,7 @@
               "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
               "日志取最近20条提交",
               "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-              "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
             ],
             "images": [
               "",
@@ -534,7 +534,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.5 · 构建 29890684",
+                "v1.43.6 · 构建 29890707",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -563,6 +563,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -579,8 +580,7 @@
               "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
               "日志取最近20条提交",
               "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-              "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
             ],
             "images": [
               "",
@@ -605,7 +605,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.5 · 构建 29890684",
+                "v1.43.6 · 构建 29890707",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -634,6 +634,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
@@ -650,8 +651,7 @@
               "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
               "日志取最近20条提交",
               "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强",
-              "fix(delta): DeltaPatcher 真实大文件合成越界修复"
+              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
             ],
             "images": [
               "",
@@ -676,7 +676,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.5 · 构建 29890684",
+                "v1.43.6 · 构建 29890707",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -703,7 +703,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#4A9FFF,#6FC4FF,#2E7BFF",
+      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -850,46 +850,46 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.5（macOS）\nfix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复",
-    "ios": "v1.43.5（iOS / iPadOS）\nfix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复",
-    "android": "v1.43.5（Android）\nfix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复"
+    "macos": "v1.43.6（macOS）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
+    "ios": "v1.43.6（iOS / iPadOS）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
+    "android": "v1.43.6（Android）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强"
   },
-  "publishedAt": "2026-10-31T10:04:37Z",
+  "publishedAt": "2026-10-31T10:27:05Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip",
-      "sha256": "cd04d68fc06d81faf02eb5eb5323cd6645373c9cdc1c9419646eb3ae59cfc7c7",
-      "version": "1.43.5",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
+      "sha256": "ba90f9065a183b876df3039696325a06881cfe85ec0dd88f712b64e146b20d17",
+      "version": "1.43.6",
       "build": 2000000004
     },
     "android": {
-      "url": "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
-      "sha256": "8f388c033151d6f24461657853ee1d5f28aa04a1e4707f315ff7f0a94aad47dd",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
+      "sha256": "781cae08920515c5e0b7140a8e34944201ae0207d2f774dce19756eaad1ffa90",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.4",
+        "fromVersion": "1.43.5",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/delta-v1.43.4-v1.43.5.patch",
-        "patchSha256": "bf672ac9565bb1dcbf21a5374966e339fa7876e7174e7884b8aa0e57ff70292f"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/delta-v1.43.5-v1.43.6.patch",
+        "patchSha256": "af1a9c2eda494672514c0a131461c4a720883a3919af651fdae8da2f635e5d4d"
       },
-      "version": "1.43.5",
+      "version": "1.43.6",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.5",
+      "version": "1.43.6",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip"
   ]
 }
