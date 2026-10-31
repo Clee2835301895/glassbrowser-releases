@@ -911,13 +911,13 @@
   "publishedAt": "2026-10-31T12:21:01Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip",
+      "url": "http://10.94.96.5:8736/GlassBrowser-v1.43.12-macOS.zip",
       "sha256": "6ba464796bf6020c43d9c7cb1a93e7021b183af955d9cc6ddd03c2253425c647",
       "version": "1.43.12",
       "build": 2000000004
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+      "url": "http://10.94.96.5:8736/GlassBrowser-v1.43.12-Android.apk",
       "sha256": "249651478f83d211878cb6d968d3a2a23ec35bd5fb24c0bf76c7a02fd80f4953",
       "minSDK": 31,
       "delta": {
@@ -938,6 +938,8 @@
     }
   },
   "downloadSources": [
+    "http://10.94.96.5:8736/GlassBrowser-v1.43.12-Android.apk",
+    "http://10.94.96.5:8736/GlassBrowser-v1.43.12-macOS.zip",
     "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
     "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip",
     "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
