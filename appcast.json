@@ -857,13 +857,13 @@
   "publishedAt": "2026-10-31T10:04:37Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip",
+      "url": "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-macOS.zip",
       "sha256": "cd04d68fc06d81faf02eb5eb5323cd6645373c9cdc1c9419646eb3ae59cfc7c7",
       "version": "1.43.5",
       "build": 2000000004
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
+      "url": "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.5/v1.43.5-Android.apk",
       "sha256": "8f388c033151d6f24461657853ee1d5f28aa04a1e4707f315ff7f0a94aad47dd",
       "minSDK": 31,
       "delta": {
