@@ -578,29 +578,29 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.42.10（macOS）\n",
+    "macos": "v1.42.10（macOS）\n· appcast 云控链路：下载源、版本、SHA、文案、开关全部服务端下发\n· Ed25519 签名校验：拉取 appcast 时校验 .sig，防篡改\n· 与 Android 同套云控推送体系",
     "ios": "v1.42.10（iOS / iPadOS）\n",
-    "android": "v1.42.10（Android）\n"
+    "android": "v1.42.10（Android）\n· 增量更新（bsdiff delta）正式落地：客户端内置纯 Java 合成器，本地版本匹配时仅下载 30KB 级补丁合成新版，SHA 校验一致后安装；失败自动回退完整包\n· 修复 188MB 大包差分合成的越界缺陷：bsdiff 负 adjust 为回跳语义，合成结果与 macOS bspatch 完全一致\n· 更新入口新增 下载增量补丁/合成新版本/增量合成成功 阶段提示"
   },
   "publishedAt": "2026-10-31T03:59:14Z",
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.10/v1.42.10-macOS.zip",
       "sha256": "5e1b69f2b559183e38662089e3a9b50e89bf03d7622303589f2604fe2a0d6a2d",
-      "version": "1.42.8",
+      "version": "1.42.10",
       "build": 2000000004
     },
     "android": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.10/v1.42.10-Android.apk",
       "sha256": "8229adfc7f42b8b934f7ad9c17fe7738911daf955945bbfbc8893d4c74713df3",
       "minSDK": 31,
-      "version": "1.42.9",
+      "version": "1.42.10",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.42.8",
+        "fromVersion": "1.42.9",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/delta-1.42.8-v1.42.9.patch",
-        "patchSha256": "8fc339a07ebfb72ebeacb5f31ee9665003f5a48115000b3d936929078fd25154"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.10/delta-1.42.9-v1.42.10.patch",
+        "patchSha256": "b33eae77df1b5ed4b44ed338f681a82a4778a0d76a508561772a34d8a4ab4590"
       }
     },
     "ios": {
