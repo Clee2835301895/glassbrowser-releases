@@ -553,7 +553,7 @@
   "platforms": {
     "macos": {
       "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-macOS.zip",
-      "sha256": "8b9e06f85ec8039ce358496e9a39f6ad9fb82389d91f365bcd67db38f8fe8c3c",
+      "sha256": "83cc0afa41e7c9ae328e4880cc333e5c9c6bce4ba277163be14c8039b306ce82",
       "version": "1.42.8",
       "build": 2000000004
     },
