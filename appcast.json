@@ -1,7 +1,7 @@
 {
-  "version": "1.43.3",
+  "version": "1.43.4",
   "build": 2000000004,
-  "notes": "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
+  "notes": "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
   "sections": {
     "android": [
       {
@@ -9,6 +9,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+          "服务端改url即换源",
           "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
           "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
           "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -26,9 +28,7 @@
           "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
           "push_cloud.sh 自动生成上一版→新版 patch 并下发",
           "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
         ],
         "images": [
           "",
@@ -55,7 +55,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.3 · 构建 29890630",
+            "v1.43.4 · 构建 29890660",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -84,6 +84,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+          "服务端改url即换源",
           "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
           "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
           "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -101,9 +103,7 @@
           "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
           "push_cloud.sh 自动生成上一版→新版 patch 并下发",
           "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
         ],
         "images": [
           "",
@@ -130,7 +130,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.3 · 构建 29890630",
+            "v1.43.4 · 构建 29890660",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -159,6 +159,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+          "服务端改url即换源",
           "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
           "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
           "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -176,9 +178,7 @@
           "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
           "push_cloud.sh 自动生成上一版→新版 patch 并下发",
           "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-          "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-          "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+          "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
         ],
         "images": [
           "",
@@ -205,7 +205,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.3 · 构建 29890630",
+            "v1.43.4 · 构建 29890660",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -230,13 +230,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
+    "gradient": "#5FB0FF,#2E7BFF,#4A9FFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890630 · 与当前版本同号",
+    "hotfixBadge": "构建 29890660 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -260,6 +260,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+            "服务端改url即换源",
             "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
             "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
             "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -277,9 +279,7 @@
             "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
             "push_cloud.sh 自动生成上一版→新版 patch 并下发",
             "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
           ],
           "images": [
             "",
@@ -306,7 +306,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.3 · 构建 29890630",
+              "v1.43.4 · 构建 29890660",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -335,6 +335,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+            "服务端改url即换源",
             "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
             "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
             "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -352,9 +354,7 @@
             "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
             "push_cloud.sh 自动生成上一版→新版 patch 并下发",
             "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
           ],
           "images": [
             "",
@@ -381,7 +381,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.3 · 构建 29890630",
+              "v1.43.4 · 构建 29890660",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -410,6 +410,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+            "服务端改url即换源",
             "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
             "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
             "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -427,9 +429,7 @@
             "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
             "push_cloud.sh 自动生成上一版→新版 patch 并下发",
             "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-            "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-            "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+            "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
           ],
           "images": [
             "",
@@ -456,7 +456,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.3 · 构建 29890630",
+              "v1.43.4 · 构建 29890660",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -483,16 +483,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29890630,
+    "version": 29890660,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
+      "gradient": "#5FB0FF,#2E7BFF,#4A9FFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890630 · 与当前版本同号",
+      "hotfixBadge": "构建 29890660 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -516,6 +516,8 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+              "服务端改url即换源",
               "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
               "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
               "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -533,9 +535,7 @@
               "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
               "push_cloud.sh 自动生成上一版→新版 patch 并下发",
               "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
             ],
             "images": [
               "",
@@ -562,7 +562,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.3 · 构建 29890630",
+                "v1.43.4 · 构建 29890660",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -591,6 +591,8 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+              "服务端改url即换源",
               "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
               "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
               "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -608,9 +610,7 @@
               "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
               "push_cloud.sh 自动生成上一版→新版 patch 并下发",
               "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
             ],
             "images": [
               "",
@@ -637,7 +637,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.3 · 构建 29890630",
+                "v1.43.4 · 构建 29890660",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -666,6 +666,8 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
+              "服务端改url即换源",
               "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
               "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
               "feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)",
@@ -683,9 +685,7 @@
               "增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包",
               "push_cloud.sh 自动生成上一版→新版 patch 并下发",
               "云控推包固化 push_cloud.sh + push.sh 公网走固定入口",
-              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
-              "重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改",
-              "Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+              "侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
             ],
             "images": [
               "",
@@ -712,7 +712,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.3 · 构建 29890630",
+                "v1.43.4 · 构建 29890660",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -739,7 +739,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#6FC4FF,#2E7BFF",
+      "gradient": "#6FC4FF,#5FB0FF,#2E7BFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -886,46 +886,46 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.3（macOS）\nfix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
-    "ios": "v1.43.3（iOS / iPadOS）\nfix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8",
-    "android": "v1.43.3（Android）\nfix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）；重构：appcast Ed25519 签名校验（macOS CryptoKit 验证+服务端签名脚本），防篡改；Mac修复：UpdateConfig指向GitHub固定入口+版本1.42.8"
+    "macos": "v1.43.4（macOS）\nfeat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+    "ios": "v1.43.4（iOS / iPadOS）\nfeat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）",
+    "android": "v1.43.4（Android）\nfeat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强；fix(delta): DeltaPatcher 真实大文件合成越界修复；增量更新（delta）：Android bsdiff 增量合成（DeltaPatcher+bzip2），本地版本匹配时下载 patch 合成并校验，失败自动回退完整包；push_cloud.sh 自动生成上一版→新版 patch 并下发；云控推包固化 push_cloud.sh + push.sh 公网走固定入口；侧栏项全云控（含浏览历史，reading/collections 按端功能过滤）"
   },
-  "publishedAt": "2026-10-31T09:10:35Z",
+  "publishedAt": "2026-10-31T09:40:28Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-macOS.zip",
-      "sha256": "68fed7adb2bfa49f12cac050225c1de9a9391cda3cab7f83d904fd89c61486c7",
-      "version": "1.43.3",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-macOS.zip",
+      "sha256": "9a0b2d8a3134bf3931c55864b4a8102a1712b034c4a32baed061eaf297751c81",
+      "version": "1.43.4",
       "build": 2000000004
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-Android.apk",
-      "sha256": "c377549c2122538ac2a4125b0e431f9ad6c58d0f338e9a2aacee0a9a132fa4a8",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-Android.apk",
+      "sha256": "0b2008ae38295f07c4bcc70ad8d0c03ecb42c0b2f7f141ade140d0a1e9cfcb8d",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.2",
+        "fromVersion": "1.43.3",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/delta-v1.43.2-v1.43.3.patch",
-        "patchSha256": "7b3e57d85e134cd52941ffce742c2534547d1551f08c19d529fd568f51fb4742"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/delta-v1.43.3-v1.43.4.patch",
+        "patchSha256": "86658f6ce542aa7e54690ea72f50f26fe5cd2b4172e2703b1fd94046edeaf092"
       },
-      "version": "1.43.3",
+      "version": "1.43.4",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.3",
+      "version": "1.43.4",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.3/v1.43.3-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.4/v1.43.4-macOS.zip"
   ]
 }
