@@ -1,7 +1,7 @@
 {
   "version": "1.42.9",
   "build": 2000000004,
-  "notes": "下载链路全面云控（下载源服务端下发，无需发版切源）；macOS 启用云端推送；更新页/设置页只显示当前版本日志；GitHub 仅保留最近两个版本",
+  "notes": "1.42.9：增量更新 + 侧栏云控",
   "sections": {
     "android": [
       {
@@ -578,11 +578,11 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.42.9（macOS）\n",
+    "macos": "1.42.9：更新链路签名校验与版本推进",
     "ios": "v1.42.9（iOS / iPadOS）\n",
-    "android": "v1.42.9（Android）\n"
+    "android": "1.42.9：应用内增量更新（delta）上线；侧边栏云控落实（新增浏览历史入口，阅读列表/集锦按端功能过滤）"
   },
-  "publishedAt": "2026-10-31T03:19:05Z",
+  "publishedAt": "2026-10-31 11:40:27",
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-macOS.zip",
@@ -594,8 +594,14 @@
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk",
       "sha256": "c697262f19e0e8a19c4801378136c914fb0fa78a24ed990fc96af137cb44ecb8",
       "minSDK": 31,
-      "version": "1.42.8",
-      "build": 2000000004
+      "version": "1.42.9",
+      "build": 2000000004,
+      "delta": {
+        "fromVersion": "1.42.8",
+        "fromBuild": 0,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/delta-1.42.8-v1.42.9.patch",
+        "patchSha256": "8fc339a07ebfb72ebeacb5f31ee9665003f5a48115000b3d936929078fd25154"
+      }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
