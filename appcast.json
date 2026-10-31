@@ -1,7 +1,7 @@
 {
-  "version": "1.43.16",
+  "version": "1.43.18",
   "build": 2000000004,
-  "notes": "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
+  "notes": "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检",
   "sections": {
     "android": [
       {
@@ -9,6 +9,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
@@ -25,14 +26,9 @@
           "磁盘空间预检（不足直接报错）",
           "顺序下载断点续传（Range append）",
           "FTP/FTPS 通道（curl）",
-          "Android 同构补磁盘预检",
-          "chore(release): bump v1.43.7",
-          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+          "Android 同构补磁盘预检"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -55,7 +51,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.16 · 构建 29890925",
+            "v1.43.18 · 构建 29891043",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -84,6 +80,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
@@ -100,14 +97,9 @@
           "磁盘空间预检（不足直接报错）",
           "顺序下载断点续传（Range append）",
           "FTP/FTPS 通道（curl）",
-          "Android 同构补磁盘预检",
-          "chore(release): bump v1.43.7",
-          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+          "Android 同构补磁盘预检"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -130,7 +122,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.16 · 构建 29890925",
+            "v1.43.18 · 构建 29891043",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -159,6 +151,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
@@ -175,14 +168,9 @@
           "磁盘空间预检（不足直接报错）",
           "顺序下载断点续传（Range append）",
           "FTP/FTPS 通道（curl）",
-          "Android 同构补磁盘预检",
-          "chore(release): bump v1.43.7",
-          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+          "Android 同构补磁盘预检"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -205,7 +193,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.16 · 构建 29890925",
+            "v1.43.18 · 构建 29891043",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -230,13 +218,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
+    "gradient": "#4A9FFF,#6FC4FF,#5FB0FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890925 · 与当前版本同号",
+    "hotfixBadge": "构建 29891043 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -260,6 +248,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
@@ -276,14 +265,9 @@
             "磁盘空间预检（不足直接报错）",
             "顺序下载断点续传（Range append）",
             "FTP/FTPS 通道（curl）",
-            "Android 同构补磁盘预检",
-            "chore(release): bump v1.43.7",
-            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+            "Android 同构补磁盘预检"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -306,7 +290,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.16 · 构建 29890925",
+              "v1.43.18 · 构建 29891043",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -335,6 +319,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
@@ -351,14 +336,9 @@
             "磁盘空间预检（不足直接报错）",
             "顺序下载断点续传（Range append）",
             "FTP/FTPS 通道（curl）",
-            "Android 同构补磁盘预检",
-            "chore(release): bump v1.43.7",
-            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+            "Android 同构补磁盘预检"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -381,7 +361,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.16 · 构建 29890925",
+              "v1.43.18 · 构建 29891043",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -410,6 +390,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
@@ -426,14 +407,9 @@
             "磁盘空间预检（不足直接报错）",
             "顺序下载断点续传（Range append）",
             "FTP/FTPS 通道（curl）",
-            "Android 同构补磁盘预检",
-            "chore(release): bump v1.43.7",
-            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+            "Android 同构补磁盘预检"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -456,7 +432,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.16 · 构建 29890925",
+              "v1.43.18 · 构建 29891043",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -483,16 +459,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29890925,
+    "version": 29891043,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
+      "gradient": "#4A9FFF,#6FC4FF,#5FB0FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890925 · 与当前版本同号",
+      "hotfixBadge": "构建 29891043 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -516,6 +492,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
@@ -532,14 +509,9 @@
               "磁盘空间预检（不足直接报错）",
               "顺序下载断点续传（Range append）",
               "FTP/FTPS 通道（curl）",
-              "Android 同构补磁盘预检",
-              "chore(release): bump v1.43.7",
-              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+              "Android 同构补磁盘预检"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               "",
@@ -562,7 +534,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.16 · 构建 29890925",
+                "v1.43.18 · 构建 29891043",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -591,6 +563,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
@@ -607,14 +580,9 @@
               "磁盘空间预检（不足直接报错）",
               "顺序下载断点续传（Range append）",
               "FTP/FTPS 通道（curl）",
-              "Android 同构补磁盘预检",
-              "chore(release): bump v1.43.7",
-              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+              "Android 同构补磁盘预检"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               "",
@@ -637,7 +605,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.16 · 构建 29890925",
+                "v1.43.18 · 构建 29891043",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -666,6 +634,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
@@ -682,14 +651,9 @@
               "磁盘空间预检（不足直接报错）",
               "顺序下载断点续传（Range append）",
               "FTP/FTPS 通道（curl）",
-              "Android 同构补磁盘预检",
-              "chore(release): bump v1.43.7",
-              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
-              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+              "Android 同构补磁盘预检"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               "",
@@ -712,7 +676,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.16 · 构建 29890925",
+                "v1.43.18 · 构建 29891043",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -739,7 +703,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#4A9FFF,#6FC4FF",
+      "gradient": "#2E7BFF,#8EDBFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -886,46 +850,46 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.16（macOS）\nfeat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
-    "ios": "v1.43.16（iOS / iPadOS）\nfeat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
-    "android": "v1.43.16（Android）\nfeat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）"
+    "macos": "v1.43.18（macOS）\nfeat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检",
+    "ios": "v1.43.18（iOS / iPadOS）\nfeat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检",
+    "android": "v1.43.18（Android）\nfeat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检"
   },
-  "publishedAt": "2026-10-31T14:05:11Z",
+  "publishedAt": "2026-10-31T16:03:39Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-macOS.zip",
-      "sha256": "32c459d9f00b6bf58c99deaed04c66656b862bcf196d559b236505217db66e6c",
-      "version": "1.43.16",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-macOS.zip",
+      "sha256": "cae2274068c400dd9500996d384613537c5667c58a03232947c0f2d5a9aff01c",
+      "version": "1.43.18",
       "build": 2000000004
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-Android.apk",
-      "sha256": "8b5a402f5328360df3e98393fbfe672158bc4b64c940fb0063f2c1e6593ba28e",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-Android.apk",
+      "sha256": "1c57db3df63d62a0831775e7368bf2d5cebfa940eef8ecc048b099a39ba0c3e6",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.14",
+        "fromVersion": "1.43.16",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/delta-v1.43.14-v1.43.16.patch",
-        "patchSha256": "dbc094c3bd6fe1870885cfa5c8db950c05b783fb7fc5e734621791367107d67f"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/delta-v1.43.16-v1.43.18.patch",
+        "patchSha256": "8d786fb8f72f94f5e3388e730ff1c8a19278e30d279bb36f2197f1b49f7a9705"
       },
-      "version": "1.43.16",
+      "version": "1.43.18",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.16",
+      "version": "1.43.18",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.16/v1.43.16-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.18/v1.43.18-macOS.zip"
   ]
 }
