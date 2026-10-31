@@ -1,7 +1,7 @@
 {
-  "version": "1.43.11",
+  "version": "1.43.12",
   "build": 2000000004,
-  "notes": "chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
+  "notes": "chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源",
   "sections": {
     "android": [
       {
@@ -9,6 +9,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.12",
           "chore(release): bump v1.43.11",
           "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
           "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -28,12 +29,9 @@
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-          "服务端改url即换源",
-          "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-          "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+          "服务端改url即换源"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -59,7 +57,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.11 · 构建 29890798",
+            "v1.43.12 · 构建 29890821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -88,6 +86,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.12",
           "chore(release): bump v1.43.11",
           "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
           "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -107,12 +106,9 @@
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-          "服务端改url即换源",
-          "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-          "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+          "服务端改url即换源"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -138,7 +134,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.11 · 构建 29890798",
+            "v1.43.12 · 构建 29890821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -167,6 +163,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.12",
           "chore(release): bump v1.43.11",
           "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
           "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -186,12 +183,9 @@
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
           "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-          "服务端改url即换源",
-          "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-          "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+          "服务端改url即换源"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -217,7 +211,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.11 · 构建 29890798",
+            "v1.43.12 · 构建 29890821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -242,13 +236,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#6FC4FF,#5FB0FF,#4A9FFF",
+    "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890798 · 与当前版本同号",
+    "hotfixBadge": "构建 29890821 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -272,6 +266,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.12",
             "chore(release): bump v1.43.11",
             "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
             "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -291,12 +286,9 @@
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-            "服务端改url即换源",
-            "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-            "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+            "服务端改url即换源"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -322,7 +314,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.11 · 构建 29890798",
+              "v1.43.12 · 构建 29890821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -351,6 +343,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.12",
             "chore(release): bump v1.43.11",
             "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
             "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -370,12 +363,9 @@
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-            "服务端改url即换源",
-            "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-            "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+            "服务端改url即换源"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -401,7 +391,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.11 · 构建 29890798",
+              "v1.43.12 · 构建 29890821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -430,6 +420,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.12",
             "chore(release): bump v1.43.11",
             "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
             "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -449,12 +440,9 @@
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
             "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-            "服务端改url即换源",
-            "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-            "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+            "服务端改url即换源"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -480,7 +468,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.11 · 构建 29890798",
+              "v1.43.12 · 构建 29890821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -507,16 +495,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29890798,
+    "version": 29890821,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#6FC4FF,#5FB0FF,#4A9FFF",
+      "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890798 · 与当前版本同号",
+      "hotfixBadge": "构建 29890821 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -540,6 +528,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.12",
               "chore(release): bump v1.43.11",
               "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
               "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -559,12 +548,9 @@
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-              "服务端改url即换源",
-              "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-              "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+              "服务端改url即换源"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -590,7 +576,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.11 · 构建 29890798",
+                "v1.43.12 · 构建 29890821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -619,6 +605,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.12",
               "chore(release): bump v1.43.11",
               "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
               "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -638,12 +625,9 @@
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-              "服务端改url即换源",
-              "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-              "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+              "服务端改url即换源"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -669,7 +653,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.11 · 构建 29890798",
+                "v1.43.12 · 构建 29890821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -698,6 +682,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.12",
               "chore(release): bump v1.43.11",
               "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
               "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
@@ -717,12 +702,9 @@
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
               "feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选",
-              "服务端改url即换源",
-              "fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）",
-              "重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+              "服务端改url即换源"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -748,7 +730,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.11 · 构建 29890798",
+                "v1.43.12 · 构建 29890821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -775,7 +757,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#2E7BFF,#4A9FFF",
+      "gradient": "#4A9FFF,#5FB0FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -922,48 +904,46 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.11（macOS）\nchore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
-    "ios": "v1.43.11（iOS / iPadOS）\nchore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版",
-    "android": "v1.43.11（Android）\nchore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版"
+    "macos": "v1.43.12（macOS）\nchore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源",
+    "ios": "v1.43.12（iOS / iPadOS）\nchore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源",
+    "android": "v1.43.12（Android）\nchore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10；feat(download): 慢源快速换源——探测阶段流式测速（前256KB限时10s，<5KB/s判死换源），极端慢镜像不再干等超时；与多源竞速联动（对齐主流下载app择优策略）；feat(update): 下载功能对齐主流下载app——多源竞速（主源=appcast下发url与手动下载同源，失败自动切服务端云控镜像）；磁盘空间预检（不足直接报错）；顺序下载断点续传（Range append）；FTP/FTPS 通道（curl）；Android 同构补磁盘预检；chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源"
   },
-  "publishedAt": "2026-10-31T11:58:58Z",
+  "publishedAt": "2026-10-31T12:21:01Z",
   "platforms": {
     "macos": {
-      "url": "http://10.94.96.5:8736/GlassBrowser-v1.43.11-macOS.zip",
-      "sha256": "4e1428abe78904765e6cfdd4640bff5169795d7109a45629f12a28aba590a09e",
-      "version": "1.43.11",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip",
+      "sha256": "6ba464796bf6020c43d9c7cb1a93e7021b183af955d9cc6ddd03c2253425c647",
+      "version": "1.43.12",
       "build": 2000000004
     },
     "android": {
-      "url": "http://10.94.96.5:8736/GlassBrowser-v1.43.11-Android.apk",
-      "sha256": "69510c8b1ca0da3121136d5415a33eb829d1939302bfecb3164c72497672a45b",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+      "sha256": "249651478f83d211878cb6d968d3a2a23ec35bd5fb24c0bf76c7a02fd80f4953",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.10",
+        "fromVersion": "1.43.11",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/delta-v1.43.10-v1.43.11.patch",
-        "patchSha256": "0af613577745b9ff6aba5b649e7869bcc25ac50abc5215b4e103f90dd7ce2736"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/delta-v1.43.11-v1.43.12.patch",
+        "patchSha256": "f4109d757efd1e8c6dd2beb6c4f7d39bd5076216b3b27abba44e70b5932bb097"
       },
-      "version": "1.43.11",
+      "version": "1.43.12",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.11",
+      "version": "1.43.12",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "http://10.94.96.5:8736/GlassBrowser-v1.43.11-Android.apk",
-    "http://10.94.96.5:8736/GlassBrowser-v1.43.11-macOS.zip",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.11/v1.43.11-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.12/v1.43.12-macOS.zip"
   ]
 }
