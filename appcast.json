@@ -1,5 +1,5 @@
 {
-  "version": "1.42.8",
+  "version": "1.42.9",
   "build": 2000000004,
   "notes": "下载链路全面云控（下载源服务端下发，无需发版切源）；macOS 启用云端推送；更新页/设置页只显示当前版本日志；GitHub 仅保留最近两个版本",
   "sections": {
@@ -9,15 +9,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+          "检查更新功能重构：失败自动重试",
+          "手动检查更新按钮",
+          "进度单调不回退"
         ],
         "images": [
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.0 · 构建 29890163",
+            "v1.42.9 · 构建 29890279",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -46,15 +50,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+          "检查更新功能重构：失败自动重试",
+          "手动检查更新按钮",
+          "进度单调不回退"
         ],
         "images": [
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.0 · 构建 29890163",
+            "v1.42.9 · 构建 29890279",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -83,15 +91,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+          "检查更新功能重构：失败自动重试",
+          "手动检查更新按钮",
+          "进度单调不回退"
         ],
         "images": [
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.0 · 构建 29890163",
+            "v1.42.9 · 构建 29890279",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -116,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#6FC4FF,#2E7BFF,#8EDBFF",
+    "gradient": "#4A9FFF,#2E7BFF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890163 · 与当前版本同号",
+    "hotfixBadge": "构建 29890279 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -146,15 +158,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+            "检查更新功能重构：失败自动重试",
+            "手动检查更新按钮",
+            "进度单调不回退"
           ],
           "images": [
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.0 · 构建 29890163",
+              "v1.42.9 · 构建 29890279",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -183,15 +199,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+            "检查更新功能重构：失败自动重试",
+            "手动检查更新按钮",
+            "进度单调不回退"
           ],
           "images": [
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.0 · 构建 29890163",
+              "v1.42.9 · 构建 29890279",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -220,15 +240,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+            "检查更新功能重构：失败自动重试",
+            "手动检查更新按钮",
+            "进度单调不回退"
           ],
           "images": [
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.0 · 构建 29890163",
+              "v1.42.9 · 构建 29890279",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -254,21 +278,21 @@
     }
   },
   "uiConfig": {
-    "version": 29890163,
+    "version": 29890279,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#6FC4FF,#2E7BFF,#8EDBFF",
+      "gradient": "#4A9FFF,#2E7BFF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890163 · 与当前版本同号",
+      "hotfixBadge": "构建 29890279 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
       "footerNote": "更新失败自动重试，进度不会回退",
-      "progressText": "正在下载",
+      "progressText": "已解压",
       "manualDownloadHint": "下载异常？点此浏览器手动下载",
       "sectionCheck": "true",
       "forcePrompt": "true",
@@ -287,17 +311,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "下载链路全面云控：下载源由服务端下发，隧道/加速源变更无需发版",
-              "macOS 启用同套云端推送，全端统一更新链路",
-              "更新页/设置页只显示当前版本日志"
+              "检查更新功能重构：失败自动重试",
+              "手动检查更新按钮",
+              "进度单调不回退"
             ],
             "images": [
+              "",
+              "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.0 · 构建 29890163",
+                "v1.42.9 · 构建 29890279",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -326,15 +352,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+              "检查更新功能重构：失败自动重试",
+              "手动检查更新按钮",
+              "进度单调不回退"
             ],
             "images": [
+              "",
+              "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.0 · 构建 29890163",
+                "v1.42.9 · 构建 29890279",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -363,15 +393,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "搜索引擎真正生效、应用内下载中心、智能体可用化、电脑版网页开关、UI 扁平统一"
+              "检查更新功能重构：失败自动重试",
+              "手动检查更新按钮",
+              "进度单调不回退"
             ],
             "images": [
+              "",
+              "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.0 · 构建 29890163",
+                "v1.42.9 · 构建 29890279",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,11 +428,10 @@
             }
           }
         ]
-      },
-      "downloadMode": "app"
+      }
     },
     "settingsPage": {
-      "gradient": "#8EDBFF,#6FC4FF,#4A9FFF",
+      "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -545,21 +578,21 @@
     }
   },
   "notesByPlatform": {
-    "android": "v1.42.8（Android）\n下载链路全面云控（下载源服务端下发，无需发版切源）；macOS 启用云端推送；更新页/设置页只显示当前版本日志；GitHub 仅保留最近两个版本",
-    "ios": "v1.42.8（iOS / iPadOS）\n下载链路全面云控（下载源服务端下发，无需发版切源）；macOS 启用云端推送；更新页/设置页只显示当前版本日志；GitHub 仅保留最近两个版本",
-    "macos": "v1.42.8（macOS）\n下载链路全面云控（下载源服务端下发，无需发版切源）；macOS 启用云端推送；更新页/设置页只显示当前版本日志；GitHub 仅保留最近两个版本"
+    "macos": "v1.42.9（macOS）\n",
+    "ios": "v1.42.9（iOS / iPadOS）\n",
+    "android": "v1.42.9（Android）\n"
   },
-  "publishedAt": "2026-10-31T01:25:19Z",
+  "publishedAt": "2026-10-31T03:19:05Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-macOS.zip",
-      "sha256": "83cc0afa41e7c9ae328e4880cc333e5c9c6bce4ba277163be14c8039b306ce82",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-macOS.zip",
+      "sha256": "be83ec82d93cce936227bf13e329616aaef5c6b26297991dae2b2ee7b8c25a95",
       "version": "1.42.8",
       "build": 2000000004
     },
     "android": {
-      "url": "https://fraction-survival-mono-made.trycloudflare.com/apk",
-      "sha256": "15ddcb0d99f1ac05dd40386874839d515b71ca6f33e8f3369dd15c7684f8b1e1",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk",
+      "sha256": "c697262f19e0e8a19c4801378136c914fb0fa78a24ed990fc96af137cb44ecb8",
       "minSDK": 31,
       "version": "1.42.8",
       "build": 2000000004
@@ -571,37 +604,9 @@
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.8/v1.42.8-Android.apk"
-  ],
-  "navigation": {
-    "sidebar": {
-      "browser": {
-        "title": "浏览器",
-        "enabled": "true"
-      },
-      "agent": {
-        "title": "智能体",
-        "enabled": "true"
-      },
-      "settings": {
-        "title": "设置",
-        "enabled": "true"
-      },
-      "history": {
-        "title": "浏览历史",
-        "enabled": "true"
-      },
-      "reading": {
-        "title": "阅读列表",
-        "enabled": "true"
-      },
-      "collections": {
-        "title": "集锦",
-        "enabled": "true"
-      }
-    }
-  }
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.42.9/v1.42.9-Android.apk"
+  ]
 }
