@@ -559,7 +559,7 @@
     },
     "android": {
       "url": "https://fraction-survival-mono-made.trycloudflare.com/apk",
-      "sha256": "69cb5af355c2f03b0d9da9814c5f096b26464cacce8a342befbe77d3a0acb44d",
+      "sha256": "15ddcb0d99f1ac05dd40386874839d515b71ca6f33e8f3369dd15c7684f8b1e1",
       "minSDK": 31,
       "version": "1.42.8",
       "build": 2000000004
