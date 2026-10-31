@@ -1,7 +1,7 @@
 {
-  "version": "1.43.6",
+  "version": "1.43.9",
   "build": 2000000004,
-  "notes": "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
+  "notes": "chore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
   "sections": {
     "android": [
       {
@@ -9,6 +9,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.7",
+          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
           "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -22,14 +25,9 @@
           "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
           "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
           "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-          "日志取最近20条提交",
-          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -51,7 +49,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.6 · 构建 29890707",
+            "v1.43.9 · 构建 29890766",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -80,6 +78,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.7",
+          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
           "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -93,14 +94,9 @@
           "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
           "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
           "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-          "日志取最近20条提交",
-          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -122,7 +118,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.6 · 构建 29890707",
+            "v1.43.9 · 构建 29890766",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -151,6 +147,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "chore(release): bump v1.43.7",
+          "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+          "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
           "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
           "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
           "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -164,14 +163,9 @@
           "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
           "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
           "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-          "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-          "日志取最近20条提交",
-          "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-          "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+          "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -193,7 +187,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.6 · 构建 29890707",
+            "v1.43.9 · 构建 29890766",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -218,13 +212,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
+    "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29890707 · 与当前版本同号",
+    "hotfixBadge": "构建 29890766 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -248,6 +242,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.7",
+            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
             "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -261,14 +258,9 @@
             "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
             "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
             "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-            "日志取最近20条提交",
-            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -290,7 +282,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.6 · 构建 29890707",
+              "v1.43.9 · 构建 29890766",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -319,6 +311,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.7",
+            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
             "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -332,14 +327,9 @@
             "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
             "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
             "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-            "日志取最近20条提交",
-            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -361,7 +351,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.6 · 构建 29890707",
+              "v1.43.9 · 构建 29890766",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -390,6 +380,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "chore(release): bump v1.43.7",
+            "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+            "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
             "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
             "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
             "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -403,14 +396,9 @@
             "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
             "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
             "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-            "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-            "日志取最近20条提交",
-            "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-            "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+            "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -432,7 +420,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.6 · 构建 29890707",
+              "v1.43.9 · 构建 29890766",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -459,16 +447,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29890707,
+    "version": 29890766,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
+      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29890707 · 与当前版本同号",
+      "hotfixBadge": "构建 29890766 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -492,6 +480,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.7",
+              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
               "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -505,14 +496,9 @@
               "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
               "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
               "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-              "日志取最近20条提交",
-              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -534,7 +520,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.6 · 构建 29890707",
+                "v1.43.9 · 构建 29890766",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -563,6 +549,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.7",
+              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
               "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -576,14 +565,9 @@
               "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
               "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
               "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-              "日志取最近20条提交",
-              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -605,7 +589,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.6 · 构建 29890707",
+                "v1.43.9 · 构建 29890766",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -634,6 +618,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "chore(release): bump v1.43.7",
+              "feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换",
+              "新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）",
               "fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完",
               "fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log",
               "重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因",
@@ -647,14 +634,9 @@
               "docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）",
               "fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）",
               "verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）",
-              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
-              "fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）",
-              "日志取最近20条提交",
-              "feat(push/download): 推包自动版本迭代+git log日志+下载分片提速",
-              "fix(update): 下载默认应用内 + macOS 更新源探测增强"
+              "fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -676,7 +658,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.6 · 构建 29890707",
+                "v1.43.9 · 构建 29890766",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -703,7 +685,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
+      "gradient": "#2E7BFF,#5FB0FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -850,46 +832,46 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.6（macOS）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
-    "ios": "v1.43.6（iOS / iPadOS）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强",
-    "android": "v1.43.6（Android）\nfix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII；fix(push): 版本迭代改为本地tag+线上Release双判断（v1.42.x未打tag也能自动bump）；日志取最近20条提交；feat(push/download): 推包自动版本迭代+git log日志+下载分片提速；fix(update): 下载默认应用内 + macOS 更新源探测增强"
+    "macos": "v1.43.9（macOS）\nchore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
+    "ios": "v1.43.9（iOS / iPadOS）\nchore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII",
+    "android": "v1.43.9（Android）\nchore(release): bump v1.43.7；feat(cloud): push_cloud.sh 默认主源切 gh-proxy.org（实测602KB/s/支持Range，gh直链及旧镜像当前不可达），MIRROR_PREFIX 环境变量可随时云控切换；新增 upload_r2.py（R2 S3兼容SigV4自签上传，凭据齐全即接入）；fix(download): 慢源适配——probe失败降级单连接整包下载（不再直接失败），probe/分片/顺序下载超时放宽(30/120/120s)，gh-proxy类慢镜像可下完；fix(install): 副本同步改FileManager优先+ditto兜底，每步写/tmp/glass-sync.log；重启脚本同步段写/tmp/glass-relaunch-sync.log——便于定位副本未同步根因；feat(update): 下载链接以「下载异常手动下载」为准——按钮与手动下载完全同源，单源直用(appcast下发url)，客户端不试其他候选；服务端改url即换源；fix(install): 副本同步改ditto+版本校验（copyItem遇已存在静默失败致旧副本残留）；重启脚本兜底同步项目库副本，更新后桌面/项目库图标必为新版；feat(update): 下载链接全云控——主源=appcast下发URL与下载异常手动下载同源，镜像=服务端downloadSources(含mac源)，客户端零烘焙(移除127.0.0.1/局域网锚点/gh镜像硬编码)；delta patch去ghfast烘焙；feat(update): macOS更新模块重写(照Android方案+Sparkle安装重启)；docs: 交接文档-推送功能 更新 v1.42.x 现行推送机制（GitHub Releases+固定入口+全自动推包+签名+delta+downloadMode+verify）；fix(push): downloadMode 固化到 push_cloud.sh（防 push.sh 重建丢失）；verify_push iOS 模拟器缺失降级警告（iOS 跳 OTA 属预期）；fix(push): git commit 加 LC_ALL=UTF-8 防中文乱码，失败降级 ASCII"
   },
-  "publishedAt": "2026-10-31T10:27:05Z",
+  "publishedAt": "2026-10-31T11:26:25Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
-      "sha256": "ba90f9065a183b876df3039696325a06881cfe85ec0dd88f712b64e146b20d17",
-      "version": "1.43.6",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-macOS.zip",
+      "sha256": "3fe527aef47640acfde7beb73ae278dfd56bfb14c3a544eec83a4a1cd068a733",
+      "version": "1.43.9",
       "build": 2000000004
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
-      "sha256": "781cae08920515c5e0b7140a8e34944201ae0207d2f774dce19756eaad1ffa90",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-Android.apk",
+      "sha256": "d67de2aadd40077f01a55e57f3d8ff7bb31c072e16c15ceb106de6812655644e",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.5",
+        "fromVersion": "1.43.8",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/delta-v1.43.5-v1.43.6.patch",
-        "patchSha256": "af1a9c2eda494672514c0a131461c4a720883a3919af651fdae8da2f635e5d4d"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/delta-v1.43.8-v1.43.9.patch",
+        "patchSha256": "fb64368fd89812cc1a640a6d23406ea4a4e7299dde76c7e9ec8224dc8dfa6d60"
       },
-      "version": "1.43.6",
+      "version": "1.43.9",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.6",
+      "version": "1.43.9",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.6/v1.43.6-Android.apk"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.9/v1.43.9-macOS.zip"
   ]
 }
