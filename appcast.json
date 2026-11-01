@@ -1,7 +1,7 @@
 {
-  "version": "1.43.41",
+  "version": "1.43.42",
   "build": 2000000004,
-  "notes": "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁；feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）；feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通；feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条；feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示",
+  "notes": "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化；返回/前进常驻顶栏；chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）",
   "sections": {
     "android": [
       {
@@ -9,15 +9,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-          "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-          "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-          "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-          "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+          "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+          "返回/前进常驻顶栏",
+          "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           ""
@@ -25,7 +21,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.41 · 构建 29892414",
+            "v1.43.42 · 构建 29892421",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -54,15 +50,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-          "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-          "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-          "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-          "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+          "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+          "返回/前进常驻顶栏",
+          "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           ""
@@ -70,7 +62,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.41 · 构建 29892414",
+            "v1.43.42 · 构建 29892421",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -99,15 +91,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-          "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-          "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-          "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-          "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+          "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+          "返回/前进常驻顶栏",
+          "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           ""
@@ -115,7 +103,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.41 · 构建 29892414",
+            "v1.43.42 · 构建 29892421",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -140,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#8EDBFF,#5FB0FF,#6FC4FF",
+    "gradient": "#2E7BFF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29892414 · 与当前版本同号",
+    "hotfixBadge": "构建 29892421 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -170,15 +158,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-            "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-            "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-            "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-            "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+            "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+            "返回/前进常驻顶栏",
+            "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             ""
@@ -186,7 +170,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.41 · 构建 29892414",
+              "v1.43.42 · 构建 29892421",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -215,15 +199,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-            "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-            "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-            "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-            "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+            "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+            "返回/前进常驻顶栏",
+            "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             ""
@@ -231,7 +211,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.41 · 构建 29892414",
+              "v1.43.42 · 构建 29892421",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -260,15 +240,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-            "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-            "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-            "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-            "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+            "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+            "返回/前进常驻顶栏",
+            "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             ""
@@ -276,7 +252,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.41 · 构建 29892414",
+              "v1.43.42 · 构建 29892421",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -303,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29892414,
+    "version": 29892421,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#8EDBFF,#5FB0FF,#6FC4FF",
+      "gradient": "#2E7BFF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29892414 · 与当前版本同号",
+      "hotfixBadge": "构建 29892421 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -336,15 +312,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-              "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-              "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-              "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-              "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+              "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+              "返回/前进常驻顶栏",
+              "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               ""
@@ -352,7 +324,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.41 · 构建 29892414",
+                "v1.43.42 · 构建 29892421",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -381,15 +353,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-              "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-              "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-              "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-              "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+              "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+              "返回/前进常驻顶栏",
+              "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               ""
@@ -397,7 +365,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.41 · 构建 29892414",
+                "v1.43.42 · 构建 29892421",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -426,15 +394,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁",
-              "feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）",
-              "feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通",
-              "feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条",
-              "feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+              "feat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化",
+              "返回/前进常驻顶栏",
+              "chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
             ],
             "images": [
-              "",
-              "",
               "",
               "",
               ""
@@ -442,7 +406,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.41 · 构建 29892414",
+                "v1.43.42 · 构建 29892421",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -469,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#4A9FFF,#6FC4FF",
+      "gradient": "#8EDBFF,#4A9FFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -616,41 +580,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.41（macOS）\nfix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁；feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）；feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通；feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条；feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示",
-    "ios": "v1.43.41（iOS / iPadOS）\nfix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁；feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）；feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通；feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条；feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示",
-    "android": "v1.43.41（Android）\nfix(update): 增量更新必失败——缓存基准包加版本核对，基准错位不再空耗补丁；feat(ui): 返回/前进移至地址栏左侧 + 标签页与地址栏融合（点当前标签即输入，Safari 式）；feat(web): window.open/新窗口弹窗开新标签 + 外部 scheme 拉起系统 app 保持畅通；feat(login): QQ/微信在线状态识别 + 设置页状态 + 登录页快捷登录浮条；feat(download): 下载位置可设/类别分子目录/询问方式 + ftp 应用内直下 + P2P 如实提示"
+    "macos": "v1.43.42（macOS）\nfeat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化；返回/前进常驻顶栏；chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）",
+    "ios": "v1.43.42（iOS / iPadOS）\nfeat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化；返回/前进常驻顶栏；chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）",
+    "android": "v1.43.42（Android）\nfeat(ui): 融合区就地切换——点当前标签地址输入原位显示，无样式变化；返回/前进常驻顶栏；chore(release): 发版默认生成增量补丁（镜像加速基准下载，用完即删）"
   },
-  "publishedAt": "2026-11-01T14:55:00Z",
+  "publishedAt": "2026-11-01T15:01:48Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-macOS.zip",
-      "sha256": "490949ccdc9aa116728de6c97507131227aadaa9f5f98a1e8a663ad9d85de1f4",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-macOS.zip",
+      "sha256": "26bc115d6460adadbb542146c1c490295aefb5833a92eb9df18fb04b709435a1",
       "minOS": "26.0",
-      "version": "1.43.41",
-      "build": 2000000004
+      "version": "1.43.42",
+      "build": 2000000004,
+      "delta": {
+        "fromVersion": "1.43.41",
+        "fromBuild": 0,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/delta-macOS-v1.43.41-v1.43.42.patch",
+        "patchSha256": "f156eb21cee5f119cc83ec3cb78a38535291c883be0f1b1c67715e6b15562854"
+      }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-Android.apk",
-      "sha256": "f899b79fdab6185299db52e209d94b701a44ccc67bd708cd5eb7b7ca6db5644d",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-Android.apk",
+      "sha256": "674f9d7ae8849ad8351b64c8efc369f5e9625b9a87ad20c099bc0b7c54814380",
       "minSDK": 31,
-      "version": "1.43.41",
-      "build": 2000000004
+      "version": "1.43.42",
+      "build": 2000000004,
+      "delta": {
+        "fromVersion": "1.43.41",
+        "fromBuild": 2000000004,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/delta-v1.43.41-v1.43.42.patch",
+        "patchSha256": "80d0b1c096011def6c6ec8e8615269e5f77712d542d1d11069f964084c2b7fbb"
+      }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.41",
+      "version": "1.43.42",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.41/v1.43.41-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.42/v1.43.42-macOS.zip"
   ]
 }
