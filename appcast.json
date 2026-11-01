@@ -1,7 +1,7 @@
 {
-  "version": "1.43.20",
+  "version": "1.43.22",
   "build": 2000000004,
-  "notes": "feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10",
+  "notes": "feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
   "sections": {
     "android": [
       {
@@ -9,6 +9,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
           "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -17,16 +18,9 @@
           "签名公钥 pub.der 入库",
           "feat(update): 全端下载安装稳定性加固",
           "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11",
-          "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-          "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-          "staging改由重启脚本末尾自清",
-          "chore(release): bump v1.43.10"
+          "chore(release): bump v1.43.11"
         ],
         "images": [
-          "",
-          "",
-          "",
           "",
           "",
           "",
@@ -41,7 +35,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.20 · 构建 29891782",
+            "v1.43.22 · 构建 29891821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -70,6 +64,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
           "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -78,16 +73,9 @@
           "签名公钥 pub.der 入库",
           "feat(update): 全端下载安装稳定性加固",
           "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11",
-          "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-          "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-          "staging改由重启脚本末尾自清",
-          "chore(release): bump v1.43.10"
+          "chore(release): bump v1.43.11"
         ],
         "images": [
-          "",
-          "",
-          "",
           "",
           "",
           "",
@@ -102,7 +90,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.20 · 构建 29891782",
+            "v1.43.22 · 构建 29891821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -131,6 +119,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
           "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -139,16 +128,9 @@
           "签名公钥 pub.der 入库",
           "feat(update): 全端下载安装稳定性加固",
           "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11",
-          "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-          "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-          "staging改由重启脚本末尾自清",
-          "chore(release): bump v1.43.10"
+          "chore(release): bump v1.43.11"
         ],
         "images": [
-          "",
-          "",
-          "",
           "",
           "",
           "",
@@ -163,7 +145,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.20 · 构建 29891782",
+            "v1.43.22 · 构建 29891821",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -188,13 +170,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#6FC4FF,#2E7BFF",
+    "gradient": "#2E7BFF,#5FB0FF,#4A9FFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29891782 · 与当前版本同号",
+    "hotfixBadge": "构建 29891821 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -218,6 +200,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
             "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -226,16 +209,9 @@
             "签名公钥 pub.der 入库",
             "feat(update): 全端下载安装稳定性加固",
             "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11",
-            "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-            "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-            "staging改由重启脚本末尾自清",
-            "chore(release): bump v1.43.10"
+            "chore(release): bump v1.43.11"
           ],
           "images": [
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -250,7 +226,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.20 · 构建 29891782",
+              "v1.43.22 · 构建 29891821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,6 +255,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
             "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -287,16 +264,9 @@
             "签名公钥 pub.der 入库",
             "feat(update): 全端下载安装稳定性加固",
             "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11",
-            "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-            "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-            "staging改由重启脚本末尾自清",
-            "chore(release): bump v1.43.10"
+            "chore(release): bump v1.43.11"
           ],
           "images": [
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -311,7 +281,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.20 · 构建 29891782",
+              "v1.43.22 · 构建 29891821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -340,6 +310,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
             "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -348,16 +319,9 @@
             "签名公钥 pub.der 入库",
             "feat(update): 全端下载安装稳定性加固",
             "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11",
-            "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-            "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-            "staging改由重启脚本末尾自清",
-            "chore(release): bump v1.43.10"
+            "chore(release): bump v1.43.11"
           ],
           "images": [
-            "",
-            "",
-            "",
             "",
             "",
             "",
@@ -372,7 +336,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.20 · 构建 29891782",
+              "v1.43.22 · 构建 29891821",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -399,16 +363,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29891782,
+    "version": 29891821,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#6FC4FF,#2E7BFF",
+      "gradient": "#2E7BFF,#5FB0FF,#4A9FFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29891782 · 与当前版本同号",
+      "hotfixBadge": "构建 29891821 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -432,6 +396,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
               "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -440,16 +405,9 @@
               "签名公钥 pub.der 入库",
               "feat(update): 全端下载安装稳定性加固",
               "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11",
-              "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-              "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-              "staging改由重启脚本末尾自清",
-              "chore(release): bump v1.43.10"
+              "chore(release): bump v1.43.11"
             ],
             "images": [
-              "",
-              "",
-              "",
               "",
               "",
               "",
@@ -464,7 +422,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.20 · 构建 29891782",
+                "v1.43.22 · 构建 29891821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -493,6 +451,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
               "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -501,16 +460,9 @@
               "签名公钥 pub.der 入库",
               "feat(update): 全端下载安装稳定性加固",
               "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11",
-              "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-              "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-              "staging改由重启脚本末尾自清",
-              "chore(release): bump v1.43.10"
+              "chore(release): bump v1.43.11"
             ],
             "images": [
-              "",
-              "",
-              "",
               "",
               "",
               "",
@@ -525,7 +477,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.20 · 构建 29891782",
+                "v1.43.22 · 构建 29891821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -554,6 +506,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
               "feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）",
@@ -562,16 +515,9 @@
               "签名公钥 pub.der 入库",
               "feat(update): 全端下载安装稳定性加固",
               "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11",
-              "fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）",
-              "验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）",
-              "staging改由重启脚本末尾自清",
-              "chore(release): bump v1.43.10"
+              "chore(release): bump v1.43.11"
             ],
             "images": [
-              "",
-              "",
-              "",
               "",
               "",
               "",
@@ -586,7 +532,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.20 · 构建 29891782",
+                "v1.43.22 · 构建 29891821",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -613,7 +559,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
+      "gradient": "#8EDBFF,#2E7BFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -760,21 +706,21 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.20（macOS）\nfeat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10",
-    "ios": "v1.43.20（iOS / iPadOS）\nfeat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10",
-    "android": "v1.43.20（Android）\nfeat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11；fix(update): 重启脚本副本同步修正——同步源改用已安装的/Applications新版（不依赖可能被提前清理的staging）；验证改为CFBundleShortVersionString版本比对（旧版不再误报OK）；staging改由重启脚本末尾自清；chore(release): bump v1.43.10"
+    "macos": "v1.43.22（macOS）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
+    "ios": "v1.43.22（iOS / iPadOS）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
+    "android": "v1.43.22（Android）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11"
   },
-  "publishedAt": "2026-11-01T04:22:07Z",
+  "publishedAt": "2026-11-01T05:01:59Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-macOS.zip",
-      "sha256": "9d017fee8fdccf4be3e48e4f55b64dc6bc39005c199f1fa03779eb9d966cdccd",
-      "version": "1.43.20",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
+      "sha256": "0b05a6076de313a9094a7d346f39e98b16166f17b15df6f0ffdb2858dbbb856b",
+      "version": "1.43.22",
       "build": 2000000004
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-Android.apk",
-      "sha256": "2a0dee6128d219519f587818e17fe8671a53711da4ed04fc6d4a39167abf09e9",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
+      "sha256": "2ca5f59509fe6b3524f67aeabcdfb99aaeda2965be179d7227fa8b2b42795fd1",
       "minSDK": 31,
       "delta": {
         "fromVersion": "1.43.18",
@@ -782,24 +728,24 @@
         "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/delta-v1.43.18-v1.43.20.patch",
         "patchSha256": "ef1371e70ba46920d422498f42739d2acce4a79a7b22963b5002baaae3f43a08"
       },
-      "version": "1.43.20",
+      "version": "1.43.22",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.20",
+      "version": "1.43.22",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/v1.43.20-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip"
   ]
 }
