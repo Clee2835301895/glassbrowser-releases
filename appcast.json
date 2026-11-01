@@ -1,7 +1,7 @@
 {
-  "version": "1.43.39",
+  "version": "1.43.40",
   "build": 2000000004,
-  "notes": "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化；fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化；fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
+  "notes": "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载；fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环；fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖",
   "sections": {
     "android": [
       {
@@ -9,19 +9,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-          "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-          "fix(web): 证书告警误报——补上缺失的系统级校验",
-          "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-          "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+          "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+          "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+          "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           "",
           ""
@@ -29,7 +21,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.39 · 构建 29892066",
+            "v1.43.40 · 构建 29892332",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -58,19 +50,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-          "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-          "fix(web): 证书告警误报——补上缺失的系统级校验",
-          "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-          "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+          "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+          "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+          "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           "",
           ""
@@ -78,7 +62,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.39 · 构建 29892066",
+            "v1.43.40 · 构建 29892332",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -107,19 +91,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-          "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-          "fix(web): 证书告警误报——补上缺失的系统级校验",
-          "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-          "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+          "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+          "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+          "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           "",
           ""
@@ -127,7 +103,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.39 · 构建 29892066",
+            "v1.43.40 · 构建 29892332",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -152,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#8EDBFF,#2E7BFF",
+    "gradient": "#2E7BFF,#5FB0FF,#6FC4FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29892066 · 与当前版本同号",
+    "hotfixBadge": "构建 29892332 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -182,19 +158,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-            "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-            "fix(web): 证书告警误报——补上缺失的系统级校验",
-            "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-            "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+            "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+            "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+            "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             ""
@@ -202,7 +170,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.39 · 构建 29892066",
+              "v1.43.40 · 构建 29892332",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -231,19 +199,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-            "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-            "fix(web): 证书告警误报——补上缺失的系统级校验",
-            "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-            "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+            "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+            "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+            "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             ""
@@ -251,7 +211,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.39 · 构建 29892066",
+              "v1.43.40 · 构建 29892332",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -280,19 +240,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-            "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-            "fix(web): 证书告警误报——补上缺失的系统级校验",
-            "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-            "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+            "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+            "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+            "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             "",
             ""
@@ -300,7 +252,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.39 · 构建 29892066",
+              "v1.43.40 · 构建 29892332",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -327,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29892066,
+    "version": 29892332,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#8EDBFF,#2E7BFF",
+      "gradient": "#2E7BFF,#5FB0FF,#6FC4FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29892066 · 与当前版本同号",
+      "hotfixBadge": "构建 29892332 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -360,19 +312,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-              "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-              "fix(web): 证书告警误报——补上缺失的系统级校验",
-              "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-              "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+              "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+              "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+              "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               "",
               ""
@@ -380,7 +324,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.39 · 构建 29892066",
+                "v1.43.40 · 构建 29892332",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -409,19 +353,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-              "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-              "fix(web): 证书告警误报——补上缺失的系统级校验",
-              "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-              "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+              "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+              "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+              "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               "",
               ""
@@ -429,7 +365,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.39 · 构建 29892066",
+                "v1.43.40 · 构建 29892332",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -458,19 +394,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
-              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
-              "fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化",
-              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
-              "fix(web): 证书告警误报——补上缺失的系统级校验",
-              "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
-              "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+              "fix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载",
+              "fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环",
+              "fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               "",
               ""
@@ -478,7 +406,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.39 · 构建 29892066",
+                "v1.43.40 · 构建 29892332",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -505,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#4A9FFF,#6FC4FF",
+      "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -652,52 +580,52 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.39（macOS）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化；fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化；fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
-    "ios": "v1.43.39（iOS / iPadOS）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化；fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化；fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
-    "android": "v1.43.39（Android）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化；fix(ui): 修加载卡死抖动/搜索结果裁剪 + 底栏一键切版本 + 标签页卡片化；fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位"
+    "macos": "v1.43.40（macOS）\nfix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载；fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环；fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖",
+    "ios": "v1.43.40（iOS / iPadOS）\nfix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载；fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环；fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖",
+    "android": "v1.43.40（Android）\nfix(web): 修启动白屏——scheme 白名单补齐 about/file/blob/data，空白页计划不再永不加载；fix(web): 修百度等站点白屏——默认 UA 补 Version 段，消除降级壳页 http↔https 循环；fix(ui): 侧栏默认收起不再遮罩盖页 + 占位标签免发网络请求 + 会话快照防抖"
   },
-  "publishedAt": "2026-11-01T09:06:40Z",
+  "publishedAt": "2026-11-01T13:32:02Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-macOS.zip",
-      "sha256": "77102f942748fc8c1899827f4e783d39d1ea42a28e14c117a7306db170e73dab",
-      "version": "1.43.39",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-macOS.zip",
+      "sha256": "a3dcf7d3894da7b154ac72b1ce3f195946f2215c7ae2fb115effa3a9bfaa314f",
+      "version": "1.43.40",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.37",
+        "fromVersion": "1.43.39",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/delta-macOS-v1.43.37-v1.43.39.patch",
-        "patchSha256": "73fdb8ab6df87bcdce60f901d6828975136a0e2e3820edcb32409f061990d23a"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/delta-macOS-v1.43.39-v1.43.40.patch",
+        "patchSha256": "08c0a5fd61d26948ec708f4da61ea87a916a798baa4f594e6ab1e440bf0ff0d1"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-Android.apk",
-      "sha256": "a76b5344ab9abe973f2db6b25d54c56726f84fda2453696d636176fbf9d589d2",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-Android.apk",
+      "sha256": "a2f340f00e2dc575abe85fc639d665ab9f5e72fa0157aa19c2401896b028bbd5",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.37",
+        "fromVersion": "1.43.39",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/delta-v1.43.37-v1.43.39.patch",
-        "patchSha256": "9f8bb51a4961df4e095642c2241e7122928c788d9cc921bb38807e7ba4d04948"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/delta-v1.43.39-v1.43.40.patch",
+        "patchSha256": "95ff431574a59f1a7a16544eb530d5aae78c28bf21e16c4621202dc673c7d48f"
       },
-      "version": "1.43.39",
+      "version": "1.43.40",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.39",
+      "version": "1.43.40",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.39/v1.43.39-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.40/v1.43.40-macOS.zip"
   ]
 }
