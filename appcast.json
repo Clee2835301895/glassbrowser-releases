@@ -1,7 +1,7 @@
 {
-  "version": "1.43.22",
+  "version": "1.43.25",
   "build": 2000000004,
-  "notes": "feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
+  "notes": "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固",
   "sections": {
     "android": [
       {
@@ -9,6 +9,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
           "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -16,12 +17,9 @@
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
-          "feat(update): 全端下载安装稳定性加固",
-          "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11"
+          "feat(update): 全端下载安装稳定性加固"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -35,7 +33,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.22 · 构建 29891821",
+            "v1.43.25 · 构建 29891876",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -64,6 +62,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
           "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -71,12 +70,9 @@
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
-          "feat(update): 全端下载安装稳定性加固",
-          "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11"
+          "feat(update): 全端下载安装稳定性加固"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -90,7 +86,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.22 · 构建 29891821",
+            "v1.43.25 · 构建 29891876",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -119,6 +115,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
           "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
           "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
           "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -126,12 +123,9 @@
           "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
           "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
           "签名公钥 pub.der 入库",
-          "feat(update): 全端下载安装稳定性加固",
-          "chore(release): bump v1.43.12",
-          "chore(release): bump v1.43.11"
+          "feat(update): 全端下载安装稳定性加固"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -145,7 +139,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.22 · 构建 29891821",
+            "v1.43.25 · 构建 29891876",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -170,13 +164,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#2E7BFF,#5FB0FF,#4A9FFF",
+    "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29891821 · 与当前版本同号",
+    "hotfixBadge": "构建 29891876 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -200,6 +194,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
             "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -207,12 +202,9 @@
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
-            "feat(update): 全端下载安装稳定性加固",
-            "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11"
+            "feat(update): 全端下载安装稳定性加固"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -226,7 +218,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.22 · 构建 29891821",
+              "v1.43.25 · 构建 29891876",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -255,6 +247,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
             "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -262,12 +255,9 @@
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
-            "feat(update): 全端下载安装稳定性加固",
-            "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11"
+            "feat(update): 全端下载安装稳定性加固"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -281,7 +271,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.22 · 构建 29891821",
+              "v1.43.25 · 构建 29891876",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -310,6 +300,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
             "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
             "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
             "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -317,12 +308,9 @@
             "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
             "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
             "签名公钥 pub.der 入库",
-            "feat(update): 全端下载安装稳定性加固",
-            "chore(release): bump v1.43.12",
-            "chore(release): bump v1.43.11"
+            "feat(update): 全端下载安装稳定性加固"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -336,7 +324,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.22 · 构建 29891821",
+              "v1.43.25 · 构建 29891876",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -363,16 +351,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29891821,
+    "version": 29891876,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#2E7BFF,#5FB0FF,#4A9FFF",
+      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29891821 · 与当前版本同号",
+      "hotfixBadge": "构建 29891876 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -396,6 +384,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
               "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -403,12 +392,9 @@
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
-              "feat(update): 全端下载安装稳定性加固",
-              "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11"
+              "feat(update): 全端下载安装稳定性加固"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -422,7 +408,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.22 · 构建 29891821",
+                "v1.43.25 · 构建 29891876",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -451,6 +437,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
               "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -458,12 +445,9 @@
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
-              "feat(update): 全端下载安装稳定性加固",
-              "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11"
+              "feat(update): 全端下载安装稳定性加固"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -477,7 +461,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.22 · 构建 29891821",
+                "v1.43.25 · 构建 29891876",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -506,6 +490,7 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
               "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
               "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
               "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
@@ -513,12 +498,9 @@
               "feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘",
               "chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）",
               "签名公钥 pub.der 入库",
-              "feat(update): 全端下载安装稳定性加固",
-              "chore(release): bump v1.43.12",
-              "chore(release): bump v1.43.11"
+              "feat(update): 全端下载安装稳定性加固"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -532,7 +514,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.22 · 构建 29891821",
+                "v1.43.25 · 构建 29891876",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -559,7 +541,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#8EDBFF,#2E7BFF,#5FB0FF",
+      "gradient": "#5FB0FF,#2E7BFF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -706,46 +688,52 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.22（macOS）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
-    "ios": "v1.43.22（iOS / iPadOS）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11",
-    "android": "v1.43.22（Android）\nfeat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固；chore(release): bump v1.43.12；chore(release): bump v1.43.11"
+    "macos": "v1.43.25（macOS）\nfeat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固",
+    "ios": "v1.43.25（iOS / iPadOS）\nfeat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固",
+    "android": "v1.43.25（Android）\nfeat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误；feat(browser): 站点级UA记忆 + 搜索建议 + 阅读模式（三端）；feat(download): 下载速度与成功率彻底优化——竞速矩阵+断点续传+流式写盘；chore: 仓库卫生——build_dd 加 gitignore（xcodebuild 派生数据）；签名公钥 pub.der 入库；feat(update): 全端下载安装稳定性加固"
   },
-  "publishedAt": "2026-11-01T05:01:59Z",
+  "publishedAt": "2026-11-01T05:56:59Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
-      "sha256": "0b05a6076de313a9094a7d346f39e98b16166f17b15df6f0ffdb2858dbbb856b",
-      "version": "1.43.22",
-      "build": 2000000004
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-macOS.zip",
+      "sha256": "a3439be9e82123bb8fb2b406738f5a44e0c1e2fc4718c3553d1e82f456d4f4ab",
+      "version": "1.43.25",
+      "build": 2000000004,
+      "delta": {
+        "fromVersion": "1.43.24",
+        "fromBuild": 0,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/delta-macOS-v1.43.24-v1.43.25.patch",
+        "patchSha256": "a1a8257aa1c2eb066a9b8c8d573cafcaba53633b36cc49a5827305d38b24d08f"
+      }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
-      "sha256": "2ca5f59509fe6b3524f67aeabcdfb99aaeda2965be179d7227fa8b2b42795fd1",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-Android.apk",
+      "sha256": "06f46c09b2d89f73c1b2eb03464234bc363389d45823636e0f3f07fe9e6a243d",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.18",
+        "fromVersion": "1.43.24",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.20/delta-v1.43.18-v1.43.20.patch",
-        "patchSha256": "ef1371e70ba46920d422498f42739d2acce4a79a7b22963b5002baaae3f43a08"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/delta-v1.43.24-v1.43.25.patch",
+        "patchSha256": "d1a5e6ca8f73b853aa0ac4769f38815e6c7aee96854682424ca3cee4795a2592"
       },
-      "version": "1.43.22",
+      "version": "1.43.25",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.22",
+      "version": "1.43.25",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.22/v1.43.22-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.25/v1.43.25-macOS.zip"
   ]
 }
