@@ -1,7 +1,7 @@
 {
-  "version": "1.43.31",
+  "version": "1.43.33",
   "build": 2000000004,
-  "notes": "fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
+  "notes": "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
   "sections": {
     "android": [
       {
@@ -9,17 +9,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
           "fix(web): 证书告警误报——补上缺失的系统级校验",
           "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
           "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
           "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
           "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-          "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-          "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -31,7 +29,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.31 · 构建 29891958",
+            "v1.43.33 · 构建 29891984",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -60,17 +58,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
           "fix(web): 证书告警误报——补上缺失的系统级校验",
           "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
           "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
           "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
           "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-          "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-          "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -82,7 +78,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.31 · 构建 29891958",
+            "v1.43.33 · 构建 29891984",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -111,17 +107,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
+          "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
           "fix(web): 证书告警误报——补上缺失的系统级校验",
           "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
           "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
           "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
           "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-          "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-          "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+          "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
         ],
         "images": [
-          "",
           "",
           "",
           "",
@@ -133,7 +127,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.31 · 构建 29891958",
+            "v1.43.33 · 构建 29891984",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -158,13 +152,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#8EDBFF,#5FB0FF,#4A9FFF",
+    "gradient": "#4A9FFF,#6FC4FF,#5FB0FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29891958 · 与当前版本同号",
+    "hotfixBadge": "构建 29891984 · 与当前版本同号",
     "stability": "stable",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -188,17 +182,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
             "fix(web): 证书告警误报——补上缺失的系统级校验",
             "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
             "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
             "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
             "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-            "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-            "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -210,7 +202,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.31 · 构建 29891958",
+              "v1.43.33 · 构建 29891984",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -239,17 +231,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
             "fix(web): 证书告警误报——补上缺失的系统级校验",
             "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
             "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
             "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
             "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-            "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-            "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -261,7 +251,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.31 · 构建 29891958",
+              "v1.43.33 · 构建 29891984",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -290,17 +280,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
+            "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
             "fix(web): 证书告警误报——补上缺失的系统级校验",
             "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
             "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
             "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
             "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-            "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-            "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+            "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
           ],
           "images": [
-            "",
             "",
             "",
             "",
@@ -312,7 +300,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.31 · 构建 29891958",
+              "v1.43.33 · 构建 29891984",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -339,16 +327,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29891958,
+    "version": 29891984,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#8EDBFF,#5FB0FF,#4A9FFF",
+      "gradient": "#4A9FFF,#6FC4FF,#5FB0FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29891958 · 与当前版本同号",
+      "hotfixBadge": "构建 29891984 · 与当前版本同号",
       "stability": "stable",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -372,17 +360,15 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
               "fix(web): 证书告警误报——补上缺失的系统级校验",
               "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
               "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
               "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
               "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-              "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-              "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -394,7 +380,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.31 · 构建 29891958",
+                "v1.43.33 · 构建 29891984",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -423,17 +409,15 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
               "fix(web): 证书告警误报——补上缺失的系统级校验",
               "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
               "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
               "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
               "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-              "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-              "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -445,7 +429,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.31 · 构建 29891958",
+                "v1.43.33 · 构建 29891984",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -474,17 +458,15 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
+              "fix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化",
               "fix(web): 证书告警误报——补上缺失的系统级校验",
               "fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）",
               "fix(release): 修复 push_cloud.sh delta 段 heredoc 错位",
               "style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）",
               "feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）",
-              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
-              "feat(ui): 输入框扁平化美观化 + 动效开关全局落实",
-              "fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+              "feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
             ],
             "images": [
-              "",
               "",
               "",
               "",
@@ -496,7 +478,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.31 · 构建 29891958",
+                "v1.43.33 · 构建 29891984",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -523,7 +505,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#5FB0FF,#2E7BFF,#8EDBFF",
+      "gradient": "#6FC4FF,#4A9FFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "stable",
@@ -670,52 +652,52 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.31（macOS）\nfix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
-    "ios": "v1.43.31（iOS / iPadOS）\nfix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误",
-    "android": "v1.43.31（Android）\nfix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实；feat(ui): 输入框扁平化美观化 + 动效开关全局落实；fix(addressbar): 修复网络建议 URL 拼接的 ?? 运算符优先级错误"
+    "macos": "v1.43.33（macOS）\nfix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
+    "ios": "v1.43.33（iOS / iPadOS）\nfix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实",
+    "android": "v1.43.33（Android）\nfix(ui): 加载页 UI 乱/滑动不跟手/安全区 + 增量更新提效 + 日志简洁化；fix(web): 证书告警误报——补上缺失的系统级校验；fix+style: 三项设置生效修复 + UI 推翻重做（深邃液态玻璃 v3）；fix(release): 修复 push_cloud.sh delta 段 heredoc 错位；style(ui): 全部界面视觉翻新（暖调新视觉语言 v2）；feat(update): 增量更新全链路落实（macOS bspatch + 双端 delta 下发）；feat(settings): 主页/搜索引擎/动效/主题四项功能落实"
   },
-  "publishedAt": "2026-11-01T07:18:24Z",
+  "publishedAt": "2026-11-01T07:44:22Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-macOS.zip",
-      "sha256": "1f77c310b693eb56fc6203abdc2b3955adc75de097e6631652321b755646a69e",
-      "version": "1.43.31",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-macOS.zip",
+      "sha256": "9519514732bbecedd7c216e865de8d0c15bd39833ba4fb1185276202c7f6326a",
+      "version": "1.43.33",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.29",
+        "fromVersion": "1.43.31",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/delta-macOS-v1.43.29-v1.43.31.patch",
-        "patchSha256": "5db7704d969b7d9fcd7c2c8ee1bc3763d4f5cce5a0e8f76aaf99ef7fd36f43e1"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/delta-macOS-v1.43.31-v1.43.33.patch",
+        "patchSha256": "0247abcd646dc0eab12229aad9f7b50f51aa447c855fda6befb3c24a8011470e"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-Android.apk",
-      "sha256": "910ff540f1639e5ab5604b316859288b92ffad46896f70221b99d0aa93fccb82",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-Android.apk",
+      "sha256": "f4670dc87b2ba58767ae389a4096e1362744df8a71dc6ebe48cd2b6ce33a8320",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.43.29",
+        "fromVersion": "1.43.31",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/delta-v1.43.29-v1.43.31.patch",
-        "patchSha256": "426f85293874cdd2c2621f28ed3a0648dd117a07a52c44a7e6bf3d571bfcd53c"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/delta-v1.43.31-v1.43.33.patch",
+        "patchSha256": "c1c2f1ebf9efb9dfa55f73bf3b46ee85e76eb7c4cebbbaa0526180360b0acf25"
       },
-      "version": "1.43.31",
+      "version": "1.43.33",
       "build": 2000000004
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.31",
+      "version": "1.43.33",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.31/v1.43.31-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.33/v1.43.33-macOS.zip"
   ]
 }
