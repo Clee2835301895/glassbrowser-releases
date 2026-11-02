@@ -1,7 +1,7 @@
 {
-  "version": "1.43.43",
+  "version": "1.43.44",
   "build": 2000000004,
-  "notes": "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度；弹簧动效开关真实控制全部动画",
+  "notes": "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
   "sections": {
     "android": [
       {
@@ -9,17 +9,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-          "弹簧动效开关真实控制全部动画"
+          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+          "docs清单: 修正 18 项已实现却标未实现的失真条目"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.43 · 构建 29893051",
+            "v1.43.44 · 构建 29893084",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -48,17 +50,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-          "弹簧动效开关真实控制全部动画"
+          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+          "docs清单: 修正 18 项已实现却标未实现的失真条目"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.43 · 构建 29893051",
+            "v1.43.44 · 构建 29893084",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -87,17 +91,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-          "弹簧动效开关真实控制全部动画"
+          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+          "docs清单: 修正 18 项已实现却标未实现的失真条目"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.43 · 构建 29893051",
+            "v1.43.44 · 构建 29893084",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -122,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#2E7BFF,#4A9FFF,#8EDBFF",
+    "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893051 · 与当前版本同号",
+    "hotfixBadge": "构建 29893084 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -152,17 +158,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-            "弹簧动效开关真实控制全部动画"
+            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+            "docs清单: 修正 18 项已实现却标未实现的失真条目"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.43 · 构建 29893051",
+              "v1.43.44 · 构建 29893084",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -191,17 +199,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-            "弹簧动效开关真实控制全部动画"
+            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+            "docs清单: 修正 18 项已实现却标未实现的失真条目"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.43 · 构建 29893051",
+              "v1.43.44 · 构建 29893084",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -230,17 +240,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-            "弹簧动效开关真实控制全部动画"
+            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+            "docs清单: 修正 18 项已实现却标未实现的失真条目"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.43 · 构建 29893051",
+              "v1.43.44 · 构建 29893084",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -267,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893051,
+    "version": 29893084,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#2E7BFF,#4A9FFF,#8EDBFF",
+      "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893051 · 与当前版本同号",
+      "hotfixBadge": "构建 29893084 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -300,17 +312,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-              "弹簧动效开关真实控制全部动画"
+              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+              "docs清单: 修正 18 项已实现却标未实现的失真条目"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.43 · 构建 29893051",
+                "v1.43.44 · 构建 29893084",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -339,17 +353,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-              "弹簧动效开关真实控制全部动画"
+              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+              "docs清单: 修正 18 项已实现却标未实现的失真条目"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.43 · 构建 29893051",
+                "v1.43.44 · 构建 29893084",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -378,17 +394,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度",
-              "弹簧动效开关真实控制全部动画"
+              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
+              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
+              "docs清单: 修正 18 项已实现却标未实现的失真条目"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.43 · 构建 29893051",
+                "v1.43.44 · 构建 29893084",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -415,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#4A9FFF,#5FB0FF,#2E7BFF",
+      "gradient": "#2E7BFF,#4A9FFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -562,17 +580,17 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.43（macOS）\nfix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度；弹簧动效开关真实控制全部动画",
-    "ios": "v1.43.43（iOS / iPadOS）\nfix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度；弹簧动效开关真实控制全部动画",
-    "android": "v1.43.43（Android）\nfix(ui): 空壳功能补全——玻璃强度（清淡/标准/浓郁）真实接入材质与浓度；弹簧动效开关真实控制全部动画"
+    "macos": "v1.43.44（macOS）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
+    "ios": "v1.43.44（iOS / iPadOS）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
+    "android": "v1.43.44（Android）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目"
   },
-  "publishedAt": "2026-11-02T01:31:22Z",
+  "publishedAt": "2026-11-02T02:04:41Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-macOS.zip",
-      "sha256": "a1ada83572f23bfcd5e823d693296647be037860dc063cca6f922be629253821",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
+      "sha256": "34abdfa63b0dcf64be463c8283a797f0f1271afad98b7d8f1b8126d89a2dc2d2",
       "minOS": "26.0",
-      "version": "1.43.43",
+      "version": "1.43.44",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -582,10 +600,10 @@
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-Android.apk",
-      "sha256": "3375047184f1a467516a19179c7bb3e7fb56292f39c4d6cb7145a5cf442d2bb5",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
+      "sha256": "c51bde5867ac61726e55819206e898c47bb5a04dae3fdcbafb4dfcef95c13ad8",
       "minSDK": 31,
-      "version": "1.43.43",
+      "version": "1.43.44",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -598,17 +616,17 @@
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.43",
+      "version": "1.43.44",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.43/v1.43.43-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip"
   ]
 }
