@@ -1,7 +1,7 @@
 {
-  "version": "1.43.45",
+  "version": "1.43.46",
   "build": 2000000004,
-  "notes": "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
+  "notes": "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
   "sections": {
     "android": [
       {
@@ -9,17 +9,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.45 · 构建 29893095",
+            "v1.43.46 · 构建 29893106",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -48,17 +50,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.45 · 构建 29893095",
+            "v1.43.46 · 构建 29893106",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -87,17 +91,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.45 · 构建 29893095",
+            "v1.43.46 · 构建 29893106",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -122,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
+    "gradient": "#5FB0FF,#8EDBFF,#6FC4FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893095 · 与当前版本同号",
+    "hotfixBadge": "构建 29893106 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -152,17 +158,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.45 · 构建 29893095",
+              "v1.43.46 · 构建 29893106",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -191,17 +199,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.45 · 构建 29893095",
+              "v1.43.46 · 构建 29893106",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -230,17 +240,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.45 · 构建 29893095",
+              "v1.43.46 · 构建 29893106",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -267,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893095,
+    "version": 29893106,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
+      "gradient": "#5FB0FF,#8EDBFF,#6FC4FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893095 · 与当前版本同号",
+      "hotfixBadge": "构建 29893106 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -300,17 +312,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.45 · 构建 29893095",
+                "v1.43.46 · 构建 29893106",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -339,17 +353,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.45 · 构建 29893095",
+                "v1.43.46 · 构建 29893106",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -378,17 +394,19 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
-              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
+              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
+              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
             ],
             "images": [
+              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.45 · 构建 29893095",
+                "v1.43.46 · 构建 29893106",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -415,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#2E7BFF,#4A9FFF,#5FB0FF",
+      "gradient": "#6FC4FF,#8EDBFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -562,17 +580,17 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.45（macOS）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
-    "ios": "v1.43.45（iOS / iPadOS）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
-    "android": "v1.43.45（Android）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
+    "macos": "v1.43.46（macOS）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
+    "ios": "v1.43.46（iOS / iPadOS）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
+    "android": "v1.43.46（Android）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
   },
-  "publishedAt": "2026-11-02T02:15:53Z",
+  "publishedAt": "2026-11-02T02:26:32Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
-      "sha256": "e8a2706b2b8f2aef55540227e3d1ee713082a7e8f3e85733a135de7a2cdfa50f",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
+      "sha256": "f93cd213e04d46e5f64f7e84ef057dd85cd3423eae4960e511a6aece2422370c",
       "minOS": "26.0",
-      "version": "1.43.45",
+      "version": "1.43.46",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -582,10 +600,10 @@
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
-      "sha256": "3d3d1a820b39efe41038c4c87426660cce4a222a8ab3d3c2ade96f0a5426cbf3",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
+      "sha256": "7b19bca18c23121650618f5935fb58fc2ba66ea5c6ed508318f94bbdce0e97c9",
       "minSDK": 31,
-      "version": "1.43.45",
+      "version": "1.43.46",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -598,17 +616,17 @@
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.45",
+      "version": "1.43.46",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip"
   ]
 }
