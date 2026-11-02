@@ -1,7 +1,7 @@
 {
-  "version": "1.43.57",
+  "version": "1.43.58",
   "build": 2000000004,
-  "notes": "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用；用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash；feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换；feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）；feat(agent): [macOS] 设置页新增 API 地址/模型配置区；feat(agent): [iOS] 设置页新增模型选择/配置区",
+  "notes": "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet；fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容",
   "sections": {
     "android": [
       {
@@ -9,25 +9,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-          "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-          "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-          "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-          "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-          "feat(agent): [iOS] 设置页新增模型选择/配置区"
+          "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+          "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.57 · 构建 29893563",
+            "v1.43.58 · 构建 29893578",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -56,25 +48,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-          "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-          "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-          "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-          "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-          "feat(agent): [iOS] 设置页新增模型选择/配置区"
+          "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+          "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.57 · 构建 29893563",
+            "v1.43.58 · 构建 29893578",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -103,25 +87,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-          "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-          "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-          "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-          "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-          "feat(agent): [iOS] 设置页新增模型选择/配置区"
+          "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+          "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.57 · 构建 29893563",
+            "v1.43.58 · 构建 29893578",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -146,13 +122,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#6FC4FF,#8EDBFF,#2E7BFF",
+    "gradient": "#5FB0FF,#6FC4FF,#2E7BFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893563 · 与当前版本同号",
+    "hotfixBadge": "构建 29893578 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -176,25 +152,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-            "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-            "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-            "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-            "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-            "feat(agent): [iOS] 设置页新增模型选择/配置区"
+            "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+            "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.57 · 构建 29893563",
+              "v1.43.58 · 构建 29893578",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -223,25 +191,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-            "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-            "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-            "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-            "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-            "feat(agent): [iOS] 设置页新增模型选择/配置区"
+            "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+            "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.57 · 构建 29893563",
+              "v1.43.58 · 构建 29893578",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -270,25 +230,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-            "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-            "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-            "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-            "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-            "feat(agent): [iOS] 设置页新增模型选择/配置区"
+            "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+            "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.57 · 构建 29893563",
+              "v1.43.58 · 构建 29893578",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -315,16 +267,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893563,
+    "version": 29893578,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#6FC4FF,#8EDBFF,#2E7BFF",
+      "gradient": "#5FB0FF,#6FC4FF,#2E7BFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893563 · 与当前版本同号",
+      "hotfixBadge": "构建 29893578 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -348,25 +300,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-              "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-              "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-              "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-              "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-              "feat(agent): [iOS] 设置页新增模型选择/配置区"
+              "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+              "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.57 · 构建 29893563",
+                "v1.43.58 · 构建 29893578",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -395,25 +339,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-              "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-              "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-              "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-              "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-              "feat(agent): [iOS] 设置页新增模型选择/配置区"
+              "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+              "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.57 · 构建 29893563",
+                "v1.43.58 · 构建 29893578",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -442,25 +378,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用",
-              "用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash",
-              "feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换",
-              "feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）",
-              "feat(agent): [macOS] 设置页新增 API 地址/模型配置区",
-              "feat(agent): [iOS] 设置页新增模型选择/配置区"
+              "fix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet",
+              "fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
             ],
             "images": [
-              "",
-              "",
-              "",
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.57 · 构建 29893563",
+                "v1.43.58 · 构建 29893578",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -487,7 +415,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#4A9FFF,#2E7BFF,#5FB0FF",
+      "gradient": "#2E7BFF,#6FC4FF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -634,53 +562,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.57（macOS）\nfeat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用；用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash；feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换；feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）；feat(agent): [macOS] 设置页新增 API 地址/模型配置区；feat(agent): [iOS] 设置页新增模型选择/配置区",
-    "ios": "v1.43.57（iOS / iPadOS）\nfeat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用；用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash；feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换；feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）；feat(agent): [macOS] 设置页新增 API 地址/模型配置区；feat(agent): [iOS] 设置页新增模型选择/配置区",
-    "android": "v1.43.57（Android）\nfeat(agent): [全端] 内置官方 API Key（混淆存储，未配置也可用；用户自填优先）+ 默认端点/模型升级 agnes-3.0-flash；feat(agent): [全端] 模型自动识别（GET /models 拉取可用列表）+ 设置页模型下拉可切换；feat(agent): [全端] 右键/长按「问智能体」——选中文本即预填提问（不自动发送，不打扰）；feat(agent): [macOS] 设置页新增 API 地址/模型配置区；feat(agent): [iOS] 设置页新增模型选择/配置区"
+    "macos": "v1.43.58（macOS）\nfix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet；fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容",
+    "ios": "v1.43.58（iOS / iPadOS）\nfix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet；fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容",
+    "android": "v1.43.58（Android）\nfix(agent): [macOS/iOS] 修复右键/长按「问智能体」点击无反应——此前只发预填通知、从未打开智能体抽屉/sheet；fix(agent): [macOS/iOS] 预填改双保险（通知 + 本地暂存兜底），抽屉/面板刚打开时不再丢内容"
   },
-  "publishedAt": "2026-11-02T10:03:23Z",
+  "publishedAt": "2026-11-02T10:18:30Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-macOS.zip",
-      "sha256": "e59c713c94d4fba7b9337f5d724a60be96756401672f249ae67ea92a49aa7cdb",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-macOS.zip",
+      "sha256": "991f5c3eea97b9c9b5fada1ec2335725f4c5bd61b63b6c26d16cb64c1b508930",
       "minOS": "26.0",
-      "version": "1.43.57",
+      "version": "1.43.58",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.56",
+        "fromVersion": "1.43.57",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/delta-macOS-v1.43.56-v1.43.57.patch",
-        "patchSha256": "519cebcfe77fdeb23dc416df88bfd7d194564dc4f1a54d1ab02cf6f60d04459d"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/delta-macOS-v1.43.57-v1.43.58.patch",
+        "patchSha256": "b79a46b612db21ebcef8cc140901ffa5ed9ffbe87c4d473e0932452f58865daa"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-Android.apk",
-      "sha256": "7b0a8d8586aae56147fea2179f877b16ce2d2afee8749acf4a6556185764bb3d",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-Android.apk",
+      "sha256": "d7939e1b26c3f4a2bc0899fd5f6afdf55ab610156efed85e716dea03bfc094b4",
       "minSDK": 31,
-      "version": "1.43.57",
+      "version": "1.43.58",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.56",
+        "fromVersion": "1.43.57",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/delta-v1.43.56-v1.43.57.patch",
-        "patchSha256": "75d63865de72ad85c79e56afccaa18dbd1400a443b0b02e17aa0a3a0dd179776"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/delta-v1.43.57-v1.43.58.patch",
+        "patchSha256": "987b830681e4c7192cb8c1a1ad7b1c13f000424abe6e117a58b3fe54b9f37a85"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.57",
+      "version": "1.43.58",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.57/v1.43.57-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.58/v1.43.58-macOS.zip"
   ]
 }
