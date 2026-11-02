@@ -1,7 +1,7 @@
 {
-  "version": "1.43.49",
+  "version": "1.43.50",
   "build": 2000000004,
-  "notes": "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
+  "notes": "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准；机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）；feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见；feat(mobile): 收藏面板移动端全屏自适应",
   "sections": {
     "android": [
       {
@@ -9,11 +9,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+          "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+          "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+          "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+          "feat(mobile): 收藏面板移动端全屏自适应"
         ],
         "images": [
+          "",
           "",
           "",
           ""
@@ -21,7 +23,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.49 · 构建 29893167",
+            "v1.43.50 · 构建 29893186",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,11 +52,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+          "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+          "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+          "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+          "feat(mobile): 收藏面板移动端全屏自适应"
         ],
         "images": [
+          "",
           "",
           "",
           ""
@@ -62,7 +66,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.49 · 构建 29893167",
+            "v1.43.50 · 构建 29893186",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,11 +95,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+          "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+          "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+          "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+          "feat(mobile): 收藏面板移动端全屏自适应"
         ],
         "images": [
+          "",
           "",
           "",
           ""
@@ -103,7 +109,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.49 · 构建 29893167",
+            "v1.43.50 · 构建 29893186",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +134,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
+    "gradient": "#6FC4FF,#8EDBFF,#2E7BFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893167 · 与当前版本同号",
+    "hotfixBadge": "构建 29893186 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,11 +164,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+            "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+            "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+            "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+            "feat(mobile): 收藏面板移动端全屏自适应"
           ],
           "images": [
+            "",
             "",
             "",
             ""
@@ -170,7 +178,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.49 · 构建 29893167",
+              "v1.43.50 · 构建 29893186",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,11 +207,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+            "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+            "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+            "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+            "feat(mobile): 收藏面板移动端全屏自适应"
           ],
           "images": [
+            "",
             "",
             "",
             ""
@@ -211,7 +221,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.49 · 构建 29893167",
+              "v1.43.50 · 构建 29893186",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,11 +250,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+            "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+            "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+            "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+            "feat(mobile): 收藏面板移动端全屏自适应"
           ],
           "images": [
+            "",
             "",
             "",
             ""
@@ -252,7 +264,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.49 · 构建 29893167",
+              "v1.43.50 · 构建 29893186",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +291,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893167,
+    "version": 29893186,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
+      "gradient": "#6FC4FF,#8EDBFF,#2E7BFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893167 · 与当前版本同号",
+      "hotfixBadge": "构建 29893186 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,11 +324,13 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+              "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+              "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+              "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+              "feat(mobile): 收藏面板移动端全屏自适应"
             ],
             "images": [
+              "",
               "",
               "",
               ""
@@ -324,7 +338,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.49 · 构建 29893167",
+                "v1.43.50 · 构建 29893186",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,11 +367,13 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+              "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+              "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+              "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+              "feat(mobile): 收藏面板移动端全屏自适应"
             ],
             "images": [
+              "",
               "",
               "",
               ""
@@ -365,7 +381,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.49 · 构建 29893167",
+                "v1.43.50 · 构建 29893186",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,11 +410,13 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
-              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
-              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+              "fix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准",
+              "机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）",
+              "feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见",
+              "feat(mobile): 收藏面板移动端全屏自适应"
             ],
             "images": [
+              "",
               "",
               "",
               ""
@@ -406,7 +424,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.49 · 构建 29893167",
+                "v1.43.50 · 构建 29893186",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -433,7 +451,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#8EDBFF,#6FC4FF,#5FB0FF",
+      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -580,53 +598,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.49（macOS）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
-    "ios": "v1.43.49（iOS / iPadOS）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
-    "android": "v1.43.49（Android）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
+    "macos": "v1.43.50（macOS）\nfix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准；机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）；feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见；feat(mobile): 收藏面板移动端全屏自适应",
+    "ios": "v1.43.50（iOS / iPadOS）\nfix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准；机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）；feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见；feat(mobile): 收藏面板移动端全屏自适应",
+    "android": "v1.43.50（Android）\nfix(update): 增量更新跑不通根因修复——安装成功后基准包留存（baseline-version.zip），下次 delta 按版本取基准；机制完全照搬移动端（fromBuild 匹配 + 基准字节合成 + SHA 校验）；feat(bookmarks): 新增「全部收藏」面板入口（收藏栏末尾书本图标）——搜索、点击打开、删除管理，此前超出前 12 条的收藏无 UI 可见；feat(mobile): 收藏面板移动端全屏自适应"
   },
-  "publishedAt": "2026-11-02T03:27:26Z",
+  "publishedAt": "2026-11-02T03:46:23Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
-      "sha256": "6fb0c312e2531a637df6996a91fb5412c3f90e0ab188a4eb7302079de44908e2",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-macOS.zip",
+      "sha256": "cec02836c56b3dc7ca1d814c02d96eeb321f93e6218579b1a18aa52d96b5a42b",
       "minOS": "26.0",
-      "version": "1.43.49",
+      "version": "1.43.50",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.48",
+        "fromVersion": "1.43.49",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/delta-macOS-v1.43.48-v1.43.49.patch",
-        "patchSha256": "9c9dc36aac666a211aeaecb9b46c199735c6b84f9027d57e02e0a5b1ca08b6c3"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/delta-macOS-v1.43.49-v1.43.50.patch",
+        "patchSha256": "7b9b07ea0fc6a142494d2db61b64d452aa4022f25675eff755da6c43399ab5fe"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
-      "sha256": "e3c23f81cd8ff3f9ab9aceb050c2c0543b53e560154f7cd8d3ebfe41ecfd43fa",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-Android.apk",
+      "sha256": "ff9afc871ac64b87385372bec7f81424f3525c320f9ea3935df8f3d4e19a48af",
       "minSDK": 31,
-      "version": "1.43.49",
+      "version": "1.43.50",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.48",
+        "fromVersion": "1.43.49",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/delta-v1.43.48-v1.43.49.patch",
-        "patchSha256": "57b8af6d6027c92c882516778fe402e3e178f36eb536a9322d33030c5c4c4a6d"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/delta-v1.43.49-v1.43.50.patch",
+        "patchSha256": "5009929497b16bbd3d7759d177905dd69a21c28ab962b6b002ef6428d66e1eef"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.49",
+      "version": "1.43.50",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.50/v1.43.50-macOS.zip"
   ]
 }
