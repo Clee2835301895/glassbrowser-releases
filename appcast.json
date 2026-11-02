@@ -1,7 +1,7 @@
 {
-  "version": "1.43.46",
+  "version": "1.43.47",
   "build": 2000000004,
-  "notes": "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
+  "notes": "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）；feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）；feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）",
   "sections": {
     "android": [
       {
@@ -9,9 +9,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+          "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+          "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+          "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
         ],
         "images": [
           "",
@@ -21,7 +21,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.46 · 构建 29893106",
+            "v1.43.47 · 构建 29893139",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,9 +50,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+          "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+          "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+          "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
         ],
         "images": [
           "",
@@ -62,7 +62,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.46 · 构建 29893106",
+            "v1.43.47 · 构建 29893139",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,9 +91,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-          "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-          "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+          "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+          "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+          "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
         ],
         "images": [
           "",
@@ -103,7 +103,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.46 · 构建 29893106",
+            "v1.43.47 · 构建 29893139",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#8EDBFF,#6FC4FF",
+    "gradient": "#2E7BFF,#8EDBFF,#5FB0FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893106 · 与当前版本同号",
+    "hotfixBadge": "构建 29893139 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,9 +158,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+            "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+            "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+            "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
           ],
           "images": [
             "",
@@ -170,7 +170,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.46 · 构建 29893106",
+              "v1.43.47 · 构建 29893139",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,9 +199,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+            "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+            "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+            "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
           ],
           "images": [
             "",
@@ -211,7 +211,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.46 · 构建 29893106",
+              "v1.43.47 · 构建 29893139",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,9 +240,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-            "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-            "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+            "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+            "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+            "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
           ],
           "images": [
             "",
@@ -252,7 +252,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.46 · 构建 29893106",
+              "v1.43.47 · 构建 29893139",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893106,
+    "version": 29893139,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#8EDBFF,#6FC4FF",
+      "gradient": "#2E7BFF,#8EDBFF,#5FB0FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893106 · 与当前版本同号",
+      "hotfixBadge": "构建 29893139 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,9 +312,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+              "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+              "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+              "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
             ],
             "images": [
               "",
@@ -324,7 +324,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.46 · 构建 29893106",
+                "v1.43.47 · 构建 29893139",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,9 +353,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+              "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+              "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+              "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
             ],
             "images": [
               "",
@@ -365,7 +365,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.46 · 构建 29893106",
+                "v1.43.47 · 构建 29893139",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,9 +394,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签",
-              "fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住",
-              "feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+              "fix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）",
+              "feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）",
+              "feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
             ],
             "images": [
               "",
@@ -406,7 +406,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.46 · 构建 29893106",
+                "v1.43.47 · 构建 29893139",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -433,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#6FC4FF,#8EDBFF,#5FB0FF",
+      "gradient": "#2E7BFF,#4A9FFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -580,53 +580,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.46（macOS）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
-    "ios": "v1.43.46（iOS / iPadOS）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用",
-    "android": "v1.43.46（Android）\nfix(tabs): 关闭按钮事件解耦（overlay 叠加），关闭点哪个就关哪个、不再无反应或误触相邻标签；fix(nav): 刷新可靠化——真实加载状态判定 + reload 兜底，不再被卡住的进度条挡住；feat(web): 现代网页能力放开（自动播放/内联播放/画中画/全屏 API/WebRTC），先进网页正常渲染与调用"
+    "macos": "v1.43.47（macOS）\nfix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）；feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）；feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）",
+    "ios": "v1.43.47（iOS / iPadOS）\nfix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）；feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）；feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）",
+    "android": "v1.43.47（Android）\nfix(tabs): 关闭标签后页面残留修复（订阅链直连 TabManager + 释放链加固，关闭即真正消失）；feat(privacy): 站点权限全链路完善（摄像头/麦克风/定位/通知按站点记忆，多平台适配）；feat(notify): 网页 Notification 接入系统通知（权限弹窗/点击回页面/标签关闭自动清理）"
   },
-  "publishedAt": "2026-11-02T02:26:32Z",
+  "publishedAt": "2026-11-02T02:59:51Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
-      "sha256": "f93cd213e04d46e5f64f7e84ef057dd85cd3423eae4960e511a6aece2422370c",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-macOS.zip",
+      "sha256": "3f8fa31d290856efe3a70d621ba709b75dd3bfb08e99f7f2f5e8d33bd3f03996",
       "minOS": "26.0",
-      "version": "1.43.46",
+      "version": "1.43.47",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.45",
+        "fromVersion": "1.43.46",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/delta-macOS-v1.43.45-v1.43.46.patch",
-        "patchSha256": "cbfe955278236caef1bf379d9e0a2f9edca32d0deb91db92a543c0c5665f5042"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/delta-macOS-v1.43.46-v1.43.47.patch",
+        "patchSha256": "cf0894d894e6c0d4cccbab3d28867f200cc9631fbe3930350c15f408e14a9585"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
-      "sha256": "7b19bca18c23121650618f5935fb58fc2ba66ea5c6ed508318f94bbdce0e97c9",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-Android.apk",
+      "sha256": "4a661c87cc81f813f57f32650aedfcf83f326dba64751fd239a608dd943c12ba",
       "minSDK": 31,
-      "version": "1.43.46",
+      "version": "1.43.47",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.45",
+        "fromVersion": "1.43.46",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/delta-v1.43.45-v1.43.46.patch",
-        "patchSha256": "f592e087f9808240779d20a0281000ada7c54d942f515253872f9a2a9a33d299"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/delta-v1.43.46-v1.43.47.patch",
+        "patchSha256": "922b3c1951a4b336ac04525aa6e69ada5e9265d153b5e433047082fd4519f9ea"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.46",
+      "version": "1.43.47",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.46/v1.43.46-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.47/v1.43.47-macOS.zip"
   ]
 }
