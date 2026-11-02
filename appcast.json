@@ -1,7 +1,7 @@
 {
-  "version": "1.43.51",
+  "version": "1.43.52",
   "build": 2000000004,
-  "notes": "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口；Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）；fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复；feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）",
+  "notes": "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
   "sections": {
     "android": [
       {
@@ -9,13 +9,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-          "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-          "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-          "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
         ],
         "images": [
-          "",
           "",
           "",
           ""
@@ -23,7 +21,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.51 · 构建 29893304",
+            "v1.43.52 · 构建 29893464",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -52,13 +50,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-          "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-          "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-          "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
         ],
         "images": [
-          "",
           "",
           "",
           ""
@@ -66,7 +62,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.51 · 构建 29893304",
+            "v1.43.52 · 构建 29893464",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -95,13 +91,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-          "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-          "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-          "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
         ],
         "images": [
-          "",
           "",
           "",
           ""
@@ -109,7 +103,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.51 · 构建 29893304",
+            "v1.43.52 · 构建 29893464",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -134,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#6FC4FF,#2E7BFF,#5FB0FF",
+    "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893304 · 与当前版本同号",
+    "hotfixBadge": "构建 29893464 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -164,13 +158,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-            "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-            "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-            "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
           ],
           "images": [
-            "",
             "",
             "",
             ""
@@ -178,7 +170,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.51 · 构建 29893304",
+              "v1.43.52 · 构建 29893464",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -207,13 +199,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-            "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-            "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-            "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
           ],
           "images": [
-            "",
             "",
             "",
             ""
@@ -221,7 +211,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.51 · 构建 29893304",
+              "v1.43.52 · 构建 29893464",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -250,13 +240,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-            "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-            "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-            "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
           ],
           "images": [
-            "",
             "",
             "",
             ""
@@ -264,7 +252,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.51 · 构建 29893304",
+              "v1.43.52 · 构建 29893464",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -291,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893304,
+    "version": 29893464,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#6FC4FF,#2E7BFF,#5FB0FF",
+      "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893304 · 与当前版本同号",
+      "hotfixBadge": "构建 29893464 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -324,13 +312,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-              "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-              "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-              "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
             ],
             "images": [
-              "",
               "",
               "",
               ""
@@ -338,7 +324,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.51 · 构建 29893304",
+                "v1.43.52 · 构建 29893464",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -367,13 +353,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-              "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-              "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-              "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
             ],
             "images": [
-              "",
               "",
               "",
               ""
@@ -381,7 +365,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.51 · 构建 29893304",
+                "v1.43.52 · 构建 29893464",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -410,13 +394,11 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "fix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口",
-              "Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）",
-              "fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复",
-              "feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
+              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
+              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
             ],
             "images": [
-              "",
               "",
               "",
               ""
@@ -424,7 +406,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.51 · 构建 29893304",
+                "v1.43.52 · 构建 29893464",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -451,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#8EDBFF,#6FC4FF,#5FB0FF",
+      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -598,53 +580,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.51（macOS）\nfix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口；Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）；fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复；feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）",
-    "ios": "v1.43.51（iOS / iPadOS）\nfix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口；Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）；fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复；feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）",
-    "android": "v1.43.51（Android）\nfix(bookmarks): 移动端收藏功能修复——iOS 地址栏补收藏星标入口；Android 星标改收藏/取消切换并状态化（黄星=已收藏，此前只能加不能取消且无反馈）；fix(update): iOS 端 FTP 下载通道平台适配（iOS 无子进程能力直接走 http 回退）、Swift 并发告警修复；feat(mobile): 移动端地址栏/标签二合一确认落地（Android 二合一顶栏 + iOS 融合毛玻璃顶栏）"
+    "macos": "v1.43.52（macOS）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
+    "ios": "v1.43.52（iOS / iPadOS）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
+    "android": "v1.43.52（Android）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
   },
-  "publishedAt": "2026-11-02T05:44:29Z",
+  "publishedAt": "2026-11-02T08:24:57Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-macOS.zip",
-      "sha256": "889dff12dfb905fd88419e23f0b3cb6c02aee61c90d6b5cbf40812bb1e83e89b",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
+      "sha256": "0ce65f08e8272e2e99940335ded2d82efc4d45921695e185e7c432f456e4d4e4",
       "minOS": "26.0",
-      "version": "1.43.51",
+      "version": "1.43.52",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.50",
+        "fromVersion": "1.43.51",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/delta-macOS-v1.43.50-v1.43.51.patch",
-        "patchSha256": "bb16512ae5ed12c0ac483570d6a7de705ab08d15405df4fb6d2fb1c1c4c906eb"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/delta-macOS-v1.43.51-v1.43.52.patch",
+        "patchSha256": "a64562f465445a109a9a6bf312a2a61d7d4b076f7818a4a960462d8e2187c058"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-Android.apk",
-      "sha256": "3aff16f489250c0c814ba67c9539d9b88720a19cd04083ea33bf9548627b3b27",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
+      "sha256": "b812fa0f8777df5a0587b1e6c2ae2f5d343c95e64fc211495e70162c2cc60cd9",
       "minSDK": 31,
-      "version": "1.43.51",
+      "version": "1.43.52",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.50",
+        "fromVersion": "1.43.51",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/delta-v1.43.50-v1.43.51.patch",
-        "patchSha256": "57783d6e3e109a6bdbd5bccfee18c1569dd824d217c05b41b15c6f82a03c2c96"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/delta-v1.43.51-v1.43.52.patch",
+        "patchSha256": "f670e9d3a6384db9c0cfc13072fdacc06db52ab1e9867c2a751cb61e3caeb1fa"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.51",
+      "version": "1.43.52",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.51/v1.43.51-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip"
   ]
 }
