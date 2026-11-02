@@ -1,7 +1,7 @@
 {
-  "version": "1.43.44",
+  "version": "1.43.45",
   "build": 2000000004,
-  "notes": "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
+  "notes": "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
   "sections": {
     "android": [
       {
@@ -9,19 +9,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-          "docs清单: 修正 18 项已实现却标未实现的失真条目"
+          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.44 · 构建 29893084",
+            "v1.43.45 · 构建 29893095",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,19 +48,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-          "docs清单: 修正 18 项已实现却标未实现的失真条目"
+          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.44 · 构建 29893084",
+            "v1.43.45 · 构建 29893095",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,19 +87,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-          "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-          "docs清单: 修正 18 项已实现却标未实现的失真条目"
+          "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+          "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.44 · 构建 29893084",
+            "v1.43.45 · 构建 29893095",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +122,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
+    "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893084 · 与当前版本同号",
+    "hotfixBadge": "构建 29893095 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,19 +152,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-            "docs清单: 修正 18 项已实现却标未实现的失真条目"
+            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.44 · 构建 29893084",
+              "v1.43.45 · 构建 29893095",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,19 +191,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-            "docs清单: 修正 18 项已实现却标未实现的失真条目"
+            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.44 · 构建 29893084",
+              "v1.43.45 · 构建 29893095",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,19 +230,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-            "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-            "docs清单: 修正 18 项已实现却标未实现的失真条目"
+            "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+            "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.44 · 构建 29893084",
+              "v1.43.45 · 构建 29893095",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +267,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893084,
+    "version": 29893095,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#4A9FFF,#5FB0FF,#6FC4FF",
+      "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893084 · 与当前版本同号",
+      "hotfixBadge": "构建 29893095 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,19 +300,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-              "docs清单: 修正 18 项已实现却标未实现的失真条目"
+              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.44 · 构建 29893084",
+                "v1.43.45 · 构建 29893095",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,19 +339,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-              "docs清单: 修正 18 项已实现却标未实现的失真条目"
+              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.44 · 构建 29893084",
+                "v1.43.45 · 构建 29893095",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,19 +378,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）",
-              "feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）",
-              "docs清单: 修正 18 项已实现却标未实现的失真条目"
+              "fix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）",
+              "fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.44 · 构建 29893084",
+                "v1.43.45 · 构建 29893095",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -580,17 +562,17 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.44（macOS）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
-    "ios": "v1.43.44（iOS / iPadOS）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目",
-    "android": "v1.43.44（Android）\nfeat(settings): JS 开关/HTTPS 优先/文字大小/强制夜间/自动清理 五项设置真实生效（不再是摆设）；feat(content): 保存网页 PDF/查看源码/打印/系统分享/标签静音/历史导出 六个命令落地（菜单+命令面板）；docs清单: 修正 18 项已实现却标未实现的失真条目"
+    "macos": "v1.43.45（macOS）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
+    "ios": "v1.43.45（iOS / iPadOS）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）",
+    "android": "v1.43.45（Android）\nfix(settings): 主题/玻璃强度切换即时生效（外观订阅根接入，不再是改了不刷新的空壳）；fix(tabs): 标签上限消费云控 tabLimit（Apple 端不再硬编码 10）"
   },
-  "publishedAt": "2026-11-02T02:04:41Z",
+  "publishedAt": "2026-11-02T02:15:53Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
-      "sha256": "34abdfa63b0dcf64be463c8283a797f0f1271afad98b7d8f1b8126d89a2dc2d2",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
+      "sha256": "e8a2706b2b8f2aef55540227e3d1ee713082a7e8f3e85733a135de7a2cdfa50f",
       "minOS": "26.0",
-      "version": "1.43.44",
+      "version": "1.43.45",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -600,10 +582,10 @@
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
-      "sha256": "c51bde5867ac61726e55819206e898c47bb5a04dae3fdcbafb4dfcef95c13ad8",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
+      "sha256": "3d3d1a820b39efe41038c4c87426660cce4a222a8ab3d3c2ade96f0a5426cbf3",
       "minSDK": 31,
-      "version": "1.43.44",
+      "version": "1.43.45",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.41",
@@ -616,17 +598,17 @@
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.44",
+      "version": "1.43.45",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.44/v1.43.44-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.45/v1.43.45-macOS.zip"
   ]
 }
