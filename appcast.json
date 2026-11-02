@@ -1,7 +1,7 @@
 {
-  "version": "1.43.52",
+  "version": "1.43.54",
   "build": 2000000004,
-  "notes": "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
+  "notes": "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
   "sections": {
     "android": [
       {
@@ -9,19 +9,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.52 · 构建 29893464",
+            "v1.43.54 · 构建 29893480",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,19 +48,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.52 · 构建 29893464",
+            "v1.43.54 · 构建 29893480",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,19 +87,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-          "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-          "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+          "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+          "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.52 · 构建 29893464",
+            "v1.43.54 · 构建 29893480",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +122,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
+    "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893464 · 与当前版本同号",
+    "hotfixBadge": "构建 29893480 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,19 +152,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.52 · 构建 29893464",
+              "v1.43.54 · 构建 29893480",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,19 +191,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.52 · 构建 29893464",
+              "v1.43.54 · 构建 29893480",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,19 +230,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-            "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-            "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+            "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+            "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.52 · 构建 29893464",
+              "v1.43.54 · 构建 29893480",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +267,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893464,
+    "version": 29893480,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#5FB0FF,#4A9FFF,#8EDBFF",
+      "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893464 · 与当前版本同号",
+      "hotfixBadge": "构建 29893480 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,19 +300,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.52 · 构建 29893464",
+                "v1.43.54 · 构建 29893480",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,19 +339,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.52 · 构建 29893464",
+                "v1.43.54 · 构建 29893480",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,19 +378,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示",
-              "feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮",
-              "fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+              "feat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签",
+              "feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
             ],
             "images": [
-              "",
               "",
               ""
             ],
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.52 · 构建 29893464",
+                "v1.43.54 · 构建 29893480",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -433,7 +415,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#4A9FFF,#8EDBFF,#5FB0FF",
+      "gradient": "#4A9FFF,#6FC4FF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -580,17 +562,17 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.52（macOS）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
-    "ios": "v1.43.52（iOS / iPadOS）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点",
-    "android": "v1.43.52（Android）\nfeat(ui): 顶栏改造——返回/前进一对箭头置顶栏最左（双端统一），标签居左与地址输入融合显示；feat(bookmarks): 完善收藏——macOS 收藏栏右键直接管理（打开/删除），Android 底栏新增书签直达按钮；fix(update): 增量更新保证加固——安装成功后自检基准包留存（失败即时诊断上报），基准链零断点"
+    "macos": "v1.43.54（macOS）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
+    "ios": "v1.43.54（iOS / iPadOS）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化",
+    "android": "v1.43.54（Android）\nfeat(ui): 二合一顶栏全端统一 + 侧栏浮层 + 更新页默认日志 + beta 标签；feat(ui): mac 去侧边栏二合一顶栏 + 低栏拖动自定义 + 关于页移除 + 设置卡片化"
   },
-  "publishedAt": "2026-11-02T08:24:57Z",
+  "publishedAt": "2026-11-02T08:40:22Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
-      "sha256": "0ce65f08e8272e2e99940335ded2d82efc4d45921695e185e7c432f456e4d4e4",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-macOS.zip",
+      "sha256": "6606ebd1f60a9e5e638adad696f9a4d44d152945bf9c5826f20bcbc14a19da80",
       "minOS": "26.0",
-      "version": "1.43.52",
+      "version": "1.43.54",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.51",
@@ -600,10 +582,10 @@
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
-      "sha256": "b812fa0f8777df5a0587b1e6c2ae2f5d343c95e64fc211495e70162c2cc60cd9",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-Android.apk",
+      "sha256": "fe25e180cc471e3bb12d42ca0106b9912670a3739c7d9a2f2306efd3b5c36762",
       "minSDK": 31,
-      "version": "1.43.52",
+      "version": "1.43.54",
       "build": 2000000004,
       "delta": {
         "fromVersion": "1.43.51",
@@ -616,17 +598,17 @@
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.52",
+      "version": "1.43.54",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/v1.43.52-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.54/v1.43.54-macOS.zip"
   ]
 }
