@@ -1,7 +1,7 @@
 {
-  "version": "1.43.55",
+  "version": "1.43.56",
   "build": 2000000004,
-  "notes": "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本；feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页；feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏",
+  "notes": "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本；feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）；feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到；feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）",
   "sections": {
     "android": [
       {
@@ -9,11 +9,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-          "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-          "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+          "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+          "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+          "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+          "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
         ],
         "images": [
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -21,7 +27,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.55 · 构建 29893511",
+            "v1.43.56 · 构建 29893537",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,11 +56,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-          "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-          "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+          "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+          "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+          "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+          "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
         ],
         "images": [
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -62,7 +74,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.55 · 构建 29893511",
+            "v1.43.56 · 构建 29893537",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,11 +103,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-          "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-          "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+          "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+          "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+          "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+          "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+          "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
         ],
         "images": [
+          "",
+          "",
+          "",
           "",
           "",
           ""
@@ -103,7 +121,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.55 · 构建 29893511",
+            "v1.43.56 · 构建 29893537",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +146,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#8EDBFF,#6FC4FF,#4A9FFF",
+    "gradient": "#8EDBFF,#4A9FFF,#6FC4FF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893511 · 与当前版本同号",
+    "hotfixBadge": "构建 29893537 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,11 +176,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-            "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-            "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+            "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+            "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+            "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+            "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
           ],
           "images": [
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -170,7 +194,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.55 · 构建 29893511",
+              "v1.43.56 · 构建 29893537",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,11 +223,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-            "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-            "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+            "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+            "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+            "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+            "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
           ],
           "images": [
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -211,7 +241,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.55 · 构建 29893511",
+              "v1.43.56 · 构建 29893537",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,11 +270,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-            "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-            "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+            "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+            "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+            "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+            "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+            "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
           ],
           "images": [
+            "",
+            "",
+            "",
             "",
             "",
             ""
@@ -252,7 +288,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.55 · 构建 29893511",
+              "v1.43.56 · 构建 29893537",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +315,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893511,
+    "version": 29893537,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#8EDBFF,#6FC4FF,#4A9FFF",
+      "gradient": "#8EDBFF,#4A9FFF,#6FC4FF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893511 · 与当前版本同号",
+      "hotfixBadge": "构建 29893537 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,11 +348,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-              "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-              "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+              "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+              "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+              "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+              "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
             ],
             "images": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -324,7 +366,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.55 · 构建 29893511",
+                "v1.43.56 · 构建 29893537",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,11 +395,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-              "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-              "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+              "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+              "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+              "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+              "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
             ],
             "images": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -365,7 +413,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.55 · 构建 29893511",
+                "v1.43.56 · 构建 29893537",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,11 +442,17 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本",
-              "feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页",
-              "feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+              "feat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本",
+              "feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）",
+              "feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏",
+              "feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到",
+              "feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
             ],
             "images": [
+              "",
+              "",
+              "",
               "",
               "",
               ""
@@ -406,7 +460,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.55 · 构建 29893511",
+                "v1.43.56 · 构建 29893537",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -433,7 +487,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#6FC4FF,#2E7BFF,#5FB0FF",
+      "gradient": "#4A9FFF,#2E7BFF,#8EDBFF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -580,53 +634,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.55（macOS）\nfeat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本；feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页；feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏",
-    "ios": "v1.43.55（iOS / iPadOS）\nfeat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本；feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页；feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏",
-    "android": "v1.43.55（Android）\nfeat(context-menu): mac 网页右键补全 8 项——后退/前进/重新加载/收藏此页/大声朗读/翻译页面/打印/搜索所选文本；feat(context-menu): mac 标签右键新增——关闭其他标签、关闭右侧标签、复制标签地址、收藏此页；feat(bookmarks): 收藏入口显性化——地址栏星标、收藏栏、侧栏书签、全部收藏面板、网页/标签右键均可收藏"
+    "macos": "v1.43.56（macOS）\nfeat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本；feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）；feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到；feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）",
+    "ios": "v1.43.56（iOS / iPadOS）\nfeat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本；feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）；feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到；feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）",
+    "android": "v1.43.56（Android）\nfeat(context-menu): [Android] 网页长按补分享链接/收藏此页/搜索所选文本；feat(context-menu): [Android] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [iOS] 页面级长按 8 项对齐 mac（后退/前进/刷新/收藏/朗读/翻译/打印/搜索）；feat(context-menu): [iOS] 标签长按菜单——关闭其他/关闭右侧/复制地址/收藏；feat(context-menu): [macOS] 地址栏右键——剪切/复制/粘贴/全选/粘贴并转到；feat(agent): [Android] 智能体朗读与翻译落地——TextToSpeech 直读正文、Agnes 单轮翻译开译文页（此前回调为空操作）"
   },
-  "publishedAt": "2026-11-02T09:11:59Z",
+  "publishedAt": "2026-11-02T09:37:00Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-macOS.zip",
-      "sha256": "62155d7e9fb914c41c8e14a60133dd16fc5df225fc5fe67da9cecbea1edd212e",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-macOS.zip",
+      "sha256": "4c2984781b2d6ad76cf4539187350e371fe1c1804551134d0c80e6df5477f73a",
       "minOS": "26.0",
-      "version": "1.43.55",
+      "version": "1.43.56",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.54",
+        "fromVersion": "1.43.55",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/delta-macOS-v1.43.54-v1.43.55.patch",
-        "patchSha256": "d62fee6ba82fa7c4a5d598c3a6155867ac6db41f1646954d0cc8b7595e461799"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/delta-macOS-v1.43.55-v1.43.56.patch",
+        "patchSha256": "c2608612f409b5f8d89338bff7b430aec9167af62ccd7be3e2b314b4dc571fd3"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-Android.apk",
-      "sha256": "137939a3920377bbd108461a1b9b78c453ccad017a67d542a4d3777f835bb7a9",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-Android.apk",
+      "sha256": "dcbac5fd7ab12eda0b3122dba32e41257ab3a4613e3388d8eaab376e3cf3ddba",
       "minSDK": 31,
-      "version": "1.43.55",
+      "version": "1.43.56",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.51",
+        "fromVersion": "1.43.55",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.52/delta-v1.43.51-v1.43.52.patch",
-        "patchSha256": "f670e9d3a6384db9c0cfc13072fdacc06db52ab1e9867c2a751cb61e3caeb1fa"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/delta-v1.43.55-v1.43.56.patch",
+        "patchSha256": "7f99a7c72c83f6798269e3cfd6444988fb317ce1e3ca777044288254c308d81e"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.55",
+      "version": "1.43.56",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.55/v1.43.55-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.56/v1.43.56-macOS.zip"
   ]
 }
