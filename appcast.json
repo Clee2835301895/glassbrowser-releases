@@ -1,7 +1,7 @@
 {
-  "version": "1.43.48",
+  "version": "1.43.49",
   "build": 2000000004,
-  "notes": "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）；feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）；feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态",
+  "notes": "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
   "sections": {
     "android": [
       {
@@ -9,9 +9,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-          "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-          "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
         ],
         "images": [
           "",
@@ -21,7 +21,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.48 · 构建 29893152",
+            "v1.43.49 · 构建 29893167",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -50,9 +50,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-          "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-          "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
         ],
         "images": [
           "",
@@ -62,7 +62,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.48 · 构建 29893152",
+            "v1.43.49 · 构建 29893167",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -91,9 +91,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-          "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-          "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+          "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+          "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+          "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
         ],
         "images": [
           "",
@@ -103,7 +103,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.43.48 · 构建 29893152",
+            "v1.43.49 · 构建 29893167",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -128,13 +128,13 @@
     ]
   },
   "updatePage": {
-    "gradient": "#8EDBFF,#4A9FFF,#6FC4FF",
+    "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
     "headerTitleHasUpdate": "发现新版本",
     "headerTitleHotfix": "热修更新",
     "headerTitleLatest": "版本检查",
     "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
     "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-    "hotfixBadge": "构建 29893152 · 与当前版本同号",
+    "hotfixBadge": "构建 29893167 · 与当前版本同号",
     "stability": "beta",
     "buttonTextHasUpdate": "立即下载安装",
     "buttonTextLatest": "检查更新",
@@ -158,9 +158,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-            "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-            "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
           ],
           "images": [
             "",
@@ -170,7 +170,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.48 · 构建 29893152",
+              "v1.43.49 · 构建 29893167",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -199,9 +199,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-            "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-            "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
           ],
           "images": [
             "",
@@ -211,7 +211,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.48 · 构建 29893152",
+              "v1.43.49 · 构建 29893167",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -240,9 +240,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-            "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-            "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+            "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+            "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+            "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
           ],
           "images": [
             "",
@@ -252,7 +252,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.43.48 · 构建 29893152",
+              "v1.43.49 · 构建 29893167",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -279,16 +279,16 @@
     "downloadMode": "app"
   },
   "uiConfig": {
-    "version": 29893152,
+    "version": 29893167,
     "rollout": 1.0,
     "updatePage": {
-      "gradient": "#8EDBFF,#4A9FFF,#6FC4FF",
+      "gradient": "#5FB0FF,#6FC4FF,#8EDBFF",
       "headerTitleHasUpdate": "发现新版本",
       "headerTitleHotfix": "热修更新",
       "headerTitleLatest": "版本检查",
       "subtitleHasUpdate": "更新包 187MB · 下载后自动校验并安装",
       "subtitleHotfix": "更新包 187MB · 热修同版本，下载后自动校验并安装",
-      "hotfixBadge": "构建 29893152 · 与当前版本同号",
+      "hotfixBadge": "构建 29893167 · 与当前版本同号",
       "stability": "beta",
       "buttonTextHasUpdate": "立即下载安装",
       "buttonTextLatest": "检查更新",
@@ -312,9 +312,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-              "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-              "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
             ],
             "images": [
               "",
@@ -324,7 +324,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.48 · 构建 29893152",
+                "v1.43.49 · 构建 29893167",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -353,9 +353,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-              "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-              "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
             ],
             "images": [
               "",
@@ -365,7 +365,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.48 · 构建 29893152",
+                "v1.43.49 · 构建 29893167",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -394,9 +394,9 @@
             "tint": "#FF7A59",
             "interactive": "drag-flip",
             "items": [
-              "feat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）",
-              "feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）",
-              "feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+              "fix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡",
+              "feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）",
+              "feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
             ],
             "images": [
               "",
@@ -406,7 +406,7 @@
             "back": {
               "title": "版本信息",
               "items": [
-                "v1.43.48 · 构建 29893152",
+                "v1.43.49 · 构建 29893167",
                 "更新失败会自动重试，进度不会回退",
                 "安装成功后自动清理安装包，不占存储"
               ]
@@ -433,7 +433,7 @@
       "downloadMode": "app"
     },
     "settingsPage": {
-      "gradient": "#8EDBFF,#4A9FFF,#2E7BFF",
+      "gradient": "#8EDBFF,#6FC4FF,#5FB0FF",
       "headerTitle": "设置",
       "subtitle": "玻璃浏览器 · 液态玻璃四端",
       "stability": "beta",
@@ -580,53 +580,53 @@
     }
   },
   "notesByPlatform": {
-    "macos": "v1.43.48（macOS）\nfeat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）；feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）；feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态",
-    "ios": "v1.43.48（iOS / iPadOS）\nfeat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）；feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）；feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态",
-    "android": "v1.43.48（Android）\nfeat(mobile): 移动端渲染优化（安全区不变形/清透背景防白闪/长按预览/滑动收键盘/弹性滚动）；feat(privacy): 双端 Info.plist 补齐摄像头/麦克风/定位权限描述（权限弹窗正常显示）；feat(bookmarks): 全端收藏优化——重复收藏自动去重、星标一键收藏/取消切换、填充星标实时反馈收藏态"
+    "macos": "v1.43.49（macOS）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
+    "ios": "v1.43.49（iOS / iPadOS）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作",
+    "android": "v1.43.49（Android）\nfix(update): 不再强制弹窗更新——静默检查只置「有新版本」红点提示，用户主动点检查才弹卡；feat(ui): 更新入口红点双端接入（macOS/移动端设置页均有\"有新版本\"提示）；feat(mobile): 移动端标签条+地址栏二合一融合（统一毛玻璃顶栏），标签关闭热区扩大到 32pt、标签条加高，便于触摸操作"
   },
-  "publishedAt": "2026-11-02T03:12:11Z",
+  "publishedAt": "2026-11-02T03:27:26Z",
   "platforms": {
     "macos": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-macOS.zip",
-      "sha256": "019df10cf5fb0ba44cb24a2780c4870558eee2c036ebcc9aa7ee0f8b6725c11f",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
+      "sha256": "6fb0c312e2531a637df6996a91fb5412c3f90e0ab188a4eb7302079de44908e2",
       "minOS": "26.0",
-      "version": "1.43.48",
+      "version": "1.43.49",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.47",
+        "fromVersion": "1.43.48",
         "fromBuild": 0,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/delta-macOS-v1.43.47-v1.43.48.patch",
-        "patchSha256": "b31e02fcbc8bc725e42bacd863a333843552a2918c0fa62c867ad7a44916f25d"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/delta-macOS-v1.43.48-v1.43.49.patch",
+        "patchSha256": "9c9dc36aac666a211aeaecb9b46c199735c6b84f9027d57e02e0a5b1ca08b6c3"
       }
     },
     "android": {
-      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-Android.apk",
-      "sha256": "88b549647eb65916dc561d2efb92d4396e1cf5c35b062d149c97ff96ebf48e45",
+      "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
+      "sha256": "e3c23f81cd8ff3f9ab9aceb050c2c0543b53e560154f7cd8d3ebfe41ecfd43fa",
       "minSDK": 31,
-      "version": "1.43.48",
+      "version": "1.43.49",
       "build": 2000000004,
       "delta": {
-        "fromVersion": "1.43.47",
+        "fromVersion": "1.43.48",
         "fromBuild": 2000000004,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/delta-v1.43.47-v1.43.48.patch",
-        "patchSha256": "21b3716f5ca8bbf22c31b61b0f97716226a7fe262a100a34ee09a061657e38cb"
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/delta-v1.43.48-v1.43.49.patch",
+        "patchSha256": "57b8af6d6027c92c882516778fe402e3e178f36eb536a9322d33030c5c4c4a6d"
       }
     },
     "ios": {
       "url": "https://nonprofit-bottle-recruitment-optimization.trycloudflare.com/GlassBrowser-v1.43.0-iOS-Simulator.zip",
       "sha256": "9a7a5537536ef21acaa175ea1d79cc60c0744d7eed02ffb80a5ff9f8a71dcfd0",
       "minOS": "26.0",
-      "version": "1.43.48",
+      "version": "1.43.49",
       "build": 2000000004
     }
   },
   "downloadSources": [
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-Android.apk",
-    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.48/v1.43.48-macOS.zip"
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
+    "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.43.49/v1.43.49-macOS.zip"
   ]
 }
