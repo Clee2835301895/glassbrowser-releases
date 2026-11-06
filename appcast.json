@@ -789,7 +789,15 @@
       "sha256": "bcba91ce60c9fd24f9a2a0f82db48ae8a9eaf6d735550638f059488a3797c7a8",
       "minOS": "26.0",
       "version": "1.50.0",
-      "build": 200000118
+      "build": 200000118,
+      "delta": {
+        "fromVersion": "1.44.0",
+        "fromBuild": 2000000004,
+        "toBuild": 200000118,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.0/delta-macOS-v1.44.0-v1.50.0.patch",
+        "patchSha256": "ac2211acd79418ae267fea8a553c1018b2cb4106daf07b1a5df18d57ca48d9ea",
+        "patchSize": 5613439
+      }
     },
     "ios": {
       "url": "GlassBrowser-v1.50.0-iOS-Simulator.zip",
@@ -803,7 +811,15 @@
       "sha256": "6c2204a7953691078f9d9ca8539773bca49754d5e6237ec4e5f8f612a1b99b61",
       "minSDK": 31,
       "version": "1.50.0",
-      "build": 200000118
+      "build": 200000118,
+      "delta": {
+        "fromVersion": "1.44.0",
+        "fromBuild": 2000000004,
+        "toBuild": 200000118,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.0/delta-v1.44.0-v1.50.0.patch",
+        "patchSha256": "c83afcffeb48147e926a6ef0b88649f4106141b6db9a952cf7d38f2b2e1cb841",
+        "patchSize": 1163736
+      }
     }
   },
   "downloadSources": [
