@@ -49,7 +49,11 @@
   },
   "downloadSources": [
     "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip"
   ],
   "updatePage": {
     "downloadMode": "app",
@@ -174,7 +178,8 @@
   "uiConfig": {
     "updatePage": {
       "downloadMode": "app"
-    }
+    },
+    "version": 26110619
   },
   "sections": {
     "android": [
