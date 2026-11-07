@@ -1,5 +1,5 @@
 {
-  "version": "1.52.1",
+  "version": "1.52.2",
   "build": 200000127,
   "notes": "新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
   "notesByPlatform": {
@@ -10,48 +10,48 @@
   "publishedAt": "2026-11-06T11:40:42Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip",
-      "sha256": "1c89e4fd69a4eaf899e2bbad77146697faee8c8c423007e2549226f940d8abe5",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip",
+      "sha256": "1da35ec292e52f3d43f910ce0cd84c882e74ec27008845d4562fe0e066c2200a",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.52.0",
+        "fromVersion": "1.52.1",
         "fromBuild": 200000127,
         "toBuild": 200000127,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/delta-macOS-v1.52.0-v1.52.1.patch",
-        "patchSha256": "59c067767ab8642a037b7511728957debca1426be0acd743356ab6fa1489e71f",
-        "patchSize": 4937245
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/delta-macOS-v1.52.1-v1.52.2.patch",
+        "patchSha256": "098e288653a1dd6d500b349fcff2af06a254db00d0f0280a5ac50869e4e21834",
+        "patchSize": 4963561
       },
-      "version": "1.52.1",
+      "version": "1.52.2",
       "build": 200000127
     },
     "ios": {
       "note": "免费签名无 OTA，经 build_ios.sh 升级",
       "url": "GlassBrowser-v1.50.1-iOS-Simulator.zip",
       "sha256": "36a8be7d1106dbf89516270a7e72c668a00e83a1f61b93804853e771fd6e82a3",
-      "version": "1.52.1",
+      "version": "1.52.2",
       "build": 200000127
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
-      "sha256": "72577912469c1aa555b15b806aedfae3472764f54fdc337859f23bd342cf6dda",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
+      "sha256": "c6630bc599995a0da41b8f84aeb416f8ce74522d73aaf307d85d7fd2d526fe2d",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.51.0",
-        "fromBuild": 200000126,
+        "fromVersion": "1.52.1",
+        "fromBuild": 200000127,
         "toBuild": 200000127,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/delta-v1.51.0-v1.52.0.patch",
-        "patchSha256": "02b816bdd7b76e4ab965b3145b398739c74a73f1521bf2477f4f37f514a2c42b",
-        "patchSize": 131517
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/delta-v1.52.1-v1.52.2.patch",
+        "patchSha256": "9be2d034f1156df56325a53d828da447c6bc8ad62b9afd788c5774b806420f7c",
+        "patchSize": 175933
       },
-      "version": "1.52.1",
+      "version": "1.52.2",
       "build": 200000127
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip"
   ],
   "updatePage": {
     "downloadMode": "app",
@@ -62,15 +62,21 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "v1.52.1：本次更新包含稳定性与升级链路改进"
+            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+            "智能体到点安全兜底时明确停手，不再半停半做",
+            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
           ],
           "images": [
+            "",
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.1 · 构建 200000127",
+              "v1.52.2 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -99,15 +105,21 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "v1.52.1：本次更新包含稳定性与升级链路改进"
+            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+            "智能体到点安全兜底时明确停手，不再半停半做",
+            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
           ],
           "images": [
+            "",
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.1 · 构建 200000127",
+              "v1.52.2 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -136,15 +148,21 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "v1.52.1：本次更新包含稳定性与升级链路改进"
+            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+            "智能体到点安全兜底时明确停手，不再半停半做",
+            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
           ],
           "images": [
+            "",
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.1 · 构建 200000127",
+              "v1.52.2 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -182,15 +200,21 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "v1.52.1：本次更新包含稳定性与升级链路改进"
+          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+          "智能体到点安全兜底时明确停手，不再半停半做",
+          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
         ],
         "images": [
+          "",
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.1 · 构建 200000127",
+            "v1.52.2 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -219,15 +243,21 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "v1.52.1：本次更新包含稳定性与升级链路改进"
+          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+          "智能体到点安全兜底时明确停手，不再半停半做",
+          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
         ],
         "images": [
+          "",
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.1 · 构建 200000127",
+            "v1.52.2 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -256,15 +286,21 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "v1.52.1：本次更新包含稳定性与升级链路改进"
+          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
+          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
+          "智能体到点安全兜底时明确停手，不再半停半做",
+          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
         ],
         "images": [
+          "",
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.1 · 构建 200000127",
+            "v1.52.2 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
