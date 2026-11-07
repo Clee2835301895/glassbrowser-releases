@@ -11,15 +11,15 @@
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
-      "sha256": "163f2e6acb269dd61c427276c7dd7e168404f796371ca44f2be1a77883669c5b",
+      "sha256": "b742fde0cf82a12d4758fa5380e6d7202543dde2eccc551396ee4e8781b3a99f",
       "minOS": "26.0",
       "delta": {
         "fromVersion": "1.50.0",
         "fromBuild": 200000118,
         "toBuild": 200000123,
         "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-macOS-v1.50.0-v1.50.1.patch",
-        "patchSha256": "d0ce1a2a89de7c5d86bd565e9137c06d3c91a6305c8562c081e5b888dd2cbe44",
-        "patchSize": 4936126
+        "patchSha256": "cd97122d05aa66eab5990deb783b5b14944333f4203b0397a89793b059c59a24",
+        "patchSize": 4934799
       },
       "version": "1.50.1",
       "build": 200000123
