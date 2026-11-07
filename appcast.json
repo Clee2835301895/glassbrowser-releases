@@ -10,14 +10,14 @@
   "publishedAt": "2026-11-06T11:40:42Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
       "sha256": "e804d2c68d9f54889443f32015dedc634888efb2c4242bd9b1cb9f7d52b216ca",
       "minOS": "26.0",
       "delta": {
         "fromVersion": "1.50.0",
         "fromBuild": 200000118,
         "toBuild": 200000124,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-macOS-v1.50.0-v1.50.1.patch",
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-macOS-v1.50.0-v1.50.1.patch",
         "patchSha256": "69d76b0ec25bd9b9035405753e823c08b6713cd9b6796bd37636719a429e6a77",
         "patchSize": 4934871
       },
@@ -32,14 +32,14 @@
       "build": 200000124
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
       "sha256": "bde2f4a6bddd0db0a27a0d3cfa7a7876acf96345db3d20dd299f742647ab4c6c",
       "minSDK": 31,
       "delta": {
         "fromVersion": "1.50.0",
         "fromBuild": 200000118,
         "toBuild": 200000124,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-v1.50.0-v1.50.1.patch",
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-v1.50.0-v1.50.1.patch",
         "patchSha256": "7d7c453200739dea8fa452572ffe1e93160026b66d3cc8847330fe2076f96b8b",
         "patchSize": 573607
       },
@@ -48,6 +48,8 @@
     }
   },
   "downloadSources": [
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
     "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
     "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip"
   ],
