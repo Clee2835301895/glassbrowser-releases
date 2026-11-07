@@ -1,6 +1,6 @@
 {
-  "version": "1.50.1",
-  "build": 200000125,
+  "version": "1.51.0",
+  "build": 200000126,
   "notes": "新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
   "notesByPlatform": {
     "macos": "v1.50.1（macOS）\n新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
@@ -10,48 +10,48 @@
   "publishedAt": "2026-11-06T11:40:42Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
-      "sha256": "b0b804e776e23b69fd1bfa675e4e0fa719afda58b523d06f4bc4b798841938b6",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-macOS.zip",
+      "sha256": "4c1fb0b225a89291c7ef905a913c637dfdb3f4ecbc4123e5b085ad565a85d73f",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.50.0",
-        "fromBuild": 200000118,
-        "toBuild": 200000125,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-macOS-v1.50.0-v1.50.1.patch",
-        "patchSha256": "338257678a85e32484b3bf20cd126eed892357b554ec2ef999b31b709928ccaa",
-        "patchSize": 4935580
+        "fromVersion": "1.50.1",
+        "fromBuild": 200000122,
+        "toBuild": 200000126,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/delta-macOS-v1.50.1-v1.51.0.patch",
+        "patchSha256": "6c4057533771eff99065e676ff8389de4330aeb2560e3374a4d5b1fd509d2fe4",
+        "patchSize": 4927891
       },
-      "version": "1.50.1",
-      "build": 200000125
+      "version": "1.51.0",
+      "build": 200000126
     },
     "ios": {
       "note": "免费签名无 OTA，经 build_ios.sh 升级",
       "url": "GlassBrowser-v1.50.1-iOS-Simulator.zip",
       "sha256": "36a8be7d1106dbf89516270a7e72c668a00e83a1f61b93804853e771fd6e82a3",
-      "version": "1.50.1",
-      "build": 200000125
+      "version": "1.51.0",
+      "build": 200000126
     },
     "android": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
-      "sha256": "27c2a187a6bf4d85c40dd6d7f73c8251a0a237051ffab15128e0c7cba02384a9",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-Android.apk",
+      "sha256": "45dcd333c440ef6ee695b6762d8097218b648624e449e98d2e386d0903be0926",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.50.0",
-        "fromBuild": 200000118,
-        "toBuild": 200000125,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-v1.50.0-v1.50.1.patch",
-        "patchSha256": "6ec44bd166544420b2e9ae32c0609ba7469fdd75c71518ca81826eea845f32cf",
-        "patchSize": 572458
+        "fromVersion": "1.50.1",
+        "fromBuild": 200000122,
+        "toBuild": 200000126,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/delta-v1.50.1-v1.51.0.patch",
+        "patchSha256": "8838fdcae6717480ed68256f7ac5002f35d3d80265a53520de1080d920cbc53e",
+        "patchSize": 446027
       },
-      "version": "1.50.1",
-      "build": 200000125
+      "version": "1.51.0",
+      "build": 200000126
     }
   },
   "downloadSources": [
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.51.0/v1.51.0-macOS.zip"
   ],
   "updatePage": {
     "downloadMode": "app",
@@ -62,17 +62,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "安卓更新不再额外占用手机存储空间（增量基准直接用已装包，不再另存一份）",
-            "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-            "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-            "应用内增量更新下载完进不了系统安装步骤（现在提交后自动弹出系统安装确认框）",
-            "未开「安装未知应用」权限时更新装不上（现在会直接带你在系统设置里打开该权限）",
-            "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-            "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+            "应用内增量更新下载完成后无法进入系统安装步骤（现在提交安装后自动弹出系统安装确认框）",
+            "未开「安装未知应用」权限时应用内更新装不上（现在会直接带你在系统设置里打开该权限）",
+            "更新页下载/校验/安装各阶段进度文字不随真实状态刷新（现在每一步都实时更新）",
+            "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+            "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -82,7 +78,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000125",
+              "v1.51.0 · 构建 200000126",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -111,21 +107,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-            "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-            "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-            "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+            "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+            "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
           ],
           "images": [
-            "",
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000125",
+              "v1.51.0 · 构建 200000126",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -154,27 +146,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成",
-            "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-            "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-            "更新完成后点原来的图标打开还是旧版本（现在会把这台电脑上所有入口一起换掉并重新登记）",
-            "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-            "更新包安装前校验代码签名，校验不过直接中止并说明原因",
-            "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+            "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+            "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000125",
+              "v1.51.0 · 构建 200000126",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -203,7 +185,7 @@
     "updatePage": {
       "downloadMode": "app"
     },
-    "version": 200000125
+    "version": 200000126
   },
   "sections": {
     "android": [
@@ -212,17 +194,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "安卓更新不再额外占用手机存储空间（增量基准直接用已装包，不再另存一份）",
-          "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-          "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-          "应用内增量更新下载完进不了系统安装步骤（现在提交后自动弹出系统安装确认框）",
-          "未开「安装未知应用」权限时更新装不上（现在会直接带你在系统设置里打开该权限）",
-          "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-          "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+          "应用内增量更新下载完成后无法进入系统安装步骤（现在提交安装后自动弹出系统安装确认框）",
+          "未开「安装未知应用」权限时应用内更新装不上（现在会直接带你在系统设置里打开该权限）",
+          "更新页下载/校验/安装各阶段进度文字不随真实状态刷新（现在每一步都实时更新）",
+          "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+          "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -232,7 +210,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000125",
+            "v1.51.0 · 构建 200000126",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -261,21 +239,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-          "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-          "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-          "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+          "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+          "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
         ],
         "images": [
-          "",
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000125",
+            "v1.51.0 · 构建 200000126",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -304,27 +278,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成",
-          "下载源改为国内加速镜像优先、GitHub 原链兜底：主源失败自动切下一源，国内直连被拦（403）也能下载",
-          "增量更新补丁也走加速镜像，国内下载增量不再被拦",
-          "更新完成后点原来的图标打开还是旧版本（现在会把这台电脑上所有入口一起换掉并重新登记）",
-          "云控配置里误塞嵌套字段导致整份界面静默回默认（现在坏字段跳过、其余照常生效）",
-          "更新包安装前校验代码签名，校验不过直接中止并说明原因",
-          "更新指针与包均 Ed25519 签名，客户端装前逐字验签，中途被人篡改会直接拒绝"
+          "国内完整包下载被拦、或走加速镜像大包被限速卡死（完整包改回官方源优先、加速镜像兜底，增量补丁仍走镜像）",
+          "下载源按「官方源 → 加速镜像」择优，官方源可达时最快、被墙时自动切镜像"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000125",
+            "v1.51.0 · 构建 200000126",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
