@@ -1,6 +1,6 @@
 {
   "version": "1.50.1",
-  "build": 200000123,
+  "build": 200000124,
   "notes": "新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
   "notesByPlatform": {
     "macos": "v1.50.1（macOS）\n新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
@@ -11,40 +11,40 @@
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-macOS.zip",
-      "sha256": "b742fde0cf82a12d4758fa5380e6d7202543dde2eccc551396ee4e8781b3a99f",
+      "sha256": "e804d2c68d9f54889443f32015dedc634888efb2c4242bd9b1cb9f7d52b216ca",
       "minOS": "26.0",
       "delta": {
         "fromVersion": "1.50.0",
         "fromBuild": 200000118,
-        "toBuild": 200000123,
+        "toBuild": 200000124,
         "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-macOS-v1.50.0-v1.50.1.patch",
-        "patchSha256": "cd97122d05aa66eab5990deb783b5b14944333f4203b0397a89793b059c59a24",
-        "patchSize": 4934799
+        "patchSha256": "69d76b0ec25bd9b9035405753e823c08b6713cd9b6796bd37636719a429e6a77",
+        "patchSize": 4934871
       },
       "version": "1.50.1",
-      "build": 200000123
+      "build": 200000124
     },
     "ios": {
       "note": "免费签名无 OTA，经 build_ios.sh 升级",
       "url": "GlassBrowser-v1.50.1-iOS-Simulator.zip",
       "sha256": "36a8be7d1106dbf89516270a7e72c668a00e83a1f61b93804853e771fd6e82a3",
       "version": "1.50.1",
-      "build": 200000123
+      "build": 200000124
     },
     "android": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/v1.50.1-Android.apk",
-      "sha256": "6e26542a83025e58abd535e2673f5a26421115cda23173adc36fe2562d0e1350",
+      "sha256": "bde2f4a6bddd0db0a27a0d3cfa7a7876acf96345db3d20dd299f742647ab4c6c",
       "minSDK": 31,
       "delta": {
         "fromVersion": "1.50.0",
         "fromBuild": 200000118,
-        "toBuild": 200000123,
+        "toBuild": 200000124,
         "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.50.1/delta-v1.50.0-v1.50.1.patch",
-        "patchSha256": "5769b5b300d323ae3bd92aeaf98d337b378c438641885da4c25c066a6d620f47",
-        "patchSize": 556566
+        "patchSha256": "7d7c453200739dea8fa452572ffe1e93160026b66d3cc8847330fe2076f96b8b",
+        "patchSize": 573607
       },
       "version": "1.50.1",
-      "build": 200000123
+      "build": 200000124
     }
   },
   "downloadSources": [
@@ -68,7 +68,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000123",
+              "v1.50.1 · 构建 200000124",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -105,7 +105,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000123",
+              "v1.50.1 · 构建 200000124",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -146,7 +146,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.50.1 · 构建 200000123",
+              "v1.50.1 · 构建 200000124",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -175,7 +175,7 @@
     "updatePage": {
       "downloadMode": "app"
     },
-    "version": 200000123
+    "version": 200000124
   },
   "sections": {
     "android": [
@@ -192,7 +192,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000123",
+            "v1.50.1 · 构建 200000124",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -229,7 +229,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000123",
+            "v1.50.1 · 构建 200000124",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -270,7 +270,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.50.1 · 构建 200000123",
+            "v1.50.1 · 构建 200000124",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
