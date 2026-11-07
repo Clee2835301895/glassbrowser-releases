@@ -1,5 +1,5 @@
 {
-  "version": "1.52.0",
+  "version": "1.52.1",
   "build": 200000127,
   "notes": "新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
   "notesByPlatform": {
@@ -10,30 +10,30 @@
   "publishedAt": "2026-11-06T11:40:42Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-macOS.zip",
-      "sha256": "36fac368d2b30b279053e346141114deea138a7034b87e9ddac324480b2a8b00",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip",
+      "sha256": "1c89e4fd69a4eaf899e2bbad77146697faee8c8c423007e2549226f940d8abe5",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.51.0",
-        "fromBuild": 200000126,
+        "fromVersion": "1.52.0",
+        "fromBuild": 200000127,
         "toBuild": 200000127,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/delta-macOS-v1.51.0-v1.52.0.patch",
-        "patchSha256": "154af071b556ebe94d7827a74ef1f09b39e465489c64327149f48ae22c96b228",
-        "patchSize": 4961516
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/delta-macOS-v1.52.0-v1.52.1.patch",
+        "patchSha256": "59c067767ab8642a037b7511728957debca1426be0acd743356ab6fa1489e71f",
+        "patchSize": 4937245
       },
-      "version": "1.52.0",
+      "version": "1.52.1",
       "build": 200000127
     },
     "ios": {
       "note": "免费签名无 OTA，经 build_ios.sh 升级",
       "url": "GlassBrowser-v1.50.1-iOS-Simulator.zip",
       "sha256": "36a8be7d1106dbf89516270a7e72c668a00e83a1f61b93804853e771fd6e82a3",
-      "version": "1.52.0",
+      "version": "1.52.1",
       "build": 200000127
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-Android.apk",
-      "sha256": "2f6c35475e8e541918af5a02515df0d52db814848dfea31ed291eab0b61ef880",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
+      "sha256": "72577912469c1aa555b15b806aedfae3472764f54fdc337859f23bd342cf6dda",
       "minSDK": 31,
       "delta": {
         "fromVersion": "1.51.0",
@@ -43,15 +43,15 @@
         "patchSha256": "02b816bdd7b76e4ab965b3145b398739c74a73f1521bf2477f4f37f514a2c42b",
         "patchSize": 131517
       },
-      "version": "1.52.0",
+      "version": "1.52.1",
       "build": 200000127
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.0/v1.52.0-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.1/v1.52.1-macOS.zip"
   ],
   "updatePage": {
     "downloadMode": "app",
@@ -62,27 +62,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-            "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-            "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-            "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-            "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-            "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令",
-            "智能体预算层与 Swift 端对齐（次数无上限，墙钟升至 600s 防死循环）"
+            "v1.52.1：本次更新包含稳定性与升级链路改进"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.0 · 构建 200000127",
+              "v1.52.1 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -111,25 +99,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-            "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-            "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-            "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-            "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-            "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令"
+            "v1.52.1：本次更新包含稳定性与升级链路改进"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.0 · 构建 200000127",
+              "v1.52.1 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -158,25 +136,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-            "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-            "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-            "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-            "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-            "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令"
+            "v1.52.1：本次更新包含稳定性与升级链路改进"
           ],
           "images": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.0 · 构建 200000127",
+              "v1.52.1 · 构建 200000127",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -214,27 +182,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-          "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-          "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-          "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-          "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-          "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令",
-          "智能体预算层与 Swift 端对齐（次数无上限，墙钟升至 600s 防死循环）"
+          "v1.52.1：本次更新包含稳定性与升级链路改进"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.0 · 构建 200000127",
+            "v1.52.1 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -263,25 +219,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-          "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-          "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-          "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-          "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-          "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令"
+          "v1.52.1：本次更新包含稳定性与升级链路改进"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
-          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.0 · 构建 200000127",
+            "v1.52.1 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -310,25 +256,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "岛内对话取代传统对话窗口（智能体岛展开后可直接输入指令，含流式输出光标）",
-          "智能体站点规则/习惯记忆（历史成功经验自动注入新任务，不再每次从零猜）",
-          "新增 3 个智能体工具：batch_search（跨站批量搜索）、export_page（页面另存）、compare_pages（双页对比）",
-          "取消预算硬上限：模型调用次数、本地步数不再掐断任务（限流时自动切站点继续做）",
-          "岛内 UI 升级：限流切站时橙色脉冲小点动画、面板内实时流式回复显示",
-          "智能体系统提示词扩充：支持「跨站搜」「另存」「对比」类复合指令"
+          "v1.52.1：本次更新包含稳定性与升级链路改进"
         ],
         "images": [
-          "",
-          "",
-          "",
-          "",
-          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.0 · 构建 200000127",
+            "v1.52.1 · 构建 200000127",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
