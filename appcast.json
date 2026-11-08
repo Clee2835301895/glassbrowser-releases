@@ -1,46 +1,46 @@
 {
-  "version": "1.54.1",
-  "build": 200000132,
-  "notes": "新增: 智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作; 设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地; 广告拦截规则此前无效且从未生效，现已修正",
+  "version": "1.54.2",
+  "build": 200000135,
+  "notes": "新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏",
   "notesByPlatform": {
-    "macos": "v1.54.1（macOS）\n新增: 智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作; 设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地; 广告拦截规则此前无效且从未生效，现已修正",
-    "android": "v1.54.1（Android）\n新增: 智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作; 设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地; 广告拦截规则此前无效且从未生效，现已修正"
+    "macos": "v1.54.2（macOS）\n新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏",
+    "android": "v1.54.2（Android）\n新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏"
   },
-  "publishedAt": "2026-11-08T16:24:13Z",
+  "publishedAt": "2026-11-08T18:07:48Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-macOS.zip",
-      "sha256": "e70dc7e0fb9ffa40ebd4d1b979f5ed1d40c7dd5a96cf0280857910eac9c02fd7",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip",
+      "sha256": "f78acdbf0fe0e1833309a667f37d7ed355a8ca1df0295ceb598f9444ab28453b",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.0",
-        "fromBuild": 200000131,
-        "toBuild": 200000132,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/delta-macOS-v1.54.0-v1.54.1.patch?b=200000132",
-        "patchSha256": "e94ab23685d847c6c23ae099661e182d3b97ffbab3248fb509dec95a4cd8981b",
-        "patchSize": 4815740
+        "fromVersion": "1.54.1",
+        "fromBuild": 200000132,
+        "toBuild": 200000135,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/delta-macOS-v1.54.1-v1.54.2.patch?b=200000135",
+        "patchSha256": "fab2ffe8ebad3e40aaa291c9ab525f01019bfd855f46636347c31193f39b51a8",
+        "patchSize": 4854920
       },
-      "version": "1.54.1",
-      "build": 200000132
+      "version": "1.54.2",
+      "build": 200000135
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-Android.apk",
-      "sha256": "fac2954ff0e08329292024a43ed2315c6a40bd5c38d5f93de7eb03a06761ba25",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
+      "sha256": "bfd2d4263192c0eacee0f944a244ebac857756d0f671f835a92a89d5b24de530",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.0",
-        "fromBuild": 200000131,
-        "toBuild": 200000132,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/delta-v1.54.0-v1.54.1.patch?b=200000132",
-        "patchSha256": "94535b734e1630af151a93759ad7ee08c75d6d2296640495298fb4138d2d8eb4",
-        "patchSize": 444768
+        "fromVersion": "1.54.1",
+        "fromBuild": 200000132,
+        "toBuild": 200000135,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/delta-v1.54.1-v1.54.2.patch?b=200000135",
+        "patchSha256": "eb1cd05901ea49fcc61adda97813be2270cf6cea7ddd44a12c016b12ed2b1fdf",
+        "patchSize": 737052
       },
-      "version": "1.54.1",
-      "build": 200000132
+      "version": "1.54.2",
+      "build": 200000135
     }
   },
   "uiConfig": {
-    "version": 200000132,
+    "version": 200000135,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,9 +54,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作",
-            "设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地",
-            "广告拦截规则此前无效且从未生效，现已修正"
+            "智能体四个页面动作、岛快捷问句、动效时长云控",
+            "改版: Android 顶栏融合重构与底栏玻璃块",
+            "修复: 权限申请、下载 Cookie、离线白屏"
           ],
           "images": [
             "",
@@ -66,7 +66,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.1 · 构建 200000132",
+              "v1.54.2 · 构建 200000135",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -95,9 +95,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作",
-            "设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地",
-            "广告拦截规则此前无效且从未生效，现已修正"
+            "智能体四个页面动作、岛快捷问句、动效时长云控",
+            "改版: Android 顶栏融合重构与底栏玻璃块",
+            "修复: 权限申请、下载 Cookie、离线白屏"
           ],
           "images": [
             "",
@@ -107,7 +107,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.1 · 构建 200000132",
+              "v1.54.2 · 构建 200000135",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -139,9 +139,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作",
-          "设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地",
-          "广告拦截规则此前无效且从未生效，现已修正"
+          "智能体四个页面动作、岛快捷问句、动效时长云控",
+          "改版: Android 顶栏融合重构与底栏玻璃块",
+          "修复: 权限申请、下载 Cookie、离线白屏"
         ],
         "images": [
           "",
@@ -151,7 +151,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.1 · 构建 200000132",
+            "v1.54.2 · 构建 200000135",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -180,9 +180,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体新增清缓存/清 Cookie/全屏/分享/长页面提速等动作",
-          "设置页补齐触感、横屏与清理入口. 修复: 最后 13 项空壳能力全部落地",
-          "广告拦截规则此前无效且从未生效，现已修正"
+          "智能体四个页面动作、岛快捷问句、动效时长云控",
+          "改版: Android 顶栏融合重构与底栏玻璃块",
+          "修复: 权限申请、下载 Cookie、离线白屏"
         ],
         "images": [
           "",
@@ -192,7 +192,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.1 · 构建 200000132",
+            "v1.54.2 · 构建 200000135",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -217,9 +217,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.1/v1.54.1-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip"
   ]
 }
