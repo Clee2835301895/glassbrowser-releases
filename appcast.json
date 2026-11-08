@@ -17,7 +17,7 @@
         "fromVersion": "1.52.2",
         "fromBuild": 200000127,
         "toBuild": 200000130,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-macOS-v1.52.2-v1.53.0.patch",
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-macOS-v1.52.2-v1.53.0.patch?b=200000130",
         "patchSha256": "07c1e4ebfa007b24cb3a2381626cc1dcfbfa35945cf41c36b5100752e69646f5",
         "patchSize": 4824253
       },
@@ -32,7 +32,7 @@
         "fromVersion": "1.52.2",
         "fromBuild": 200000127,
         "toBuild": 200000130,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-v1.52.2-v1.53.0.patch",
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-v1.52.2-v1.53.0.patch?b=200000130",
         "patchSha256": "826dc98fe7cc52866acbdc06e7ee811adb614eafcd01f53ad0342017beec09aa",
         "patchSize": 759945
       },
