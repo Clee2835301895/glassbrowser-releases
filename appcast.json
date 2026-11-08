@@ -1,46 +1,46 @@
 {
-  "version": "1.54.2",
-  "build": 200000135,
-  "notes": "新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏",
+  "version": "1.54.3",
+  "build": 200000136,
+  "notes": "新增: 设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组; 性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时; 性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感; 改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛",
   "notesByPlatform": {
-    "macos": "v1.54.2（macOS）\n新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏",
-    "android": "v1.54.2（Android）\n新增: 智能体四个页面动作、岛快捷问句、动效时长云控; 改版: Android 顶栏融合重构与底栏玻璃块; 修复: 权限申请、下载 Cookie、离线白屏"
+    "macos": "v1.54.3（macOS）\n新增: 设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组; 性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时; 性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感; 改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛",
+    "android": "v1.54.3（Android）\n新增: 设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组; 性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时; 性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感; 改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛"
   },
-  "publishedAt": "2026-11-08T18:07:48Z",
+  "publishedAt": "2026-11-08T18:32:01Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip",
-      "sha256": "f78acdbf0fe0e1833309a667f37d7ed355a8ca1df0295ceb598f9444ab28453b",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-macOS.zip",
+      "sha256": "0ed10b29f1c757a7bb65bf0b2145675e07de6480a64b0ff9292e955c836fa7e2",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.1",
-        "fromBuild": 200000132,
-        "toBuild": 200000135,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/delta-macOS-v1.54.1-v1.54.2.patch?b=200000135",
-        "patchSha256": "fab2ffe8ebad3e40aaa291c9ab525f01019bfd855f46636347c31193f39b51a8",
-        "patchSize": 4854920
+        "fromVersion": "1.54.2",
+        "fromBuild": 200000135,
+        "toBuild": 200000136,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/delta-macOS-v1.54.2-v1.54.3.patch?b=200000136",
+        "patchSha256": "063336b3c6eb16ba3a5679332aca17461e50a65f316d7c7d6e44acb381087d36",
+        "patchSize": 4740843
       },
-      "version": "1.54.2",
-      "build": 200000135
+      "version": "1.54.3",
+      "build": 200000136
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
-      "sha256": "bfd2d4263192c0eacee0f944a244ebac857756d0f671f835a92a89d5b24de530",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-Android.apk",
+      "sha256": "97dc6e2f1fec8631f8e733acaade1fcf6a701c0f6ba88984d781ff7355084197",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.1",
-        "fromBuild": 200000132,
-        "toBuild": 200000135,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/delta-v1.54.1-v1.54.2.patch?b=200000135",
-        "patchSha256": "eb1cd05901ea49fcc61adda97813be2270cf6cea7ddd44a12c016b12ed2b1fdf",
-        "patchSize": 737052
+        "fromVersion": "1.54.2",
+        "fromBuild": 200000135,
+        "toBuild": 200000136,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/delta-v1.54.2-v1.54.3.patch?b=200000136",
+        "patchSha256": "8e5adaf1365ff3e30c5ff523ce89b448d5d4f627f58e743d61a26fd2983b87f8",
+        "patchSize": 454421
       },
-      "version": "1.54.2",
-      "build": 200000135
+      "version": "1.54.3",
+      "build": 200000136
     }
   },
   "uiConfig": {
-    "version": 200000135,
+    "version": 200000136,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,11 +54,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体四个页面动作、岛快捷问句、动效时长云控",
-            "改版: Android 顶栏融合重构与底栏玻璃块",
-            "修复: 权限申请、下载 Cookie、离线白屏"
+            "设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组",
+            "性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时",
+            "性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感",
+            "改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛"
           ],
           "images": [
+            "",
             "",
             "",
             ""
@@ -66,7 +68,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.2 · 构建 200000135",
+              "v1.54.3 · 构建 200000136",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -95,11 +97,13 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体四个页面动作、岛快捷问句、动效时长云控",
-            "改版: Android 顶栏融合重构与底栏玻璃块",
-            "修复: 权限申请、下载 Cookie、离线白屏"
+            "设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组",
+            "性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时",
+            "性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感",
+            "改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛"
           ],
           "images": [
+            "",
             "",
             "",
             ""
@@ -107,7 +111,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.2 · 构建 200000135",
+              "v1.54.3 · 构建 200000136",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -139,11 +143,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体四个页面动作、岛快捷问句、动效时长云控",
-          "改版: Android 顶栏融合重构与底栏玻璃块",
-          "修复: 权限申请、下载 Cookie、离线白屏"
+          "设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组",
+          "性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时",
+          "性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感",
+          "改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛"
         ],
         "images": [
+          "",
           "",
           "",
           ""
@@ -151,7 +157,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.2 · 构建 200000135",
+            "v1.54.3 · 构建 200000136",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -180,11 +186,13 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体四个页面动作、岛快捷问句、动效时长云控",
-          "改版: Android 顶栏融合重构与底栏玻璃块",
-          "修复: 权限申请、下载 Cookie、离线白屏"
+          "设置页按使用频率重排，外观与交互前置、更新归入「关于与更新」组",
+          "性能: 安卓启动期文件清理与旧缓存回收移出主线程并加启动分段计时",
+          "性能: 安卓窗口钉到屏幕支持的最高刷新率，减少 60Hz 下的钝感",
+          "改进: 两端脉冲/呼吸/淡出动画统一走到动效令牌，随云控倍率与动效开关一起收敛"
         ],
         "images": [
+          "",
           "",
           "",
           ""
@@ -192,7 +200,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.2 · 构建 200000135",
+            "v1.54.3 · 构建 200000136",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -217,9 +225,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.2/v1.54.2-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.3/v1.54.3-macOS.zip"
   ]
 }
