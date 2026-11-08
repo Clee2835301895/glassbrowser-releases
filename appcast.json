@@ -1,6 +1,6 @@
 {
-  "version": "1.52.2",
-  "build": 200000127,
+  "version": "1.53.0",
+  "build": 200000129,
   "notes": "新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
   "notesByPlatform": {
     "macos": "v1.50.1（macOS）\n新增: 更新装好后先问你现在重启还是稍后重启，选稍后下次打开自动完成 || 修复: 更新完成后点原来的图标打开还是旧版本 || 改进: 安卓更新不再额外占用手机存储空间 || 安全: 更新包安装前校验代码签名，校验不过直接中止并说明原因",
@@ -10,48 +10,48 @@
   "publishedAt": "2026-11-06T11:40:42Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip",
-      "sha256": "1da35ec292e52f3d43f910ce0cd84c882e74ec27008845d4562fe0e066c2200a",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-macOS.zip",
+      "sha256": "00e8fd079598331ce370e9be8abe055829ff7699aede71d85c75346f7c0296e6",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.52.1",
+        "fromVersion": "1.52.2",
         "fromBuild": 200000127,
-        "toBuild": 200000127,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/delta-macOS-v1.52.1-v1.52.2.patch",
-        "patchSha256": "098e288653a1dd6d500b349fcff2af06a254db00d0f0280a5ac50869e4e21834",
-        "patchSize": 4963561
+        "toBuild": 200000129,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-macOS-v1.52.2-v1.53.0.patch",
+        "patchSha256": "ac2ae7915e1c01b8e9cbdfac5251f1caaaede1363f72cf3f763a23147d8fead2",
+        "patchSize": 74431
       },
-      "version": "1.52.2",
-      "build": 200000127
+      "version": "1.53.0",
+      "build": 200000129
     },
     "ios": {
       "note": "免费签名无 OTA，经 build_ios.sh 升级",
       "url": "GlassBrowser-v1.50.1-iOS-Simulator.zip",
       "sha256": "36a8be7d1106dbf89516270a7e72c668a00e83a1f61b93804853e771fd6e82a3",
-      "version": "1.52.2",
-      "build": 200000127
+      "version": "1.53.0",
+      "build": 200000129
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
-      "sha256": "c6630bc599995a0da41b8f84aeb416f8ce74522d73aaf307d85d7fd2d526fe2d",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-Android.apk",
+      "sha256": "4eb581b22836242a3f8478310fbc16336cd0df38f0839f91ec169b4208320807",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.52.1",
+        "fromVersion": "1.52.2",
         "fromBuild": 200000127,
-        "toBuild": 200000127,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/delta-v1.52.1-v1.52.2.patch",
-        "patchSha256": "9be2d034f1156df56325a53d828da447c6bc8ad62b9afd788c5774b806420f7c",
-        "patchSize": 175933
+        "toBuild": 200000129,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/delta-v1.52.2-v1.53.0.patch",
+        "patchSha256": "b7df2eb9d66707c7f0396637e9414db5f1d1bbec95e25b16c947f408b58cda26",
+        "patchSize": 742900
       },
-      "version": "1.52.2",
-      "build": 200000127
+      "version": "1.53.0",
+      "build": 200000129
     }
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.52.2/v1.52.2-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.53.0/v1.53.0-macOS.zip"
   ],
   "updatePage": {
     "downloadMode": "app",
@@ -62,10 +62,10 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-            "智能体到点安全兜底时明确停手，不再半停半做",
-            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+            "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+            "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+            "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+            "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
           ],
           "images": [
             "",
@@ -76,7 +76,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.2 · 构建 200000127",
+              "v1.53.0 · 构建 200000129",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -105,10 +105,10 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-            "智能体到点安全兜底时明确停手，不再半停半做",
-            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+            "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+            "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+            "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+            "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
           ],
           "images": [
             "",
@@ -119,7 +119,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.2 · 构建 200000127",
+              "v1.53.0 · 构建 200000129",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -148,10 +148,10 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-            "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-            "智能体到点安全兜底时明确停手，不再半停半做",
-            "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+            "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+            "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+            "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+            "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
           ],
           "images": [
             "",
@@ -162,7 +162,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.52.2 · 构建 200000127",
+              "v1.53.0 · 构建 200000129",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -191,7 +191,7 @@
     "updatePage": {
       "downloadMode": "app"
     },
-    "version": 200000127
+    "version": 200000129
   },
   "sections": {
     "android": [
@@ -200,10 +200,10 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-          "智能体到点安全兜底时明确停手，不再半停半做",
-          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+          "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+          "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+          "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+          "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
         ],
         "images": [
           "",
@@ -214,7 +214,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.2 · 构建 200000127",
+            "v1.53.0 · 构建 200000129",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -243,10 +243,10 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-          "智能体到点安全兜底时明确停手，不再半停半做",
-          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+          "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+          "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+          "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+          "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
         ],
         "images": [
           "",
@@ -257,7 +257,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.2 · 构建 200000127",
+            "v1.53.0 · 构建 200000129",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -286,10 +286,10 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体可直接使用：打开即连，不用先填密钥（构建时已内置，可随时改）",
-          "智能体批量搜索改用主流搜索入口，不再跳到不存在的网址",
-          "智能体到点安全兜底时明确停手，不再半停半做",
-          "智能体长时间任务不再被「次数额度」卡在半路（限流时自动换源继续）"
+          "智能体记住做过的做法，下次带着经验跑，记忆在各端同步",
+          "浏览时右上角有悬浮智能体岛，点开直接下指令，不用先开对话窗",
+          "智能体新增批量搜索、页面另存、双页对比，操控浏览器更全",
+          "岛内步骤进度与思考过程带动效呈现，限流换站点有呼吸提示"
         ],
         "images": [
           "",
@@ -300,7 +300,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.52.2 · 构建 200000127",
+            "v1.53.0 · 构建 200000129",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
