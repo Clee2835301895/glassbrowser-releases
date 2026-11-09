@@ -1,46 +1,46 @@
 {
-  "version": "1.54.4",
-  "build": 200000137,
-  "notes": "修复: [Android] 更新不再卡在「校验并准备安装」：系统安装会话的结果广播可被系统正常投递，安装确认框超时也会给出提示并放回升级按钮; [Android] 网页 JS 求值改为串行队列并加超时，智能体工具调用与离线快照不再互相吞掉回调（表现为点了没反应）; [Android] 系统权限被拒也会结算网页请求，定位与摄像头请求不再永久挂起，多标签同时申请也不再互相覆盖; [Android] 下载完成的文件改用 FileProvider 打开，Android 7 以上不再「下载成功、一点就崩」; [Android] 智能体一轮结束必走收尾：异常或点「停止」后岛不再一直显示「进行中」，下一句发得出; [Android] 展示离线快照时不再把快照自身回写，断网反复刷新不会层层叠加提示条; [Android] 清理误插进书签/历史/权限/下载工具里的页面动作分支，工具不再「假装成功」; [Android] 离线快照写入与读取统一字节上限，不再存下永远读不回来的快照; [macOS] 智能体记忆更新后返回刚写入的那条，界面不再显示串条",
+  "version": "1.54.5",
+  "build": 200000138,
+  "notes": "修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端",
   "notesByPlatform": {
-    "macos": "v1.54.4（macOS）\n修复: [Android] 更新不再卡在「校验并准备安装」：系统安装会话的结果广播可被系统正常投递，安装确认框超时也会给出提示并放回升级按钮; [Android] 网页 JS 求值改为串行队列并加超时，智能体工具调用与离线快照不再互相吞掉回调（表现为点了没反应）; [Android] 系统权限被拒也会结算网页请求，定位与摄像头请求不再永久挂起，多标签同时申请也不再互相覆盖; [Android] 下载完成的文件改用 FileProvider 打开，Android 7 以上不再「下载成功、一点就崩」; [Android] 智能体一轮结束必走收尾：异常或点「停止」后岛不再一直显示「进行中」，下一句发得出; [Android] 展示离线快照时不再把快照自身回写，断网反复刷新不会层层叠加提示条; [Android] 清理误插进书签/历史/权限/下载工具里的页面动作分支，工具不再「假装成功」; [Android] 离线快照写入与读取统一字节上限，不再存下永远读不回来的快照; [macOS] 智能体记忆更新后返回刚写入的那条，界面不再显示串条",
-    "android": "v1.54.4（Android）\n修复: [Android] 更新不再卡在「校验并准备安装」：系统安装会话的结果广播可被系统正常投递，安装确认框超时也会给出提示并放回升级按钮; [Android] 网页 JS 求值改为串行队列并加超时，智能体工具调用与离线快照不再互相吞掉回调（表现为点了没反应）; [Android] 系统权限被拒也会结算网页请求，定位与摄像头请求不再永久挂起，多标签同时申请也不再互相覆盖; [Android] 下载完成的文件改用 FileProvider 打开，Android 7 以上不再「下载成功、一点就崩」; [Android] 智能体一轮结束必走收尾：异常或点「停止」后岛不再一直显示「进行中」，下一句发得出; [Android] 展示离线快照时不再把快照自身回写，断网反复刷新不会层层叠加提示条; [Android] 清理误插进书签/历史/权限/下载工具里的页面动作分支，工具不再「假装成功」; [Android] 离线快照写入与读取统一字节上限，不再存下永远读不回来的快照; [macOS] 智能体记忆更新后返回刚写入的那条，界面不再显示串条"
+    "macos": "v1.54.5（macOS）\n修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端",
+    "android": "v1.54.5（Android）\n修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
   },
-  "publishedAt": "2026-11-09T00:20:30Z",
+  "publishedAt": "2026-11-09T01:17:22Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-macOS.zip",
-      "sha256": "540186410dd46ca9e236883dd04405d98d3c85df93fe37b445ca438522e7d4d9",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip",
+      "sha256": "19cda5a1de727d1b801cfde37d684876d946b50b782598a1d73d14b87c89ae66",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.3",
-        "fromBuild": 200000136,
-        "toBuild": 200000137,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/delta-macOS-v1.54.3-v1.54.4.patch?b=200000137",
-        "patchSha256": "2966a9974d8eca983484f810fd4e4adc518668aeab96740195307c2175e4dadc",
-        "patchSize": 4763930
+        "fromVersion": "1.54.4",
+        "fromBuild": 200000137,
+        "toBuild": 200000138,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/delta-macOS-v1.54.4-v1.54.5.patch?b=200000138",
+        "patchSha256": "2b1ef14887610baa0894572db863b60aa91596d389df2e9d8b728418ad2aa8de",
+        "patchSize": 4717195
       },
-      "version": "1.54.4",
-      "build": 200000137
+      "version": "1.54.5",
+      "build": 200000138
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-Android.apk",
-      "sha256": "5085d16cebaf003c627a53476f84af5a97d68962c775c8c9cc5422b014bdddea",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
+      "sha256": "e007134b8a59a3af918966e08239fc15cabf7333452c63f34545bc8d2a42bb0e",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.3",
-        "fromBuild": 200000136,
-        "toBuild": 200000137,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/delta-v1.54.3-v1.54.4.patch?b=200000137",
-        "patchSha256": "803cad6a98b2f4651cf316e452980528565437fa87f181950a4ab4d8416d8a95",
-        "patchSize": 421858
+        "fromVersion": "1.54.4",
+        "fromBuild": 200000137,
+        "toBuild": 200000138,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/delta-v1.54.4-v1.54.5.patch?b=200000138",
+        "patchSha256": "8c034593171869c02a79fed9140be5511becc174ea783c44e91bbe0937bc3d43",
+        "patchSize": 351890
       },
-      "version": "1.54.4",
-      "build": 200000137
+      "version": "1.54.5",
+      "build": 200000138
     }
   },
   "uiConfig": {
-    "version": 200000137,
+    "version": 200000138,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,18 +54,14 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "更新不再卡在「校验并准备安装」：系统安装会话的结果广播可被系统正常投递，安装确认框超时也会给出提示并放回升级按钮",
-            "网页 JS 求值改为串行队列并加超时，智能体工具调用与离线快照不再互相吞掉回调（表现为点了没反应）",
-            "系统权限被拒也会结算网页请求，定位与摄像头请求不再永久挂起，多标签同时申请也不再互相覆盖",
-            "下载完成的文件改用 FileProvider 打开，Android 7 以上不再「下载成功、一点就崩」",
-            "智能体一轮结束必走收尾：异常或点「停止」后岛不再一直显示「进行中」，下一句发得出",
-            "展示离线快照时不再把快照自身回写，断网反复刷新不会层层叠加提示条",
-            "清理误插进书签/历史/权限/下载工具里的页面动作分支，工具不再「假装成功」",
-            "离线快照写入与读取统一字节上限，不再存下永远读不回来的快照"
+            "网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」",
+            "智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃",
+            "错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走",
+            "备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库",
+            "去掉从未使用的读取短信权限，应用数据也不再进系统备份",
+            "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -76,7 +72,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.4 · 构建 200000137",
+              "v1.54.5 · 构建 200000138",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -105,15 +101,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体记忆更新后返回刚写入的那条，界面不再显示串条"
+            "跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认",
+            "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
           ],
           "images": [
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.4 · 构建 200000137",
+              "v1.54.5 · 构建 200000138",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -145,18 +143,14 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "更新不再卡在「校验并准备安装」：系统安装会话的结果广播可被系统正常投递，安装确认框超时也会给出提示并放回升级按钮",
-          "网页 JS 求值改为串行队列并加超时，智能体工具调用与离线快照不再互相吞掉回调（表现为点了没反应）",
-          "系统权限被拒也会结算网页请求，定位与摄像头请求不再永久挂起，多标签同时申请也不再互相覆盖",
-          "下载完成的文件改用 FileProvider 打开，Android 7 以上不再「下载成功、一点就崩」",
-          "智能体一轮结束必走收尾：异常或点「停止」后岛不再一直显示「进行中」，下一句发得出",
-          "展示离线快照时不再把快照自身回写，断网反复刷新不会层层叠加提示条",
-          "清理误插进书签/历史/权限/下载工具里的页面动作分支，工具不再「假装成功」",
-          "离线快照写入与读取统一字节上限，不再存下永远读不回来的快照"
+          "网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」",
+          "智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃",
+          "错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走",
+          "备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库",
+          "去掉从未使用的读取短信权限，应用数据也不再进系统备份",
+          "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -167,7 +161,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.4 · 构建 200000137",
+            "v1.54.5 · 构建 200000138",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -196,15 +190,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体记忆更新后返回刚写入的那条，界面不再显示串条"
+          "跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认",
+          "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
         ],
         "images": [
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.4 · 构建 200000137",
+            "v1.54.5 · 构建 200000138",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -229,9 +225,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.4/v1.54.4-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip"
   ]
 }
