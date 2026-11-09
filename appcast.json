@@ -1,48 +1,48 @@
 {
-  "version": "1.54.21",
-  "build": 200000175,
-  "notes": "新增: 全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘；安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞） || 改进: GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试",
+  "version": "1.54.22",
+  "build": 200000176,
+  "notes": "改进: 安卓二级页面按 WinUI 版式重做 || 新增: 书签历史独立搜索与逐行操作菜单",
   "notesByPlatform": {
-    "macos": "v1.54.21（macOS）\n新增: 全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘；安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞） || 改进: GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试",
-    "android": "v1.54.21（Android）\n新增: 全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘；安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞） || 改进: GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试"
+    "macos": "v1.54.22（macOS）\n改进: 安卓二级页面按 WinUI 版式重做 || 新增: 书签历史独立搜索与逐行操作菜单",
+    "android": "v1.54.22（Android）\n改进: 安卓二级页面按 WinUI 版式重做 || 新增: 书签历史独立搜索与逐行操作菜单"
   },
-  "publishedAt": "2026-11-09T11:41:37Z",
+  "publishedAt": "2026-11-09T12:18:49Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-macOS.zip",
-      "sha256": "3acfe1086f13c8dc0658da9a95f944a8ee0420a5e75361964882e820bfddf255",
-      "size": 5873431,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-macOS.zip",
+      "sha256": "ad22196c0862b46060b875910a5de97e13433af639ff091def9ce7d1b45b9f4c",
+      "size": 5873436,
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.20",
-        "fromBuild": 200000172,
-        "toBuild": 200000175,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/delta-macOS-v1.54.20-v1.54.21.patch?b=200000175",
-        "patchSha256": "a2ddd9c986a0c1a04d50991f59a552dc6b99d39c58d33c9a534b0ca98ae68c19",
-        "patchSize": 5031110
+        "fromVersion": "1.54.21",
+        "fromBuild": 200000175,
+        "toBuild": 200000176,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/delta-macOS-v1.54.21-v1.54.22.patch?b=200000176",
+        "patchSha256": "a792a33c86069483eee44146952d2fe81d869e7eec05eb820e1671bd125a9c1a",
+        "patchSize": 2476536
       },
-      "version": "1.54.21",
-      "build": 200000175
+      "version": "1.54.22",
+      "build": 200000176
     },
     "android": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-Android.apk",
-      "sha256": "2fba3379cab4ffca5ef11c01d9780d9a1c0d0b44be1827d14de9d7a21812fd5e",
-      "size": 188775035,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-Android.apk",
+      "sha256": "0d7c24b3498094bd885d3534c94c247cb7a5f6263ca63b5f9242a1460855550f",
+      "size": 188791419,
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.20",
-        "fromBuild": 200000172,
-        "toBuild": 200000175,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/delta-v1.54.20-v1.54.21.patch?b=200000175",
-        "patchSha256": "bbf52418a8bd2449345bda2961aebe37e0cf1aa1a06222d4d260714610987269",
-        "patchSize": 881341
+        "fromVersion": "1.54.21",
+        "fromBuild": 200000175,
+        "toBuild": 200000176,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/delta-v1.54.21-v1.54.22.patch?b=200000176",
+        "patchSha256": "57a63b3b4256c0281d70492df11daa8a4c77296e1a3c8f7e0f1471ddf8669764",
+        "patchSize": 691356
       },
-      "version": "1.54.21",
-      "build": 200000175
+      "version": "1.54.22",
+      "build": 200000176
     }
   },
   "uiConfig": {
-    "version": 200000175,
+    "version": 200000176,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -92,19 +92,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘",
-            "安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞）",
-            "GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试"
+            "书签历史独立搜索与逐行操作菜单",
+            "安卓二级页面按 WinUI 版式重做"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.21 · 构建 200000175",
+              "v1.54.22 · 构建 200000176",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -133,19 +131,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘",
-            "安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞）",
-            "GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试"
+            "书签历史独立搜索与逐行操作菜单",
+            "安卓二级页面按 WinUI 版式重做"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.21 · 构建 200000175",
+              "v1.54.22 · 构建 200000176",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -177,19 +173,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘",
-          "安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞）",
-          "GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试"
+          "书签历史独立搜索与逐行操作菜单",
+          "安卓二级页面按 WinUI 版式重做"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.21 · 构建 200000175",
+            "v1.54.22 · 构建 200000176",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -218,19 +212,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "全场景网页下载统一走内置下载器（直链/blob/data/附件/302），mac 不再出错误页，安卓响应体落盘",
-          "安卓 UI 重做为 WinUI 亚克力体系（标签条/命令栏/状态栏/导航/下载中心/智能体坞）",
-          "GitHub 上传同 sha 跳过、双端并行、状态文件续跑与退避重试"
+          "书签历史独立搜索与逐行操作菜单",
+          "安卓二级页面按 WinUI 版式重做"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.21 · 构建 200000175",
+            "v1.54.22 · 构建 200000176",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -255,13 +247,13 @@
     ]
   },
   "downloadSources": [
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.21/v1.54.21-macOS.zip"
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.22/v1.54.22-macOS.zip"
   ]
 }
