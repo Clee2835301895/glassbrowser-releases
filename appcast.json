@@ -1,48 +1,48 @@
 {
-  "version": "1.54.17",
-  "build": 200000165,
-  "notes": "修复: [macOS] 岛输入框打不进字（面板手势抢走焦点）；[Android] 地址栏跟随页面、智能体入口收进顶栏、工具名可见",
+  "version": "1.54.18",
+  "build": 200000168,
+  "notes": "修复: [macOS] 微信官网等下载按钮点了变错误页（文件直链被当网页加载，现直接进下载）；[Android] 顶栏地址跟随页面、智能体入口收进顶栏、工具名可见",
   "notesByPlatform": {
-    "macos": "v1.54.17（macOS）\n修复: [macOS] 岛输入框打不进字（面板手势抢走焦点）；[Android] 地址栏跟随页面、智能体入口收进顶栏、工具名可见",
-    "android": "v1.54.17（Android）\n修复: [macOS] 岛输入框打不进字（面板手势抢走焦点）；[Android] 地址栏跟随页面、智能体入口收进顶栏、工具名可见"
+    "macos": "v1.54.18（macOS）\n修复: [macOS] 微信官网等下载按钮点了变错误页（文件直链被当网页加载，现直接进下载）；[Android] 顶栏地址跟随页面、智能体入口收进顶栏、工具名可见",
+    "android": "v1.54.18（Android）\n修复: [macOS] 微信官网等下载按钮点了变错误页（文件直链被当网页加载，现直接进下载）；[Android] 顶栏地址跟随页面、智能体入口收进顶栏、工具名可见"
   },
-  "publishedAt": "2026-11-09T07:56:24Z",
+  "publishedAt": "2026-11-09T08:18:03Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-macOS.zip",
-      "sha256": "d7df78ba3e8dfd17876e835eb1982cfad7764d136fee7b1ed054161e1011c584",
-      "size": 5747276,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-macOS.zip",
+      "sha256": "f8075cc9b91c878940a49831fb9578cba92c59b22200e8b92b63d131953bb838",
+      "size": 5750624,
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.16",
-        "fromBuild": 200000163,
-        "toBuild": 200000165,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/delta-macOS-v1.54.16-v1.54.17.patch?b=200000165",
-        "patchSha256": "efe790985ae602fdcfccc75fb443e0e2f4021bbf81745dc418dd7c15d04fb0b3",
-        "patchSize": 4900400
+        "fromVersion": "1.54.17",
+        "fromBuild": 200000165,
+        "toBuild": 200000168,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/delta-macOS-v1.54.17-v1.54.18.patch?b=200000168",
+        "patchSha256": "f117343cbad6fe5117a0fa0eb56dd81ef99e0baedab6063d8d4ee102990dfd25",
+        "patchSize": 4891922
       },
-      "version": "1.54.17",
-      "build": 200000165
+      "version": "1.54.18",
+      "build": 200000168
     },
     "android": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-Android.apk",
-      "sha256": "53c834090b0311c942b1a50354d3ec451d84d49dab758b8ae8d798ae4f716829",
-      "size": 188806305,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-Android.apk",
+      "sha256": "5f0ac4bd0c2225516c625cbf0c1234878e1a09f1981b5428f2a7532d1bf53c6d",
+      "size": 188806301,
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.16",
-        "fromBuild": 200000163,
-        "toBuild": 200000165,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/delta-v1.54.16-v1.54.17.patch?b=200000165",
-        "patchSha256": "300442c726bad7bed803ebbbcdb75b2ed301f26bfd0e1ffd0bee428b4dab35f7",
-        "patchSize": 8598
+        "fromVersion": "1.54.17",
+        "fromBuild": 200000165,
+        "toBuild": 200000168,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/delta-v1.54.17-v1.54.18.patch?b=200000168",
+        "patchSha256": "8dfea0860da8e079f8ef86b3f27528ab5cb74b2aaf59b43a00cf1556ad8cbe63",
+        "patchSize": 7008
       },
-      "version": "1.54.17",
-      "build": 200000165
+      "version": "1.54.18",
+      "build": 200000168
     }
   },
   "uiConfig": {
-    "version": 200000165,
+    "version": 200000168,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -92,7 +92,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "地址栏跟随页面、智能体入口收进顶栏、工具名可见"
+            "顶栏地址跟随页面、智能体入口收进顶栏、工具名可见"
           ],
           "images": [
             ""
@@ -100,7 +100,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.17 · 构建 200000165",
+              "v1.54.18 · 构建 200000168",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -129,7 +129,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "岛输入框打不进字（面板手势抢走焦点）"
+            "微信官网等下载按钮点了变错误页（文件直链被当网页加载，现直接进下载）"
           ],
           "images": [
             ""
@@ -137,7 +137,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.17 · 构建 200000165",
+              "v1.54.18 · 构建 200000168",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -169,7 +169,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "地址栏跟随页面、智能体入口收进顶栏、工具名可见"
+          "顶栏地址跟随页面、智能体入口收进顶栏、工具名可见"
         ],
         "images": [
           ""
@@ -177,7 +177,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.17 · 构建 200000165",
+            "v1.54.18 · 构建 200000168",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -206,7 +206,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "岛输入框打不进字（面板手势抢走焦点）"
+          "微信官网等下载按钮点了变错误页（文件直链被当网页加载，现直接进下载）"
         ],
         "images": [
           ""
@@ -214,7 +214,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.17 · 构建 200000165",
+            "v1.54.18 · 构建 200000168",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -239,13 +239,13 @@
     ]
   },
   "downloadSources": [
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.17/v1.54.17-macOS.zip"
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.18/v1.54.18-macOS.zip"
   ]
 }
