@@ -1,46 +1,48 @@
 {
-  "version": "1.54.13",
-  "build": 200000155,
-  "notes": "修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页",
+  "version": "1.54.14",
+  "build": 200000158,
+  "notes": "修复: [Android] 顶栏精简为后退/前进/地址/菜单/刷新，其余收进菜单，不再与智能体岛互相遮挡; [Android] 智能体岛改半透明磨砂，运行中显示第 N/M 步与进度条; [Android] 更新页重做进度卡：百分比、速度、剩余时间与下载/校验/安装三段; [Android] 下载改多连接并发并支持断点续传，磁盘空间按系统口径判断; [Android] 所有下载源都不可用时仍可系统下载器或浏览器或复制链接兜底; [macOS] 智能体岛改磨砂玻璃质感，弹出面板输入框自动聚焦可直接打字; [macOS] 更新日志严格只显示本端条目，不再混入安卓内容; [macOS] 更新页增加下载百分比、速度与剩余时间，并提供复制链接与浏览器打开兜底",
   "notesByPlatform": {
-    "macos": "v1.54.13（macOS）\n修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页",
-    "android": "v1.54.13（Android）\n修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页"
+    "macos": "v1.54.14（macOS）\n修复: [Android] 顶栏精简为后退/前进/地址/菜单/刷新，其余收进菜单，不再与智能体岛互相遮挡; [Android] 智能体岛改半透明磨砂，运行中显示第 N/M 步与进度条; [Android] 更新页重做进度卡：百分比、速度、剩余时间与下载/校验/安装三段; [Android] 下载改多连接并发并支持断点续传，磁盘空间按系统口径判断; [Android] 所有下载源都不可用时仍可系统下载器或浏览器或复制链接兜底; [macOS] 智能体岛改磨砂玻璃质感，弹出面板输入框自动聚焦可直接打字; [macOS] 更新日志严格只显示本端条目，不再混入安卓内容; [macOS] 更新页增加下载百分比、速度与剩余时间，并提供复制链接与浏览器打开兜底",
+    "android": "v1.54.14（Android）\n修复: [Android] 顶栏精简为后退/前进/地址/菜单/刷新，其余收进菜单，不再与智能体岛互相遮挡; [Android] 智能体岛改半透明磨砂，运行中显示第 N/M 步与进度条; [Android] 更新页重做进度卡：百分比、速度、剩余时间与下载/校验/安装三段; [Android] 下载改多连接并发并支持断点续传，磁盘空间按系统口径判断; [Android] 所有下载源都不可用时仍可系统下载器或浏览器或复制链接兜底; [macOS] 智能体岛改磨砂玻璃质感，弹出面板输入框自动聚焦可直接打字; [macOS] 更新日志严格只显示本端条目，不再混入安卓内容; [macOS] 更新页增加下载百分比、速度与剩余时间，并提供复制链接与浏览器打开兜底"
   },
-  "publishedAt": "2026-11-09T05:25:09Z",
+  "publishedAt": "2026-11-09T06:07:56Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip",
-      "sha256": "b400ad33db936024102823010951ad4b228d26dd3ba5a51acd65c79258b8995a",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-macOS.zip",
+      "sha256": "39dd78fea424227bd0b168558577eac0f539daf3ebdf76c004e221dd8524a0a6",
       "minOS": "26.0",
+      "size": 5739521,
       "delta": {
-        "fromVersion": "1.54.12",
-        "fromBuild": 200000152,
-        "toBuild": 200000155,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/delta-macOS-v1.54.12-v1.54.13.patch?b=200000155",
-        "patchSha256": "97ca240ab3171a63dc611bf051583ff1c97b918c70462279bd6e6fc053b0ebd7",
-        "patchSize": 4838227
+        "fromVersion": "1.54.13",
+        "fromBuild": 200000155,
+        "toBuild": 200000158,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/delta-macOS-v1.54.13-v1.54.14.patch?b=200000158",
+        "patchSha256": "2622a442d932654f64321509b9b34e9524145884abaafb29e292f338d62aeba6",
+        "patchSize": 4913929
       },
-      "version": "1.54.13",
-      "build": 200000155
+      "version": "1.54.14",
+      "build": 200000158
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
-      "sha256": "b06d20f99677ba202ea40d19cea6deb43485b0d6d3ea47f9cde17cd74df9023a",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-Android.apk",
+      "sha256": "a2f1d83569d008f1e8a0f7b32ec5e773386519811b3dc8489a5cc3a9b07fe2a8",
       "minSDK": 31,
+      "size": 188773537,
       "delta": {
-        "fromVersion": "1.54.12",
-        "fromBuild": 200000152,
-        "toBuild": 200000155,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/delta-v1.54.12-v1.54.13.patch?b=200000155",
-        "patchSha256": "4b69258fc833d91be66b2ec2fe4a315a8bfebbc12d5a4acea7dde05daba55f05",
-        "patchSize": 116784
+        "fromVersion": "1.54.13",
+        "fromBuild": 200000155,
+        "toBuild": 200000158,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/delta-v1.54.13-v1.54.14.patch?b=200000158",
+        "patchSha256": "0b6c0c19425b76f833ab22a6935496c10c41564119bc39f13666a0e0121a186d",
+        "patchSize": 692367
       },
-      "version": "1.54.13",
-      "build": 200000155
+      "version": "1.54.14",
+      "build": 200000158
     }
   },
   "uiConfig": {
-    "version": 200000155,
+    "version": 200000158,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,15 +56,23 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "点开新窗口/下载/外部应用不再顶掉当前页画错误页"
+            "顶栏精简为后退/前进/地址/菜单/刷新，其余收进菜单，不再与智能体岛互相遮挡",
+            "智能体岛改半透明磨砂，运行中显示第 N/M 步与进度条",
+            "更新页重做进度卡：百分比、速度、剩余时间与下载/校验/安装三段",
+            "下载改多连接并发并支持断点续传，磁盘空间按系统口径判断",
+            "所有下载源都不可用时仍可系统下载器或浏览器或复制链接兜底"
           ],
           "images": [
+            "",
+            "",
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.13 · 构建 200000155",
+              "v1.54.14 · 构建 200000158",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -91,15 +101,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "失败页改用真实请求地址，不再误报上一页"
+            "智能体岛改磨砂玻璃质感，弹出面板输入框自动聚焦可直接打字",
+            "更新日志严格只显示本端条目，不再混入安卓内容",
+            "更新页增加下载百分比、速度与剩余时间，并提供复制链接与浏览器打开兜底"
           ],
           "images": [
+            "",
+            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.13 · 构建 200000155",
+              "v1.54.14 · 构建 200000158",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -131,15 +145,23 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "点开新窗口/下载/外部应用不再顶掉当前页画错误页"
+          "顶栏精简为后退/前进/地址/菜单/刷新，其余收进菜单，不再与智能体岛互相遮挡",
+          "智能体岛改半透明磨砂，运行中显示第 N/M 步与进度条",
+          "更新页重做进度卡：百分比、速度、剩余时间与下载/校验/安装三段",
+          "下载改多连接并发并支持断点续传，磁盘空间按系统口径判断",
+          "所有下载源都不可用时仍可系统下载器或浏览器或复制链接兜底"
         ],
         "images": [
+          "",
+          "",
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.13 · 构建 200000155",
+            "v1.54.14 · 构建 200000158",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -168,15 +190,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "失败页改用真实请求地址，不再误报上一页"
+          "智能体岛改磨砂玻璃质感，弹出面板输入框自动聚焦可直接打字",
+          "更新日志严格只显示本端条目，不再混入安卓内容",
+          "更新页增加下载百分比、速度与剩余时间，并提供复制链接与浏览器打开兜底"
         ],
         "images": [
+          "",
+          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.13 · 构建 200000155",
+            "v1.54.14 · 构建 200000158",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -201,9 +227,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.14/v1.54.14-macOS.zip"
   ]
 }
