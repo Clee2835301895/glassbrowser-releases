@@ -1,46 +1,46 @@
 {
-  "version": "1.54.5",
-  "build": 200000138,
-  "notes": "修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端",
+  "version": "1.54.6",
+  "build": 200000139,
+  "notes": "修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约",
   "notesByPlatform": {
-    "macos": "v1.54.5（macOS）\n修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端",
-    "android": "v1.54.5（Android）\n修复: [Android] 网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」; [Android] 智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃; [Android] 错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走; [Android] 备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库; [Android] 去掉从未使用的读取短信权限，应用数据也不再进系统备份; [macOS] 跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认; [全端] 更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
+    "macos": "v1.54.6（macOS）\n修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约",
+    "android": "v1.54.6（Android）\n修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约"
   },
-  "publishedAt": "2026-11-09T01:17:22Z",
+  "publishedAt": "2026-11-09T01:42:56Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip",
-      "sha256": "19cda5a1de727d1b801cfde37d684876d946b50b782598a1d73d14b87c89ae66",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip",
+      "sha256": "e2670b2e4a624d851acb8dd0e2c58ead0e5cbb0a95e31ed385e70a7c780857b5",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.4",
-        "fromBuild": 200000137,
-        "toBuild": 200000138,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/delta-macOS-v1.54.4-v1.54.5.patch?b=200000138",
-        "patchSha256": "2b1ef14887610baa0894572db863b60aa91596d389df2e9d8b728418ad2aa8de",
-        "patchSize": 4717195
+        "fromVersion": "1.54.5",
+        "fromBuild": 200000138,
+        "toBuild": 200000139,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/delta-macOS-v1.54.5-v1.54.6.patch?b=200000139",
+        "patchSha256": "0010175fcbd13f98f1de93e52d496bbcfb5c88e156e53e904ded880ba1d13667",
+        "patchSize": 4704102
       },
-      "version": "1.54.5",
-      "build": 200000138
+      "version": "1.54.6",
+      "build": 200000139
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
-      "sha256": "e007134b8a59a3af918966e08239fc15cabf7333452c63f34545bc8d2a42bb0e",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
+      "sha256": "2fc38d123bad66510017bc5258785077dea9f16fb6f848eba575b7e7ae7bdb2d",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.4",
-        "fromBuild": 200000137,
-        "toBuild": 200000138,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/delta-v1.54.4-v1.54.5.patch?b=200000138",
-        "patchSha256": "8c034593171869c02a79fed9140be5511becc174ea783c44e91bbe0937bc3d43",
-        "patchSize": 351890
+        "fromVersion": "1.54.5",
+        "fromBuild": 200000138,
+        "toBuild": 200000139,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/delta-v1.54.5-v1.54.6.patch?b=200000139",
+        "patchSha256": "9bd78df912c8e0db3b5843ccbeae77b35c9072d85cc78a1505f7e4b706bfc990",
+        "patchSize": 265744
       },
-      "version": "1.54.5",
-      "build": 200000138
+      "version": "1.54.6",
+      "build": 200000139
     }
   },
   "uiConfig": {
-    "version": 200000138,
+    "version": 200000139,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,16 +54,12 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」",
-            "智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃",
-            "错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走",
-            "备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库",
-            "去掉从未使用的读取短信权限，应用数据也不再进系统备份",
-            "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
+            "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
+            "岛内回答可回看思考过程，错误行可一键重试",
+            "步骤状态色改用语义令牌，暗色模式不再偏色",
+            "文档: 补齐密码库/同步/交接/发版四份契约"
           ],
           "images": [
-            "",
-            "",
             "",
             "",
             "",
@@ -72,7 +68,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.5 · 构建 200000138",
+              "v1.54.6 · 构建 200000139",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -101,8 +97,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认",
-            "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
+            "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
+            "文档: 补齐密码库/同步/交接/发版四份契约"
           ],
           "images": [
             "",
@@ -111,7 +107,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.5 · 构建 200000138",
+              "v1.54.6 · 构建 200000139",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -143,16 +139,12 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "网页截图不再「保存失败」：改走系统相册并在后台编码，成品在「图片/GlassBrowser」",
-          "智能体从网页取回的数据只认自己发起的那次，网页伪造的回传一律丢弃",
-          "错误页的「重试」「回主页」只在内置错误页上生效，普通网页不能再把浏览器拽走",
-          "备用渲染内核的表单回填接口只接受当前站点，别的网站塞不进密码库",
-          "去掉从未使用的读取短信权限，应用数据也不再进系统备份",
-          "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
+          "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
+          "岛内回答可回看思考过程，错误行可一键重试",
+          "步骤状态色改用语义令牌，暗色模式不再偏色",
+          "文档: 补齐密码库/同步/交接/发版四份契约"
         ],
         "images": [
-          "",
-          "",
           "",
           "",
           "",
@@ -161,7 +153,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.5 · 构建 200000138",
+            "v1.54.6 · 构建 200000139",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -190,8 +182,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "跨站搜索、双页对比、导出网页三个动作不再弹「未分类工具」确认",
-          "更新说明里重复的 1.54.2 段落已合并，导出脚本不再出现不存在的端"
+          "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
+          "文档: 补齐密码库/同步/交接/发版四份契约"
         ],
         "images": [
           "",
@@ -200,7 +192,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.5 · 构建 200000138",
+            "v1.54.6 · 构建 200000139",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -225,9 +217,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.5/v1.54.5-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip"
   ]
 }
