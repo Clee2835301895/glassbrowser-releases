@@ -1,46 +1,46 @@
 {
-  "version": "1.54.12",
-  "build": 200000152,
-  "notes": "修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面",
+  "version": "1.54.13",
+  "build": 200000155,
+  "notes": "修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页",
   "notesByPlatform": {
-    "macos": "v1.54.12（macOS）\n修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面",
-    "android": "v1.54.12（Android）\n修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
+    "macos": "v1.54.13（macOS）\n修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页",
+    "android": "v1.54.13（Android）\n修复: [Android] 点开新窗口/下载/外部应用不再顶掉当前页画错误页; [macOS] 失败页改用真实请求地址，不再误报上一页"
   },
-  "publishedAt": "2026-11-09T04:31:02Z",
+  "publishedAt": "2026-11-09T05:25:09Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip",
-      "sha256": "0f861c99203baa72adddecaf4b043b8669eb7140b39ef5bcaedec598530a2519",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip",
+      "sha256": "b400ad33db936024102823010951ad4b228d26dd3ba5a51acd65c79258b8995a",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.11",
-        "fromBuild": 200000149,
-        "toBuild": 200000152,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/delta-macOS-v1.54.11-v1.54.12.patch?b=200000152",
-        "patchSha256": "a5cbb579ae26116290442a196a67f4ba04c987ec12145b9936918a36ccb7e156",
-        "patchSize": 4743266
+        "fromVersion": "1.54.12",
+        "fromBuild": 200000152,
+        "toBuild": 200000155,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/delta-macOS-v1.54.12-v1.54.13.patch?b=200000155",
+        "patchSha256": "97ca240ab3171a63dc611bf051583ff1c97b918c70462279bd6e6fc053b0ebd7",
+        "patchSize": 4838227
       },
-      "version": "1.54.12",
-      "build": 200000152
+      "version": "1.54.13",
+      "build": 200000155
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
-      "sha256": "5ca86e2422959fd9c514bfbd9987e727ba4ed4bf14311b5005770e537d3872cf",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
+      "sha256": "b06d20f99677ba202ea40d19cea6deb43485b0d6d3ea47f9cde17cd74df9023a",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.11",
-        "fromBuild": 200000149,
-        "toBuild": 200000152,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/delta-v1.54.11-v1.54.12.patch?b=200000152",
-        "patchSha256": "a4430692fbf2b7f304bdf2db230ab40b6a488bd9e7b3a37bcbf7f8eb9da5cf3d",
-        "patchSize": 216967
+        "fromVersion": "1.54.12",
+        "fromBuild": 200000152,
+        "toBuild": 200000155,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/delta-v1.54.12-v1.54.13.patch?b=200000155",
+        "patchSha256": "4b69258fc833d91be66b2ec2fe4a315a8bfebbc12d5a4acea7dde05daba55f05",
+        "patchSize": 116784
       },
-      "version": "1.54.12",
-      "build": 200000152
+      "version": "1.54.13",
+      "build": 200000155
     }
   },
   "uiConfig": {
-    "version": 200000152,
+    "version": 200000155,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,19 +54,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱",
-            "每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切",
-            "智能体内联结果页等内部页面失败不再落成错误页"
+            "点开新窗口/下载/外部应用不再顶掉当前页画错误页"
           ],
           "images": [
-            "",
-            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.12 · 构建 200000152",
+              "v1.54.13 · 构建 200000155",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -95,7 +91,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
+            "失败页改用真实请求地址，不再误报上一页"
           ],
           "images": [
             ""
@@ -103,7 +99,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.12 · 构建 200000152",
+              "v1.54.13 · 构建 200000155",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -135,19 +131,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱",
-          "每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切",
-          "智能体内联结果页等内部页面失败不再落成错误页"
+          "点开新窗口/下载/外部应用不再顶掉当前页画错误页"
         ],
         "images": [
-          "",
-          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.12 · 构建 200000152",
+            "v1.54.13 · 构建 200000155",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -176,7 +168,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
+          "失败页改用真实请求地址，不再误报上一页"
         ],
         "images": [
           ""
@@ -184,7 +176,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.12 · 构建 200000152",
+            "v1.54.13 · 构建 200000155",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -209,9 +201,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.13/v1.54.13-macOS.zip"
   ]
 }
