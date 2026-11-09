@@ -1,40 +1,40 @@
 {
-  "version": "1.54.19",
-  "build": 200000170,
-  "notes": "修复: [macOS] 同一下载被登记两次导致进度提醒重复；保存位置面板在非激活状态下弹在后面；[Android] 顶栏与智能体过程展示",
+  "version": "1.54.20",
+  "build": 200000172,
+  "notes": "新增: 两端顶栏常驻下载入口，下载中显示圆环进度；下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录",
   "notesByPlatform": {
-    "macos": "v1.54.19（macOS）\n修复: [macOS] 同一下载被登记两次导致进度提醒重复；保存位置面板在非激活状态下弹在后面；[Android] 顶栏与智能体过程展示",
-    "android": "v1.54.19（Android）\n修复: [macOS] 同一下载被登记两次导致进度提醒重复；保存位置面板在非激活状态下弹在后面；[Android] 顶栏与智能体过程展示"
+    "macos": "v1.54.20（macOS）\n新增: 两端顶栏常驻下载入口，下载中显示圆环进度；下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录",
+    "android": "v1.54.20（Android）\n新增: 两端顶栏常驻下载入口，下载中显示圆环进度；下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录"
   },
-  "publishedAt": "2026-11-09T08:45:33Z",
+  "publishedAt": "2026-11-09T09:29:02Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-macOS.zip",
-      "sha256": "d31f1358dc64d8de2af92335ae68e093aff1587e289bf1f1f020aa2fd0cdea5a",
-      "size": 5751324,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-macOS.zip",
+      "sha256": "7c071223783a7c254c3a1e3cce628c394c9a4c59d6edff741407c82bd1856572",
+      "size": 5848735,
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.18",
-        "fromBuild": 200000168,
-        "toBuild": 200000170,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/delta-macOS-v1.54.18-v1.54.19.patch?b=200000170",
-        "patchSha256": "5ed763cfac1732fe677318161aa80c1219a3bdfb48cc2a58c4c76dc35930d0a0",
-        "patchSize": 4878728
+        "fromVersion": "1.54.19",
+        "fromBuild": 200000170,
+        "toBuild": 200000172,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/delta-macOS-v1.54.19-v1.54.20.patch?b=200000172",
+        "patchSha256": "e9c100e9ab867d96ae924c3db1dc0ffb384efa7f5b5a0060c70f0809c74695b7",
+        "patchSize": 5015743
       },
-      "version": "1.54.19",
-      "build": 200000170
+      "version": "1.54.20",
+      "build": 200000172
     },
     "android": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-Android.apk",
-      "sha256": "95f944738a2fd964dfbaebe50ea5ed1013c6bfa9bd855785e7cbb369814a857c",
-      "size": 188806305,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-Android.apk",
+      "sha256": "126b9a0e069af402a46e1b39f07bc7d9c7f8c2b3dbe7cbebd06e88a7d2edcb28",
+      "size": 188871841,
       "minSDK": 31,
-      "version": "1.54.19",
-      "build": 200000170
+      "version": "1.54.20",
+      "build": 200000172
     }
   },
   "uiConfig": {
-    "version": 200000170,
+    "version": 200000172,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -84,8 +84,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "保存位置面板在非激活状态下弹在后面",
-            "顶栏与智能体过程展示"
+            "两端顶栏常驻下载入口，下载中显示圆环进度",
+            "下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录"
           ],
           "images": [
             "",
@@ -94,7 +94,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.19 · 构建 200000170",
+              "v1.54.20 · 构建 200000172",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -123,8 +123,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "同一下载被登记两次导致进度提醒重复",
-            "保存位置面板在非激活状态下弹在后面"
+            "两端顶栏常驻下载入口，下载中显示圆环进度",
+            "下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录"
           ],
           "images": [
             "",
@@ -133,7 +133,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.19 · 构建 200000170",
+              "v1.54.20 · 构建 200000172",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -165,8 +165,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "保存位置面板在非激活状态下弹在后面",
-          "顶栏与智能体过程展示"
+          "两端顶栏常驻下载入口，下载中显示圆环进度",
+          "下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录"
         ],
         "images": [
           "",
@@ -175,7 +175,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.19 · 构建 200000170",
+            "v1.54.20 · 构建 200000172",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -204,8 +204,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "同一下载被登记两次导致进度提醒重复",
-          "保存位置面板在非激活状态下弹在后面"
+          "两端顶栏常驻下载入口，下载中显示圆环进度",
+          "下载弹层可看全部任务、可粘贴链接手动下载、可自定义保存目录"
         ],
         "images": [
           "",
@@ -214,7 +214,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.19 · 构建 200000170",
+            "v1.54.20 · 构建 200000172",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -239,13 +239,13 @@
     ]
   },
   "downloadSources": [
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.19/v1.54.19-macOS.zip"
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/v1.54.20-macOS.zip"
   ]
 }
