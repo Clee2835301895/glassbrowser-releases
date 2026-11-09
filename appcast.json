@@ -1,46 +1,46 @@
 {
-  "version": "1.54.8",
-  "build": 200000143,
-  "notes": "修复: [Android] 内部求值地址不再被当成页面加载，「页面出错了」卡死修好; [Android] 智能体岛整体重做：星芒徽标、渐变胶囊、状态胶囊、对话气泡与发送键; [macOS] 「稍后手动重启」下面写明下次打开会继续装完，不用怕更新丢",
+  "version": "1.54.9",
+  "build": 200000145,
+  "notes": "修复: [Android] 错误页不再把内部求值地址画成页面，卡死与地址栏长串一并修掉; [Android] 智能体岛移到顶栏下沿改半透明磨砂，不再压住刷新与菜单图标; [macOS] 智能体岛换成液态玻璃浮层与渐变胶囊，运行时有高光扫过",
   "notesByPlatform": {
-    "macos": "v1.54.8（macOS）\n修复: [Android] 内部求值地址不再被当成页面加载，「页面出错了」卡死修好; [Android] 智能体岛整体重做：星芒徽标、渐变胶囊、状态胶囊、对话气泡与发送键; [macOS] 「稍后手动重启」下面写明下次打开会继续装完，不用怕更新丢",
-    "android": "v1.54.8（Android）\n修复: [Android] 内部求值地址不再被当成页面加载，「页面出错了」卡死修好; [Android] 智能体岛整体重做：星芒徽标、渐变胶囊、状态胶囊、对话气泡与发送键; [macOS] 「稍后手动重启」下面写明下次打开会继续装完，不用怕更新丢"
+    "macos": "v1.54.9（macOS）\n修复: [Android] 错误页不再把内部求值地址画成页面，卡死与地址栏长串一并修掉; [Android] 智能体岛移到顶栏下沿改半透明磨砂，不再压住刷新与菜单图标; [macOS] 智能体岛换成液态玻璃浮层与渐变胶囊，运行时有高光扫过",
+    "android": "v1.54.9（Android）\n修复: [Android] 错误页不再把内部求值地址画成页面，卡死与地址栏长串一并修掉; [Android] 智能体岛移到顶栏下沿改半透明磨砂，不再压住刷新与菜单图标; [macOS] 智能体岛换成液态玻璃浮层与渐变胶囊，运行时有高光扫过"
   },
-  "publishedAt": "2026-11-09T02:37:42Z",
+  "publishedAt": "2026-11-09T02:57:49Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-macOS.zip",
-      "sha256": "5a47c5689badede657ffe4f64e5a095f7bee626f3b74f1ebdb5de2b28d0ce49f",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-macOS.zip",
+      "sha256": "bc5f8dd841c4c7b16d6b349d11ced976f3c44247ded0fbec2ad78bae6893c9d2",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.7",
-        "fromBuild": 200000141,
-        "toBuild": 200000143,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/delta-macOS-v1.54.7-v1.54.8.patch?b=200000143",
-        "patchSha256": "06f52659bd4123a28198cc8d3beb827a2e8b6524ef84aa7ab288c7da146f104c",
-        "patchSize": 4807573
+        "fromVersion": "1.54.8",
+        "fromBuild": 200000143,
+        "toBuild": 200000145,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/delta-macOS-v1.54.8-v1.54.9.patch?b=200000145",
+        "patchSha256": "50b9287ad42f7788bb510913ea60e1e71494bb47a23241326aa480c202e2ad4d",
+        "patchSize": 4858633
       },
-      "version": "1.54.8",
-      "build": 200000143
+      "version": "1.54.9",
+      "build": 200000145
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-Android.apk",
-      "sha256": "a07effabc4b8db46112946e741d5f85f62cdfdc391b323cda677dd68889c7d67",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-Android.apk",
+      "sha256": "029a5fba94db7619cc419654f0784b077ba17a1f60c5a1175819481347f01077",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.7",
-        "fromBuild": 200000141,
-        "toBuild": 200000143,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/delta-v1.54.7-v1.54.8.patch?b=200000143",
-        "patchSha256": "bd1783268ab49d040666a8c65b3a55dbd0de2bbc2c50c700c2f4cc4ee4cb702e",
-        "patchSize": 561095
+        "fromVersion": "1.54.8",
+        "fromBuild": 200000143,
+        "toBuild": 200000145,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/delta-v1.54.8-v1.54.9.patch?b=200000145",
+        "patchSha256": "54fc52bd19bcd87f44d0222e6c7a7aefc5536b937388a318fb00fd13dfb9c287",
+        "patchSize": 264574
       },
-      "version": "1.54.8",
-      "build": 200000143
+      "version": "1.54.9",
+      "build": 200000145
     }
   },
   "uiConfig": {
-    "version": 200000143,
+    "version": 200000145,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,8 +54,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "内部求值地址不再被当成页面加载，「页面出错了」卡死修好",
-            "智能体岛整体重做：星芒徽标、渐变胶囊、状态胶囊、对话气泡与发送键"
+            "错误页不再把内部求值地址画成页面，卡死与地址栏长串一并修掉",
+            "智能体岛移到顶栏下沿改半透明磨砂，不再压住刷新与菜单图标"
           ],
           "images": [
             "",
@@ -64,7 +64,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.8 · 构建 200000143",
+              "v1.54.9 · 构建 200000145",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -93,7 +93,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "「稍后手动重启」下面写明下次打开会继续装完，不用怕更新丢"
+            "智能体岛换成液态玻璃浮层与渐变胶囊，运行时有高光扫过"
           ],
           "images": [
             ""
@@ -101,7 +101,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.8 · 构建 200000143",
+              "v1.54.9 · 构建 200000145",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -133,8 +133,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "内部求值地址不再被当成页面加载，「页面出错了」卡死修好",
-          "智能体岛整体重做：星芒徽标、渐变胶囊、状态胶囊、对话气泡与发送键"
+          "错误页不再把内部求值地址画成页面，卡死与地址栏长串一并修掉",
+          "智能体岛移到顶栏下沿改半透明磨砂，不再压住刷新与菜单图标"
         ],
         "images": [
           "",
@@ -143,7 +143,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.8 · 构建 200000143",
+            "v1.54.9 · 构建 200000145",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -172,7 +172,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "「稍后手动重启」下面写明下次打开会继续装完，不用怕更新丢"
+          "智能体岛换成液态玻璃浮层与渐变胶囊，运行时有高光扫过"
         ],
         "images": [
           ""
@@ -180,7 +180,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.8 · 构建 200000143",
+            "v1.54.9 · 构建 200000145",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -205,9 +205,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.8/v1.54.8-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.9/v1.54.9-macOS.zip"
   ]
 }
