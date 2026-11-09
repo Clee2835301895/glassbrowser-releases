@@ -1,48 +1,48 @@
 {
-  "version": "1.54.28",
-  "build": 200000184,
-  "notes": "新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字",
+  "version": "1.54.29",
+  "build": 200000185,
+  "notes": "新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字",
   "notesByPlatform": {
-    "macos": "v1.54.28（macOS）\n新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字",
-    "android": "v1.54.28（Android）\n新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字"
+    "macos": "v1.54.29（macOS）\n新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字",
+    "android": "v1.54.29（Android）\n新增: 安卓顶部融合标签与底部常用动作条 || 改进: 标签总览改为独立不透明页面与实底卡头 || 修复: 输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字"
   },
-  "publishedAt": "2026-11-09T16:34:22Z",
+  "publishedAt": "2026-11-09T16:55:43Z",
   "platforms": {
     "macos": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-macOS.zip",
-      "sha256": "d67efffb96758a1bc087ab6bc6161ef6f234b41e2d152beb73d930358ea27aaf",
-      "size": 5874615,
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-macOS.zip",
+      "sha256": "ed49b53915bef1c9ec83d65844965e1deaa2a500d6b625ed0b2ee21b72163443",
+      "size": 5874612,
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.27",
-        "fromBuild": 200000183,
-        "toBuild": 200000184,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/delta-macOS-v1.54.27-v1.54.28.patch?b=200000184",
-        "patchSha256": "47c0e054e785745f8492f6f2a7effb21c1e909bd4daf9a1cd6a0e1e180b06717",
-        "patchSize": 80117
+        "fromVersion": "1.54.28",
+        "fromBuild": 200000184,
+        "toBuild": 200000185,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/delta-macOS-v1.54.28-v1.54.29.patch?b=200000185",
+        "patchSha256": "ca8aeb7b0e0b175a4d9e14252a04e68ddbe609c2f1f1c474087ac60e6b57da23",
+        "patchSize": 2161538
       },
-      "version": "1.54.28",
-      "build": 200000184
+      "version": "1.54.29",
+      "build": 200000185
     },
     "android": {
-      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-Android.apk",
-      "sha256": "6ac487df773308325fca530657fc77994e511b11565b7881bd0196c622124391",
+      "url": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-Android.apk",
+      "sha256": "31d02d49e3afee9616c8f64cbcd06523abd38e0db956d257beef2a397fcc846a",
       "size": 188877781,
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.27",
-        "fromBuild": 200000183,
-        "toBuild": 200000184,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/delta-v1.54.27-v1.54.28.patch?b=200000184",
-        "patchSha256": "29128ba3c905feb206f373529f1e4b273baf12c3438ed0ff4f6f5eb9fdcbe11f",
-        "patchSize": 564217
+        "fromVersion": "1.54.28",
+        "fromBuild": 200000184,
+        "toBuild": 200000185,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/delta-v1.54.28-v1.54.29.patch?b=200000185",
+        "patchSha256": "1b446ced65d96c6afb7afb389326339adf394a1505c083dcc5837547b2cba5cc",
+        "patchSize": 50230
       },
-      "version": "1.54.28",
-      "build": 200000184
+      "version": "1.54.29",
+      "build": 200000185
     }
   },
   "uiConfig": {
-    "version": 200000184,
+    "version": 200000185,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -94,7 +94,7 @@
           "items": [
             "安卓顶部融合标签与底部常用动作条",
             "标签总览改为独立不透明页面与实底卡头",
-            "输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字"
+            "输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字"
           ],
           "images": [
             "",
@@ -104,7 +104,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.28 · 构建 200000184",
+              "v1.54.29 · 构建 200000185",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -135,7 +135,7 @@
           "items": [
             "安卓顶部融合标签与底部常用动作条",
             "标签总览改为独立不透明页面与实底卡头",
-            "输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字"
+            "输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字"
           ],
           "images": [
             "",
@@ -145,7 +145,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.28 · 构建 200000184",
+              "v1.54.29 · 构建 200000185",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -179,7 +179,7 @@
         "items": [
           "安卓顶部融合标签与底部常用动作条",
           "标签总览改为独立不透明页面与实底卡头",
-          "输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字"
+          "输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字"
         ],
         "images": [
           "",
@@ -189,7 +189,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.28 · 构建 200000184",
+            "v1.54.29 · 构建 200000185",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -220,7 +220,7 @@
         "items": [
           "安卓顶部融合标签与底部常用动作条",
           "标签总览改为独立不透明页面与实底卡头",
-          "输入时底栏不再上浮压住地址胶囊，菜单与联想不再透字"
+          "输入时底栏不再上浮压住胶囊，地址联想不再透出网页文字"
         ],
         "images": [
           "",
@@ -230,7 +230,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.28 · 构建 200000184",
+            "v1.54.29 · 构建 200000185",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -255,13 +255,13 @@
     ]
   },
   "downloadSources": [
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-macOS.zip",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.28/v1.54.28-macOS.zip"
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-macOS.zip",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.29/v1.54.29-macOS.zip"
   ]
 }
