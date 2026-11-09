@@ -1,46 +1,46 @@
 {
-  "version": "1.54.6",
-  "build": 200000139,
-  "notes": "修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约",
+  "version": "1.54.7",
+  "build": 200000141,
+  "notes": "修复: [macOS] 换包器改为独立进程、等旧进程退出后原子换位，点「立即重启」不再没动静; [macOS] 换包没跑完不再被误判成失败回退，「稍后重启」下次启动接着装完; [Android] 更新安装交回系统安装器弹框确认，下载完直接弹「是否安装」; [Android] 增量补丁照旧只下几 MB，但产物落成文件再交给系统安装器; [全端] 升级失败会留下可查的原因，不再静默停在旧版",
   "notesByPlatform": {
-    "macos": "v1.54.6（macOS）\n修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约",
-    "android": "v1.54.6（Android）\n修复: [全端] 智能体连续 24 轮不收敛自动收手，不再无上限烧调用; [Android] 岛内回答可回看思考过程，错误行可一键重试; [Android] 步骤状态色改用语义令牌，暗色模式不再偏色; 文档: 补齐密码库/同步/交接/发版四份契约"
+    "macos": "v1.54.7（macOS）\n修复: [macOS] 换包器改为独立进程、等旧进程退出后原子换位，点「立即重启」不再没动静; [macOS] 换包没跑完不再被误判成失败回退，「稍后重启」下次启动接着装完; [Android] 更新安装交回系统安装器弹框确认，下载完直接弹「是否安装」; [Android] 增量补丁照旧只下几 MB，但产物落成文件再交给系统安装器; [全端] 升级失败会留下可查的原因，不再静默停在旧版",
+    "android": "v1.54.7（Android）\n修复: [macOS] 换包器改为独立进程、等旧进程退出后原子换位，点「立即重启」不再没动静; [macOS] 换包没跑完不再被误判成失败回退，「稍后重启」下次启动接着装完; [Android] 更新安装交回系统安装器弹框确认，下载完直接弹「是否安装」; [Android] 增量补丁照旧只下几 MB，但产物落成文件再交给系统安装器; [全端] 升级失败会留下可查的原因，不再静默停在旧版"
   },
-  "publishedAt": "2026-11-09T01:42:56Z",
+  "publishedAt": "2026-11-09T02:14:16Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip",
-      "sha256": "e2670b2e4a624d851acb8dd0e2c58ead0e5cbb0a95e31ed385e70a7c780857b5",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-macOS.zip",
+      "sha256": "940e0927b77cdbd51149a071fc74b45b90e3972daf00a0d45291008682dbb865",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.5",
-        "fromBuild": 200000138,
-        "toBuild": 200000139,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/delta-macOS-v1.54.5-v1.54.6.patch?b=200000139",
-        "patchSha256": "0010175fcbd13f98f1de93e52d496bbcfb5c88e156e53e904ded880ba1d13667",
-        "patchSize": 4704102
+        "fromVersion": "1.54.6",
+        "fromBuild": 200000139,
+        "toBuild": 200000141,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/delta-macOS-v1.54.6-v1.54.7.patch?b=200000141",
+        "patchSha256": "28ad73b95c3f35ee3fc5c9abb2ba6d6c8a687b251da20bc2f9cbbf3ed4c5be2d",
+        "patchSize": 4857947
       },
-      "version": "1.54.6",
-      "build": 200000139
+      "version": "1.54.7",
+      "build": 200000141
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
-      "sha256": "2fc38d123bad66510017bc5258785077dea9f16fb6f848eba575b7e7ae7bdb2d",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-Android.apk",
+      "sha256": "acdc567ea27e8bf756c7adc6902f5711322d8a138ef7ba3d575113dadd989a86",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.5",
-        "fromBuild": 200000138,
-        "toBuild": 200000139,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/delta-v1.54.5-v1.54.6.patch?b=200000139",
-        "patchSha256": "9bd78df912c8e0db3b5843ccbeae77b35c9072d85cc78a1505f7e4b706bfc990",
-        "patchSize": 265744
+        "fromVersion": "1.54.6",
+        "fromBuild": 200000139,
+        "toBuild": 200000141,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/delta-v1.54.6-v1.54.7.patch?b=200000141",
+        "patchSha256": "29367f4d6b0ca5ee4659ced911b8cd8699f3c7c0f65a7cdf7637f352296e482e",
+        "patchSize": 461894
       },
-      "version": "1.54.6",
-      "build": 200000139
+      "version": "1.54.7",
+      "build": 200000141
     }
   },
   "uiConfig": {
-    "version": 200000139,
+    "version": 200000141,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,13 +54,11 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
-            "岛内回答可回看思考过程，错误行可一键重试",
-            "步骤状态色改用语义令牌，暗色模式不再偏色",
-            "文档: 补齐密码库/同步/交接/发版四份契约"
+            "更新安装交回系统安装器弹框确认，下载完直接弹「是否安装」",
+            "增量补丁照旧只下几 MB，但产物落成文件再交给系统安装器",
+            "升级失败会留下可查的原因，不再静默停在旧版"
           ],
           "images": [
-            "",
             "",
             "",
             ""
@@ -68,7 +66,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.6 · 构建 200000139",
+              "v1.54.7 · 构建 200000141",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -97,17 +95,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
-            "文档: 补齐密码库/同步/交接/发版四份契约"
+            "换包器改为独立进程、等旧进程退出后原子换位，点「立即重启」不再没动静",
+            "换包没跑完不再被误判成失败回退，「稍后重启」下次启动接着装完",
+            "升级失败会留下可查的原因，不再静默停在旧版"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.6 · 构建 200000139",
+              "v1.54.7 · 构建 200000141",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -139,13 +139,11 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
-          "岛内回答可回看思考过程，错误行可一键重试",
-          "步骤状态色改用语义令牌，暗色模式不再偏色",
-          "文档: 补齐密码库/同步/交接/发版四份契约"
+          "更新安装交回系统安装器弹框确认，下载完直接弹「是否安装」",
+          "增量补丁照旧只下几 MB，但产物落成文件再交给系统安装器",
+          "升级失败会留下可查的原因，不再静默停在旧版"
         ],
         "images": [
-          "",
           "",
           "",
           ""
@@ -153,7 +151,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.6 · 构建 200000139",
+            "v1.54.7 · 构建 200000141",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -182,17 +180,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体连续 24 轮不收敛自动收手，不再无上限烧调用",
-          "文档: 补齐密码库/同步/交接/发版四份契约"
+          "换包器改为独立进程、等旧进程退出后原子换位，点「立即重启」不再没动静",
+          "换包没跑完不再被误判成失败回退，「稍后重启」下次启动接着装完",
+          "升级失败会留下可查的原因，不再静默停在旧版"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.6 · 构建 200000139",
+            "v1.54.7 · 构建 200000141",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -217,9 +217,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.6/v1.54.6-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.7/v1.54.7-macOS.zip"
   ]
 }
