@@ -1,46 +1,46 @@
 {
-  "version": "1.54.11",
-  "build": 200000149,
-  "notes": "修复: [Android] 智能体译文等内联页改引擎内联加载，失败不再画成错误页卡死，地址栏不再露 data: 长串; [Android] 智能体岛收起态改为一行（图形＋状态＋箭头），与 mac 同一套语汇; [macOS] 修复智能体岛展开后输入框点不进去、打不了字",
+  "version": "1.54.12",
+  "build": 200000152,
+  "notes": "修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面",
   "notesByPlatform": {
-    "macos": "v1.54.11（macOS）\n修复: [Android] 智能体译文等内联页改引擎内联加载，失败不再画成错误页卡死，地址栏不再露 data: 长串; [Android] 智能体岛收起态改为一行（图形＋状态＋箭头），与 mac 同一套语汇; [macOS] 修复智能体岛展开后输入框点不进去、打不了字",
-    "android": "v1.54.11（Android）\n修复: [Android] 智能体译文等内联页改引擎内联加载，失败不再画成错误页卡死，地址栏不再露 data: 长串; [Android] 智能体岛收起态改为一行（图形＋状态＋箭头），与 mac 同一套语汇; [macOS] 修复智能体岛展开后输入框点不进去、打不了字"
+    "macos": "v1.54.12（macOS）\n修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面",
+    "android": "v1.54.12（Android）\n修复: [Android] 内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱; [Android] 每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切; [Android] 智能体内联结果页等内部页面失败不再落成错误页; [macOS] 浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
   },
-  "publishedAt": "2026-11-09T04:12:54Z",
+  "publishedAt": "2026-11-09T04:31:02Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-macOS.zip",
-      "sha256": "74ed84bab7436420302a0345ade48e0615d176ab62bff76f03b032cb48d2411a",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip",
+      "sha256": "0f861c99203baa72adddecaf4b043b8669eb7140b39ef5bcaedec598530a2519",
       "minOS": "26.0",
       "delta": {
-        "fromVersion": "1.54.10",
-        "fromBuild": 200000147,
-        "toBuild": 200000149,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/delta-macOS-v1.54.10-v1.54.11.patch?b=200000149",
-        "patchSha256": "9d422a9b53e55596656051a897cb17a604f8e81bfb6efba9da19ad2e7df01a10",
-        "patchSize": 4855134
+        "fromVersion": "1.54.11",
+        "fromBuild": 200000149,
+        "toBuild": 200000152,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/delta-macOS-v1.54.11-v1.54.12.patch?b=200000152",
+        "patchSha256": "a5cbb579ae26116290442a196a67f4ba04c987ec12145b9936918a36ccb7e156",
+        "patchSize": 4743266
       },
-      "version": "1.54.11",
-      "build": 200000149
+      "version": "1.54.12",
+      "build": 200000152
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-Android.apk",
-      "sha256": "49ad581baff78ec61c578c408f010cdd335dc2275a2341c2c6573ab6945cd313",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
+      "sha256": "5ca86e2422959fd9c514bfbd9987e727ba4ed4bf14311b5005770e537d3872cf",
       "minSDK": 31,
       "delta": {
-        "fromVersion": "1.54.10",
-        "fromBuild": 200000147,
-        "toBuild": 200000149,
-        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/delta-v1.54.10-v1.54.11.patch?b=200000149",
-        "patchSha256": "f03c0eaadf345f331ee6a3245b02f4b1b181ef815abd640d06c04be81d886fd8",
-        "patchSize": 134825
+        "fromVersion": "1.54.11",
+        "fromBuild": 200000149,
+        "toBuild": 200000152,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/delta-v1.54.11-v1.54.12.patch?b=200000152",
+        "patchSha256": "a4430692fbf2b7f304bdf2db230ab40b6a488bd9e7b3a37bcbf7f8eb9da5cf3d",
+        "patchSize": 216967
       },
-      "version": "1.54.11",
-      "build": 200000149
+      "version": "1.54.12",
+      "build": 200000152
     }
   },
   "uiConfig": {
-    "version": 200000149,
+    "version": 200000152,
     "updatePage": {
       "downloadMode": "app"
     }
@@ -54,17 +54,19 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体译文等内联页改引擎内联加载，失败不再画成错误页卡死，地址栏不再露 data: 长串",
-            "智能体岛收起态改为一行（图形＋状态＋箭头），与 mac 同一套语汇"
+            "内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱",
+            "每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切",
+            "智能体内联结果页等内部页面失败不再落成错误页"
           ],
           "images": [
+            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.11 · 构建 200000149",
+              "v1.54.12 · 构建 200000152",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -93,7 +95,7 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "修复智能体岛展开后输入框点不进去、打不了字"
+            "浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
           ],
           "images": [
             ""
@@ -101,7 +103,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.11 · 构建 200000149",
+              "v1.54.12 · 构建 200000152",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -133,17 +135,19 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体译文等内联页改引擎内联加载，失败不再画成错误页卡死，地址栏不再露 data: 长串",
-          "智能体岛收起态改为一行（图形＋状态＋箭头），与 mac 同一套语汇"
+          "内核渲染开关显式定死（网页字体、自动字号放大、字体膨胀），复杂页面不再被放大挤乱",
+          "每次导航按站点重算 UA 与视口，桌面版不再串站，二级/多级结果页右侧不被裁切",
+          "智能体内联结果页等内部页面失败不再落成错误页"
         ],
         "images": [
+          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.11 · 构建 200000149",
+            "v1.54.12 · 构建 200000152",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -172,7 +176,7 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "修复智能体岛展开后输入框点不进去、打不了字"
+          "浏览器标识带真实版本号，站点不再按旧版浏览器下发降级页面"
         ],
         "images": [
           ""
@@ -180,7 +184,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.11 · 构建 200000149",
+            "v1.54.12 · 构建 200000152",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -205,9 +209,9 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.11/v1.54.11-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.12/v1.54.12-macOS.zip"
   ]
 }
