@@ -30,7 +30,15 @@
       "size": 188871841,
       "minSDK": 31,
       "version": "1.54.20",
-      "build": 200000172
+      "build": 200000172,
+      "delta": {
+        "fromVersion": "1.54.19",
+        "fromBuild": 200000170,
+        "toBuild": 200000172,
+        "patchUrl": "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.20/delta-v1.54.19-v1.54.20.patch?b=200000172",
+        "patchSha256": "5cf45e4ca16f73d049cbe854f929105ba7213bfb998ce9db0bc6ecc46fdc9151",
+        "patchSize": 805794
+      }
     }
   },
   "uiConfig": {
