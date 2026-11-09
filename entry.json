@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pointerVersion": 200000161,
-  "updatedAt": "2026-11-09T07:06:35Z",
+  "updatedAt": "2026-11-09T07:09:00Z",
   "appcastUrl": "https://api.github.com/repos/Clee2835301895/glassbrowser-releases/contents/appcast.json?ref=main",
   "sources": [
     "https://api.github.com/repos/Clee2835301895/glassbrowser-releases/contents/appcast.json?ref=main",
@@ -21,5 +21,5 @@
     "fullDownloadWarningMB": 120,
     "lanAnchorsEnabled": true
   },
-  "contentHash": "035d43b04b9cc1c14f656507a2958bcb71ad150b055fa494946e48a841ded3b7"
+  "contentHash": "e97adc30c865b04c5a1abc751d9d9a3cfdd6f5d413919f3f2736bcee689c315c"
 }
