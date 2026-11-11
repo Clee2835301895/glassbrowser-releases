@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "pointerVersion": 200000203,
-  "updatedAt": "2026-11-11T06:55:49Z",
+  "updatedAt": "2026-11-11T06:57:23Z",
   "appcastUrl": "https://api.github.com/repos/Clee2835301895/glassbrowser-releases/contents/appcast.json?ref=main",
   "sources": [
     "https://api.github.com/repos/Clee2835301895/glassbrowser-releases/contents/appcast.json?ref=main",
