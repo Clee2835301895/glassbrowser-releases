@@ -1,100 +1,100 @@
 {
-  "version": "1.54.44",
-  "build": 200000206,
-  "notes": "v1.54.44：请查看本端更新说明",
+  "version": "1.54.45",
+  "build": 200000207,
+  "notes": "v1.54.45：请查看本端更新说明",
   "notesByPlatform": {
-    "android": "v1.54.44（Android）\n顶栏玻璃抬升背景饱和度并补边缘镜面与内阴影；顶栏玻璃块改为真实背景折射",
-    "macos": "v1.54.44（macOS）\n本版随玻璃材质层修正同步发版；玻璃材质层不再吞掉顶栏点击，标签与新建/关闭、智能体岛都能正常响应"
+    "android": "v1.54.45（Android）\n安卓顶底栏用邻接页面条带采样，并补可见玻璃面与轮廓；白底页也能看出整块玻璃",
+    "macos": "v1.54.45（macOS）\n白底页也能看出整块玻璃"
   },
-  "publishedAt": "2026-11-11T05:54:46Z",
+  "publishedAt": "2026-11-11T15:17:31Z",
   "platforms": {
     "macos": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-macOS.zip",
-      "sha256": "dd887b133ca530f0630f278bf60bb8e3f0828b7e7f6892527b47e98472a7d64a",
-      "size": 6100122,
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/GlassBrowser-v1.54.45-macOS.zip",
+      "sha256": "6083e33cacb04fe992b5acf4886663d03455e2d8f4a2ecc6898b505b7e455bc6",
+      "size": 6100120,
       "minOS": "26.0",
       "deltas": [
         {
+          "fromVersion": "1.54.44",
+          "fromBuild": 200000206,
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-macOS-v1.54.44-v1.54.45.patch?b=200000207",
+          "patchSha256": "01d641663b69639a825b55c5b45e7aa6c7fe984bec4bd874bac939694457a79a",
+          "patchSize": 4967802
+        },
+        {
           "fromVersion": "1.54.43",
           "fromBuild": 200000205,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-macOS-v1.54.43-v1.54.44.patch?b=200000206",
-          "patchSha256": "ffe3d90f6d4cd176b9e58db2d23b36b9fe062f1ac6f8167eb6968ff806010c6a",
-          "patchSize": 5262593
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-macOS-v1.54.43-v1.54.45.patch?b=200000207",
+          "patchSha256": "7405ab0ef3bbae3f9bed39de0ecb674f6830a7d60de7d0e5213fcaf74069d522",
+          "patchSize": 5262761
         },
         {
           "fromVersion": "1.54.42",
           "fromBuild": 200000203,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-macOS-v1.54.42-v1.54.44.patch?b=200000206",
-          "patchSha256": "af37f35a80e98645544d046dd8286192f253122964476f7b2feb9c5194822473",
-          "patchSize": 5279185
-        },
-        {
-          "fromVersion": "1.54.41",
-          "fromBuild": 200000201,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-macOS-v1.54.41-v1.54.44.patch?b=200000206",
-          "patchSha256": "24ebf7df098279e31fb9934b280bcd1232736804c9607883d54f327159bae887",
-          "patchSize": 5278113
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-macOS-v1.54.42-v1.54.45.patch?b=200000207",
+          "patchSha256": "ff0729bd1dab15a6dcd46d172ea06aeccd70a7d240eafc3cda1c0c16fd8e4438",
+          "patchSize": 5277465
         }
       ],
       "delta": {
-        "fromVersion": "1.54.43",
-        "fromBuild": 200000205,
-        "toBuild": 200000206,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-macOS-v1.54.43-v1.54.44.patch?b=200000206",
-        "patchSha256": "ffe3d90f6d4cd176b9e58db2d23b36b9fe062f1ac6f8167eb6968ff806010c6a",
-        "patchSize": 5262593
+        "fromVersion": "1.54.44",
+        "fromBuild": 200000206,
+        "toBuild": 200000207,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-macOS-v1.54.44-v1.54.45.patch?b=200000207",
+        "patchSha256": "01d641663b69639a825b55c5b45e7aa6c7fe984bec4bd874bac939694457a79a",
+        "patchSize": 4967802
       },
-      "version": "1.54.44",
-      "build": 200000206
+      "version": "1.54.45",
+      "build": 200000207
     },
     "android": {
-      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-Android.apk",
-      "sha256": "b993e543240090280659b34324d4b7853cc03938d78a88d6791e437eae2d40c9",
-      "size": 188961249,
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/GlassBrowser-v1.54.45-Android.apk",
+      "sha256": "12bcccd04746db0198e3ab2ddd317237b836b4317e1cb09560bc95750f472a3c",
+      "size": 188961253,
       "minSDK": 31,
       "deltas": [
         {
+          "fromVersion": "1.54.44",
+          "fromBuild": 200000206,
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-v1.54.44-v1.54.45.patch?b=200000207",
+          "patchSha256": "71ea26e8a2ab4ebd0b45fb6409766889de07bd1e724be922cad4b7041e56b9ee",
+          "patchSize": 146875
+        },
+        {
           "fromVersion": "1.54.43",
           "fromBuild": 200000205,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-v1.54.43-v1.54.44.patch?b=200000206",
-          "patchSha256": "999d34876006014ffa4c73e0aa8b9462b73f059628f1b04f0de68cfdf0f09ee2",
-          "patchSize": 303715
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-v1.54.43-v1.54.45.patch?b=200000207",
+          "patchSha256": "13cd858227fe5193af305669c83c98953c979a5c150e888fde06cf97992be083",
+          "patchSize": 267251
         },
         {
           "fromVersion": "1.54.42",
           "fromBuild": 200000203,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-v1.54.42-v1.54.44.patch?b=200000206",
-          "patchSha256": "24749c02e0c151b08e7e892569234968532c9a47fb344715033dacde9665ad7c",
-          "patchSize": 323848
-        },
-        {
-          "fromVersion": "1.54.41",
-          "fromBuild": 200000201,
-          "toBuild": 200000206,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-v1.54.41-v1.54.44.patch?b=200000206",
-          "patchSha256": "2f7a1a95cbfeda97674bdca884c4a1f1626cf1078a1ddaacc78fc122b8591a43",
-          "patchSize": 559175
+          "toBuild": 200000207,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-v1.54.42-v1.54.45.patch?b=200000207",
+          "patchSha256": "3e9e5aa575a4b24d0d3b05a5a9242bfd514e332750c813497f7584df7fc0cb22",
+          "patchSize": 278254
         }
       ],
       "delta": {
-        "fromVersion": "1.54.43",
-        "fromBuild": 200000205,
-        "toBuild": 200000206,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/delta-v1.54.43-v1.54.44.patch?b=200000206",
-        "patchSha256": "999d34876006014ffa4c73e0aa8b9462b73f059628f1b04f0de68cfdf0f09ee2",
-        "patchSize": 303715
+        "fromVersion": "1.54.44",
+        "fromBuild": 200000206,
+        "toBuild": 200000207,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.45/delta-v1.54.44-v1.54.45.patch?b=200000207",
+        "patchSha256": "71ea26e8a2ab4ebd0b45fb6409766889de07bd1e724be922cad4b7041e56b9ee",
+        "patchSize": 146875
       },
-      "version": "1.54.44",
-      "build": 200000206
+      "version": "1.54.45",
+      "build": 200000207
     }
   },
   "uiConfig": {
-    "version": 200000206,
+    "version": 200000207,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -144,8 +144,8 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "顶栏玻璃抬升背景饱和度并补边缘镜面与内阴影",
-            "顶栏玻璃块改为真实背景折射"
+            "安卓顶底栏用邻接页面条带采样，并补可见玻璃面与轮廓",
+            "白底页也能看出整块玻璃"
           ],
           "images": [
             "",
@@ -154,7 +154,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.44 · 构建 200000206",
+              "v1.54.45 · 构建 200000207",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -183,17 +183,15 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "本版随玻璃材质层修正同步发版",
-            "玻璃材质层不再吞掉顶栏点击，标签与新建/关闭、智能体岛都能正常响应"
+            "白底页也能看出整块玻璃"
           ],
           "images": [
-            "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.44 · 构建 200000206",
+              "v1.54.45 · 构建 200000207",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -225,8 +223,8 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "顶栏玻璃抬升背景饱和度并补边缘镜面与内阴影",
-          "顶栏玻璃块改为真实背景折射"
+          "安卓顶底栏用邻接页面条带采样，并补可见玻璃面与轮廓",
+          "白底页也能看出整块玻璃"
         ],
         "images": [
           "",
@@ -235,7 +233,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.44 · 构建 200000206",
+            "v1.54.45 · 构建 200000207",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -264,17 +262,15 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "本版随玻璃材质层修正同步发版",
-          "玻璃材质层不再吞掉顶栏点击，标签与新建/关闭、智能体岛都能正常响应"
+          "白底页也能看出整块玻璃"
         ],
         "images": [
-          "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.44 · 构建 200000206",
+            "v1.54.45 · 构建 200000207",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -299,13 +295,13 @@
     ]
   },
   "downloadSources": [
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-Android.apk",
-    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-macOS.zip",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-Android.apk",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-Android.apk",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-Android.apk",
-    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-macOS.zip",
-    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-macOS.zip",
-    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.44/v1.54.44-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.42/v1.54.42-macOS.zip"
   ]
 }
