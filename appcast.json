@@ -1,95 +1,115 @@
 {
-  "version": "1.54.54",
-  "build": 200000220,
-  "notes": "v1.54.54：请查看本端更新说明",
+  "version": "1.54.55",
+  "build": 200000222,
+  "notes": "v1.54.55：请查看本端更新说明",
   "notesByPlatform": {
-    "android": "v1.54.54（Android）\n智能体岛面板固定在胶囊正下方，弹出收起更连贯；安卓底栏与顶栏玻璃更通透，去掉实心板和硬边，玻璃块跟手滑动，岛弹出不再顶开布局；用户点击、输入、滚动时智能体岛不再误收",
-    "macos": "v1.54.54（macOS）\n智能体岛面板固定在胶囊正下方，弹出收起更连贯；用户点击、输入、滚动时智能体岛不再误收；mac 改为菜单和快捷键显示所有标签页"
+    "android": "v1.54.55（Android）\n安卓选中胶囊改为常驻真液态玻璃并随拖动加深透镜；国内站支持账号2和账号3限流轮换；发版默认锚点模式只传增量补丁",
+    "macos": "v1.54.55（macOS）\n国内站支持账号2和账号3限流轮换；发版默认锚点模式只传增量补丁"
   },
-  "publishedAt": "2026-11-12T04:53:52Z",
+  "publishedAt": "2026-11-12T07:04:00Z",
   "platforms": {
     "macos": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/v1.54.54-macOS.zip",
       "sha256": "2ccfe74a85072f1566fd1f608e1ef104c0cc346f72e6f08cbf7707fdeecbbcc9",
       "size": 6130913,
       "minOS": "26.0",
+      "anchorVersion": "1.54.54",
+      "anchorBuild": 200000220,
+      "packageFormat": "patch",
       "deltas": [
         {
-          "fromVersion": "1.54.53",
-          "fromBuild": 200000217,
-          "toBuild": 200000220,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/delta-macOS-v1.54.53-v1.54.54.patch?b=200000220",
-          "patchSha256": "bc945384fc9fc9f31a572b31cd46228bdae1e192efce57af3f41bbee634fc320",
-          "patchSize": 5261564,
+          "fromVersion": "1.54.54",
+          "fromBuild": 200000220,
+          "toBuild": 200000222,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.55/delta-macOS-v1.54.54-v1.54.55.patch?b=200000222",
+          "patchSha256": "9660e94e319e9bdd1697473cfb231c11c6edc85eb72644bbc06f7199fe416ac0",
+          "patchSize": 5263613,
           "patchFormat": "filetree-v1",
-          "targetSha256": "2ccfe74a85072f1566fd1f608e1ef104c0cc346f72e6f08cbf7707fdeecbbcc9",
-          "targetSize": 6130913,
-          "targetTreeSha256": "16d85946f2c6588dc349b9094de43e60137e23fe2a1351ea09a51ff265361701"
+          "targetSha256": "a045c46695bea077c87d5ae87636c07254795c0bbb215444994bf49329aac578",
+          "targetSize": 6131027,
+          "targetTreeSha256": "63bc77ce965c3424284db658cc22e9c5e969b83f5f7d15b2f43d6e1d4727826b"
         }
       ],
       "delta": {
-        "fromVersion": "1.54.53",
-        "fromBuild": 200000217,
-        "toBuild": 200000220,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/delta-macOS-v1.54.53-v1.54.54.patch?b=200000220",
-        "patchSha256": "bc945384fc9fc9f31a572b31cd46228bdae1e192efce57af3f41bbee634fc320",
-        "patchSize": 5261564,
+        "fromVersion": "1.54.54",
+        "fromBuild": 200000220,
+        "toBuild": 200000222,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.55/delta-macOS-v1.54.54-v1.54.55.patch?b=200000222",
+        "patchSha256": "9660e94e319e9bdd1697473cfb231c11c6edc85eb72644bbc06f7199fe416ac0",
+        "patchSize": 5263613,
         "patchFormat": "filetree-v1",
-        "targetSha256": "2ccfe74a85072f1566fd1f608e1ef104c0cc346f72e6f08cbf7707fdeecbbcc9",
-        "targetSize": 6130913,
-        "targetTreeSha256": "16d85946f2c6588dc349b9094de43e60137e23fe2a1351ea09a51ff265361701"
+        "targetSha256": "a045c46695bea077c87d5ae87636c07254795c0bbb215444994bf49329aac578",
+        "targetSize": 6131027,
+        "targetTreeSha256": "63bc77ce965c3424284db658cc22e9c5e969b83f5f7d15b2f43d6e1d4727826b"
       },
-      "version": "1.54.54",
-      "build": 200000220,
-      "packageFormat": "full"
+      "version": "1.54.55",
+      "build": 200000222
     },
     "android": {
       "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/v1.54.54-Android.apk",
       "sha256": "5362be5c87e48b44f22d909a3c14e2882f0c77f90af7a4b80d5faae7aaa6277b",
       "size": 188994017,
       "minSDK": 31,
+      "anchorVersion": "1.54.54",
+      "anchorBuild": 200000220,
+      "packageFormat": "patch",
       "deltas": [
+        {
+          "fromVersion": "1.54.54",
+          "fromBuild": 200000220,
+          "toBuild": 200000222,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.55/delta-v1.54.54-v1.54.55.patch?b=200000222",
+          "patchSha256": "fb396c186a08cebe01ae160550fda4476281bbf31efa2f660a50a12cf8e661d5",
+          "patchSize": 2655133,
+          "patchFormat": "gbd2",
+          "targetSha256": "73b3d7f78d1f050111fbc36bc6e3ad60a2c6ae944a1bce9b791108e4c847b5e1",
+          "targetSize": 189263835
+        },
         {
           "fromVersion": "1.54.53",
           "fromBuild": 200000217,
-          "toBuild": 200000220,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/delta-v1.54.53-v1.54.54.patch?b=200000220",
-          "patchSha256": "477d9503055d7e4da882d95ade9071d170dba3737c86f0133e6c6d0304682e6f",
-          "patchSize": 2168950,
+          "toBuild": 200000222,
+          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.55/delta-v1.54.53-v1.54.55.patch?b=200000222",
+          "patchSha256": "dd909a5dbb9cfe197a02d2e7e11c0e5a5bd7f29078a057a64fe64badef59dd69",
+          "patchSize": 2645408,
           "patchFormat": "gbd2",
-          "targetSha256": "5362be5c87e48b44f22d909a3c14e2882f0c77f90af7a4b80d5faae7aaa6277b",
-          "targetSize": 188994017
-        },
-        {
-          "fromVersion": "1.54.52",
-          "fromBuild": 200000216,
-          "toBuild": 200000220,
-          "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/delta-v1.54.52-v1.54.54.patch?b=200000220",
-          "patchSha256": "477d9503055d7e4da882d95ade9071d170dba3737c86f0133e6c6d0304682e6f",
-          "patchSize": 2168950,
-          "patchFormat": "gbd2",
-          "targetSha256": "5362be5c87e48b44f22d909a3c14e2882f0c77f90af7a4b80d5faae7aaa6277b",
-          "targetSize": 188994017
+          "targetSha256": "73b3d7f78d1f050111fbc36bc6e3ad60a2c6ae944a1bce9b791108e4c847b5e1",
+          "targetSize": 189263835
         }
       ],
       "delta": {
-        "fromVersion": "1.54.53",
-        "fromBuild": 200000217,
-        "toBuild": 200000220,
-        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/delta-v1.54.53-v1.54.54.patch?b=200000220",
-        "patchSha256": "477d9503055d7e4da882d95ade9071d170dba3737c86f0133e6c6d0304682e6f",
-        "patchSize": 2168950,
+        "fromVersion": "1.54.54",
+        "fromBuild": 200000220,
+        "toBuild": 200000222,
+        "patchUrl": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.55/delta-v1.54.54-v1.54.55.patch?b=200000222",
+        "patchSha256": "fb396c186a08cebe01ae160550fda4476281bbf31efa2f660a50a12cf8e661d5",
+        "patchSize": 2655133,
         "patchFormat": "gbd2",
-        "targetSha256": "5362be5c87e48b44f22d909a3c14e2882f0c77f90af7a4b80d5faae7aaa6277b",
-        "targetSize": 188994017
+        "targetSha256": "73b3d7f78d1f050111fbc36bc6e3ad60a2c6ae944a1bce9b791108e4c847b5e1",
+        "targetSize": 189263835
       },
-      "version": "1.54.54",
-      "build": 200000220,
-      "packageFormat": "full"
+      "version": "1.54.55",
+      "build": 200000222
+    }
+  },
+  "anchor": {
+    "version": "1.54.54",
+    "build": 200000220,
+    "platforms": {
+      "android": {
+        "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/v1.54.54-Android.apk",
+        "sha256": "5362be5c87e48b44f22d909a3c14e2882f0c77f90af7a4b80d5faae7aaa6277b",
+        "size": 188994017
+      },
+      "macos": {
+        "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.54/v1.54.54-macOS.zip",
+        "sha256": "2ccfe74a85072f1566fd1f608e1ef104c0cc346f72e6f08cbf7707fdeecbbcc9",
+        "size": 6130913
+      }
     }
   },
   "uiConfig": {
-    "version": 200000220,
+    "version": 200000222,
     "updatePage": {
       "downloadMode": "app",
       "headHeight": "200",
@@ -139,9 +159,9 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体岛面板固定在胶囊正下方，弹出收起更连贯",
-            "安卓底栏与顶栏玻璃更通透，去掉实心板和硬边，玻璃块跟手滑动，岛弹出不再顶开布局",
-            "用户点击、输入、滚动时智能体岛不再误收"
+            "安卓选中胶囊改为常驻真液态玻璃并随拖动加深透镜",
+            "国内站支持账号2和账号3限流轮换",
+            "发版默认锚点模式只传增量补丁"
           ],
           "images": [
             "",
@@ -151,7 +171,7 @@
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.54 · 构建 200000220",
+              "v1.54.55 · 构建 200000222",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -180,19 +200,17 @@
           "tint": "#FF7A59",
           "interactive": "drag-flip",
           "items": [
-            "智能体岛面板固定在胶囊正下方，弹出收起更连贯",
-            "用户点击、输入、滚动时智能体岛不再误收",
-            "mac 改为菜单和快捷键显示所有标签页"
+            "国内站支持账号2和账号3限流轮换",
+            "发版默认锚点模式只传增量补丁"
           ],
           "images": [
-            "",
             "",
             ""
           ],
           "back": {
             "title": "版本信息",
             "items": [
-              "v1.54.54 · 构建 200000220",
+              "v1.54.55 · 构建 200000222",
               "更新失败会自动重试，进度不会回退",
               "安装成功后自动清理安装包，不占存储"
             ]
@@ -224,9 +242,9 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体岛面板固定在胶囊正下方，弹出收起更连贯",
-          "安卓底栏与顶栏玻璃更通透，去掉实心板和硬边，玻璃块跟手滑动，岛弹出不再顶开布局",
-          "用户点击、输入、滚动时智能体岛不再误收"
+          "安卓选中胶囊改为常驻真液态玻璃并随拖动加深透镜",
+          "国内站支持账号2和账号3限流轮换",
+          "发版默认锚点模式只传增量补丁"
         ],
         "images": [
           "",
@@ -236,7 +254,7 @@
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.54 · 构建 200000220",
+            "v1.54.55 · 构建 200000222",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
@@ -265,19 +283,17 @@
         "tint": "#FF7A59",
         "interactive": "drag-flip",
         "items": [
-          "智能体岛面板固定在胶囊正下方，弹出收起更连贯",
-          "用户点击、输入、滚动时智能体岛不再误收",
-          "mac 改为菜单和快捷键显示所有标签页"
+          "国内站支持账号2和账号3限流轮换",
+          "发版默认锚点模式只传增量补丁"
         ],
         "images": [
-          "",
           "",
           ""
         ],
         "back": {
           "title": "版本信息",
           "items": [
-            "v1.54.54 · 构建 200000220",
+            "v1.54.55 · 构建 200000222",
             "更新失败会自动重试，进度不会回退",
             "安装成功后自动清理安装包，不占存储"
           ]
