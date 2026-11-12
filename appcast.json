@@ -9,7 +9,7 @@
   "publishedAt": "2026-11-12T09:42:52Z",
   "platforms": {
     "macos": {
-      "url": "GlassBrowser-v1.54.58-macOS.zip",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-macOS.zip",
       "sha256": "7c53715e1def72acf17c1d5bfd88cba1aed5764122c90ee5b65052a081290ff2",
       "size": 6241863,
       "minOS": "26.0",
@@ -54,10 +54,10 @@
       },
       "version": "1.54.58",
       "build": 200000228,
-      "packageFormat": "patch"
+      "packageFormat": "full"
     },
     "android": {
-      "url": "GlassBrowser-v1.54.58-Android.apk",
+      "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-Android.apk",
       "sha256": "1a6a332dca9d1b6f72448ea046223e2974877e8232203d10507f54551108e5bc",
       "size": 189264095,
       "minSDK": 31,
@@ -98,7 +98,7 @@
       },
       "version": "1.54.58",
       "build": 200000228,
-      "packageFormat": "patch"
+      "packageFormat": "full"
     }
   },
   "uiConfig": {
@@ -299,13 +299,13 @@
     ]
   },
   "downloadSources": [
-    "GlassBrowser-v1.54.58-Android.apk",
-    "GlassBrowser-v1.54.58-macOS.zip",
-    "GlassBrowser-v1.54.58-Android.apk",
-    "GlassBrowser-v1.54.58-Android.apk",
-    "GlassBrowser-v1.54.58-Android.apk",
-    "GlassBrowser-v1.54.58-macOS.zip",
-    "GlassBrowser-v1.54.58-macOS.zip",
-    "GlassBrowser-v1.54.58-macOS.zip"
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-Android.apk",
+    "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-macOS.zip",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-Android.apk",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-Android.apk",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-Android.apk",
+    "https://ghfast.top/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-macOS.zip",
+    "https://gh-proxy.com/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-macOS.zip",
+    "https://ghproxy.net/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.58/v1.54.58-macOS.zip"
   ]
 }
