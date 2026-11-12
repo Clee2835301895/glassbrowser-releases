@@ -13,9 +13,7 @@
       "sha256": "ea50b473435d1d5f916d9ace00a2d8c9ff1c6ff3a31166bc18aae8db366bb8f8",
       "size": 6128904,
       "minOS": "26.0",
-      "anchorVersion": "1.54.49",
-      "anchorBuild": 200000213,
-      "packageFormat": "patch",
+      "packageFormat": "full",
       "deltas": [
         {
           "fromVersion": "1.54.49",
@@ -62,9 +60,7 @@
       "sha256": "7b0f6c4ec34e9dc9d16a99c002f84a7bf1738a8eec0452e8e91b3bb2ac313b40",
       "size": 188994021,
       "minSDK": 31,
-      "anchorVersion": "1.54.49",
-      "anchorBuild": 200000213,
-      "packageFormat": "patch",
+      "packageFormat": "full",
       "deltas": [
         {
           "fromVersion": "1.54.49",
@@ -102,22 +98,6 @@
       },
       "version": "1.54.50",
       "build": 200000214
-    }
-  },
-  "anchor": {
-    "version": "1.54.49",
-    "build": 200000213,
-    "platforms": {
-      "android": {
-        "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.49/v1.54.49-Android.apk",
-        "sha256": "b898715794fc490821970aa6f65425d4e4cfa7e893b8bcc75cc4967f718f1a10",
-        "size": 188994021
-      },
-      "macos": {
-        "url": "https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.49/v1.54.49-macOS.zip",
-        "sha256": "43f86d46892e1c42166a0f4d775c2067c917ad4a45eb652fedc742651e03f212",
-        "size": 6128913
-      }
     }
   },
   "uiConfig": {
