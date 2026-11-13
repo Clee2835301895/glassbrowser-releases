@@ -200,19 +200,19 @@
   },
   "anchor": {
     "platforms": {
-      "macos": {
-        "version": "1.54.69",
-        "build": 200000249,
-        "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.69/v1.54.69-macOS.zip",
-        "sha256": "dec59ba3f76d48250388f82cad24977ce6115edf5119d0bbc035d6f0df864f18",
-        "size": 6476350
-      },
       "android": {
         "version": "1.54.69",
         "build": 200000249,
         "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.69/v1.54.69-Android.apk",
         "sha256": "11cbff5c2be7c16c27d3afdcda8c2d5378c2c6bd64b98549147257893352e05b",
         "size": 203856723
+      },
+      "macos": {
+        "version": "1.54.69",
+        "build": 200000249,
+        "url": "https://gh-proxy.org/https://github.com/Clee2835301895/glassbrowser-releases/releases/download/v1.54.69/v1.54.69-macOS.zip",
+        "sha256": "dec59ba3f76d48250388f82cad24977ce6115edf5119d0bbc035d6f0df864f18",
+        "size": 6476350
       }
     }
   },
